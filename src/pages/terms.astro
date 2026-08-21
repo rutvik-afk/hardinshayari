@@ -1,0 +1,46 @@
+---
+import Base from '../layouts/Base.astro';
+import { SITE } from '../../site.config.mjs';
+---
+<Base
+  title="Terms of Use"
+  description="Terms of Use for Har Din Shayari — hardinshayari.com"
+>
+  <div class="wrap-narrow post-page prose-page">
+    <div class="breadcrumb"><a href="/">Home</a> / Terms of Use</div>
+    <h1>Terms of Use</h1>
+    <p class="lead">Last updated: August 2026</p>
+
+    <p>By using {SITE.url}, you agree to the following terms.</p>
+
+    <h2>Content Ownership</h2>
+    <p>
+      All shayari text and photo cards published on this site are original works created by the
+      {SITE.name} team, unless otherwise noted. You may download and share our photo cards for personal,
+      non-commercial use (WhatsApp status, Instagram posts, etc.) with attribution to {SITE.name} where
+      practical. Reselling, republishing in bulk, or claiming our content as your own is not permitted.
+    </p>
+
+    <h2>No Warranty</h2>
+    <p>
+      Content is provided "as is" for entertainment and personal expression. We do our best to keep
+      information accurate but make no guarantees.
+    </p>
+
+    <h2>External Links</h2>
+    <p>We are not responsible for the content of external sites linked from here.</p>
+
+    <h2>Changes</h2>
+    <p>We may update these terms at any time; continued use of the site means you accept the current version.</p>
+
+    <h2>Contact</h2>
+    <p>Questions? Visit the <a href="/contact/">Contact page</a>.</p>
+  </div>
+</Base>
+
+<style>
+  .prose-page h2 { font-size: 1.2rem; margin: 30px 0 10px; }
+  .prose-page p { color: var(--ink-soft); line-height: 1.85; margin: 0 0 14px; }
+  .prose-page .lead { font-size: 0.9rem; color: var(--ink-soft); font-style: italic; }
+  .prose-page a { color: var(--brand); font-weight: 600; }
+</style>

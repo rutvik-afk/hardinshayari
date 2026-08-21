@@ -1,0 +1,52 @@
+---
+import Base from '../layouts/Base.astro';
+import { SITE } from '../../site.config.mjs';
+const CONTACT_EMAIL = 'hello@hardinshayari.com';
+---
+<Base
+  title="Contact Us"
+  description="Get in touch with Har Din Shayari — questions, shayari requests, or feedback."
+>
+  <div class="wrap-narrow post-page prose-page">
+    <div class="breadcrumb"><a href="/">Home</a> / Contact</div>
+    <h1>संपर्क करें — Contact Us</h1>
+    <p class="lead">
+      कोई सवाल है, कोई shayari request करनी है, कोई गलती बताई है, या बस hello कहना है — हमें लिखें, हम पढ़ते हैं।
+    </p>
+
+    <div class="contact-card">
+      <div class="contact-row">
+        <span class="contact-label">Email</span>
+        <a href={`mailto:${CONTACT_EMAIL}`}>{CONTACT_EMAIL}</a>
+      </div>
+      <div class="contact-row">
+        <span class="contact-label">Website</span>
+        <span>{SITE.url}</span>
+      </div>
+    </div>
+
+    <h2>आप हमें किस बारे में लिख सकते हैं</h2>
+    <ul>
+      <li>नई shayari या category का सुझाव</li>
+      <li>किसी post में गलती की जानकारी</li>
+      <li>Copyright या content से जुड़ा कोई सवाल</li>
+      <li>Collaboration या partnership की बात</li>
+    </ul>
+    <p>हम हर email का जवाब देने की कोशिश करते हैं, थोड़ा समय लग सकता है।</p>
+  </div>
+</Base>
+
+<style>
+  .prose-page h2 { font-size: 1.25rem; margin: 32px 0 12px; }
+  .prose-page p { color: var(--ink-soft); line-height: 1.85; margin: 0 0 16px; }
+  .prose-page .lead { font-size: 1.05rem; color: var(--ink); }
+  .prose-page ul { color: var(--ink-soft); line-height: 2; padding-inline-start: 22px; }
+  .prose-page a { color: var(--brand); font-weight: 600; }
+
+  .contact-card {
+    background: var(--paper-alt); border: 1px solid var(--line); border-radius: var(--radius);
+    padding: 22px 26px; margin: 24px 0 32px; display: flex; flex-direction: column; gap: 12px;
+  }
+  .contact-row { display: flex; gap: 10px; align-items: baseline; }
+  .contact-label { font-size: 0.78rem; font-weight: 800; letter-spacing: 0.05em; text-transform: uppercase; color: var(--ink-soft); min-width: 70px; }
+</style>

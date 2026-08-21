@@ -1,0 +1,56 @@
+---
+import Base from '../layouts/Base.astro';
+import { SITE, CATEGORIES } from '../../site.config.mjs';
+---
+<Base
+  title="About Us"
+  description="Har Din Shayari is a daily Hindi & English shayari website — original writing, free HD photo cards, no copyright, updated every single day."
+>
+  <div class="wrap-narrow post-page prose-page">
+    <div class="breadcrumb"><a href="/">Home</a> / About</div>
+    <h1>हमारे बारे में — About Har Din Shayari</h1>
+
+    <p class="lead">
+      <strong>Har Din Shayari</strong> (हर दिन शायरी) एक ऐसी जगह है जहाँ रोज़ नई, ओरिजिनल Hindi और English
+      shayari मिलती है — Attitude, Sad, Love, Dosti, Life, Gulzar-style, और भी बहुत कुछ। हर शायरी के साथ एक
+      फ्री HD photo card भी मिलता है, जिसे आप बिना किसी झिझक के WhatsApp, Instagram या Facebook पर share कर सकते हैं।
+    </p>
+
+    <h2>हमारा मकसद</h2>
+    <p>
+      Internet पर shayari ढूंढना आसान होना चाहिए, और शेयर करना उससे भी आसान। हम हर दिन नई शायरी लिखते हैं और
+      उसे एक खूबसूरत, download-ready photo card में बदल देते हैं — ताकि आपको अलग से कोई editing app खोलने की
+      ज़रूरत न पड़े।
+    </p>
+
+    <h2>Original Content, No Copyright</h2>
+    <p>
+      इस साइट पर हर शायरी और हर photo card हमारी अपनी original रचना है। हम किसी और की shayari कॉपी नहीं करते,
+      और जहाँ किसी मशहूर शायर (जैसे Gulzar साहब) की style से inspired कोई रचना होती है, वहाँ हम साफ़ तौर पर
+      बता देते हैं कि यह एक original piece है, उनका सीधा quote नहीं।
+    </p>
+
+    <h2>क्या मिलेगा यहाँ</h2>
+    <ul>
+      {CATEGORIES.map((c) => <li>{c.emoji} <strong>{c.nameHi}</strong> — {c.nameEn}</li>)}
+    </ul>
+
+    <h2>Hindi + English, दोनों</h2>
+    <p>
+      चाहे आपको हिंदी में लिखना पसंद हो या अंग्रेज़ी में पढ़ना — हमारी साइट दोनों भाषाओं में बराबर content
+      देती है। ऊपर हेडर में <a href="/hindi/">हिंदी</a> या <a href="/english/">English</a> चुनकर सीधा वहीं जाएँ।
+    </p>
+
+    <p>
+      कोई सवाल, सुझाव, या feedback हो तो <a href="/contact/">Contact page</a> से हमें बताएँ — हमें अच्छा लगेगा।
+    </p>
+  </div>
+</Base>
+
+<style>
+  .prose-page h2 { font-size: 1.25rem; margin: 32px 0 12px; }
+  .prose-page p { color: var(--ink-soft); line-height: 1.85; margin: 0 0 16px; }
+  .prose-page .lead { font-size: 1.05rem; color: var(--ink); }
+  .prose-page ul { color: var(--ink-soft); line-height: 2; padding-inline-start: 22px; }
+  .prose-page a { color: var(--brand); font-weight: 600; }
+</style>
