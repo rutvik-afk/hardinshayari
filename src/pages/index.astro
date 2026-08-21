@@ -15,9 +15,6 @@ for (const c of CATEGORIES) {
 const catCount = {};
 for (const p of allPosts) catCount[p.data.category] = (catCount[p.data.category] || 0) + 1;
 
-const trendingIds = ['attitude-shayari/attitude-shayari', 'sad-shayari/sad-shayari', 'english-shayari/shayari-in-english', 'dosti-shayari/dosti-shayari-in-hindi'];
-const trending = trendingIds.map((id) => allPosts.find((p) => p.slug === id)).filter(Boolean);
-
 const jsonLd = {
   '@context': 'https://schema.org',
   '@type': 'WebSite',
@@ -57,15 +54,6 @@ const stack = stackIds.map((id) => allPosts.find((p) => p.slug === id)).filter(B
   </section>
 
   <div class="container">
-    {trending.length > 0 && (
-      <>
-        <div class="section-title"><h2>🔥 Trending Right Now</h2></div>
-        <div class="grid grid-trending">
-          {trending.map((post) => <PostCard post={post} />)}
-        </div>
-      </>
-    )}
-
     <div class="section-title">
       <h2>Latest Shayari</h2>
       <a href="/categories/">Browse all categories →</a>
@@ -107,8 +95,6 @@ const stack = stackIds.map((id) => allPosts.find((p) => p.slug === id)).filter(B
   .stack-1 { top: 40px; left: 0; transform: rotate(8deg); z-index: 2; }
   .stack-2 { top: 60px; left: 190px; transform: rotate(4deg); z-index: 1; }
   .stack-card:hover { transform: rotate(0deg) scale(1.04); z-index: 4; }
-
-  .grid-trending { grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); }
 
   .category-tile { background-size: cover; background-position: center; position: relative; }
   .category-tile .count { font-weight: 500; font-size: 0.78rem; opacity: 0.85; }
