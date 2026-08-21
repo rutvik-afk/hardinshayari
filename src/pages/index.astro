@@ -2,10 +2,25 @@
 import { getCollection } from 'astro:content';
 import Base from '../layouts/Base.astro';
 import PostCard from '../components/PostCard.astro';
-import { CATEGORIES, SITE } from '../../site.config.mjs';
+import { CATEGORIES, CATEGORY_MAP, SITE } from '../../site.config.mjs';
 
 const allPosts = (await getCollection('posts')).sort((a, b) => b.data.date - a.data.date);
-const latest = allPosts.slice(0, 12);
+const latest = allPosts.slice(0, 20);
+const featured = allPosts[0];
+
+const catThumb = {};
+for (const c of CATEGORIES) {
+  const p = allPosts.find((p) => p.data.category === c.id);
+  if (p) catThumb[c.id] = p.data.image;
+}
+const catCount = {};
+for (const p of allPosts) catCount[p.data.category] = (catCount[p.data.category] || 0) + 1;
+
+const trendingIds = ['attitude-shayari/attitude-shayari', 'sad-shayari/sad-shayari', 'english-shayari/shayari-in-english', 'dosti-shayari/dosti-shayari-in-hindi'];
+const trending = trendingIds.map((id) => allPosts.find((p) => p.slug === id)).filter(Boolean);
+
+const hiCount = allPosts.filter((p) => p.data.lang === 'hi').length;
+const enCount = allPosts.filter((p) => p.data.lang === 'en').length;
 
 const jsonLd = {
   '@context': 'https://schema.org',
@@ -19,6 +34,9 @@ const jsonLd = {
     'query-input': 'required name=search_term_string',
   },
 };
+
+const featuredHref = featured ? `/${featured.data.category}/${featured.slug.split('/').pop()}/` : '/';
+const featuredCat = featured ? CATEGORY_MAP[featured.data.category] : null;
 ---
 <Base title={null} description={SITE.description} jsonLd={jsonLd}>
   <section class="hero">
@@ -26,6 +44,17 @@ const jsonLd = {
       <div class="tag-hi">हर दिन, हर एहसास</div>
       <h1>Best Hindi &amp; English Shayari</h1>
       <p>{SITE.description}</p>
+      <div class="stats-row">
+        <span><strong>{allPosts.length}+</strong> Shayari</span>
+        <span class="dot">·</span>
+        <span><strong>{CATEGORIES.length}</strong> Categories</span>
+        <span class="dot">·</span>
+        <span><strong>{hiCount}</strong> हिंदी</span>
+        <span class="dot">·</span>
+        <span><strong>{enCount}</strong> English</span>
+        <span class="dot">·</span>
+        <span>Updated Daily</span>
+      </div>
       <div class="chip-row">
         {CATEGORIES.map((c) => <a class="chip" href={`/${c.id}/`}>{c.emoji} {c.nameEn}</a>)}
       </div>
@@ -33,6 +62,27 @@ const jsonLd = {
   </section>
 
   <div class="container">
+    {featured && (
+      <a class="featured-card" href={featuredHref}>
+        <div class="featured-img"><img src={featured.data.image} alt={featured.data.title} width="540" height="675" /></div>
+        <div class="featured-body">
+          <span class="featured-label">✨ Shayari of the Day</span>
+          <h2 class={featured.data.lang}>{featured.data.title}</h2>
+          <p class={`featured-snippet ${featured.data.lang}`}>{featured.data.lines[0]}</p>
+          <span class="featured-cat">{featuredCat.emoji} {featured.data.lang === 'hi' ? featuredCat.nameHi : featuredCat.nameEn}</span>
+        </div>
+      </a>
+    )}
+
+    {trending.length > 0 && (
+      <>
+        <div class="section-title"><h2>🔥 Trending Right Now</h2></div>
+        <div class="grid grid-trending">
+          {trending.map((post) => <PostCard post={post} />)}
+        </div>
+      </>
+    )}
+
     <div class="section-title">
       <h2>Latest Shayari</h2>
       <a href="/categories/">Browse all categories →</a>
@@ -46,11 +96,69 @@ const jsonLd = {
     </div>
     <div class="category-grid">
       {CATEGORIES.map((c) => (
-        <a class="category-tile" href={`/${c.id}/`} style={`background:linear-gradient(135deg, ${c.color}, #1a1523)`}>
+        <a class="category-tile" href={`/${c.id}/`} style={catThumb[c.id] ? `background-image:linear-gradient(180deg, rgba(0,0,0,0.15), rgba(0,0,0,0.75)), url(${catThumb[c.id]})` : `background:linear-gradient(135deg, ${c.color}, #1a1523)`}>
           <span class="emoji">{c.emoji}</span>
           <span>{c.nameEn}</span>
+          <span class="count">{catCount[c.id] || 0} shayari</span>
         </a>
       ))}
     </div>
+
+    <div class="lang-split">
+      <a class="lang-card" href="/hindi/">
+        <span class="lang-card-title hi">हिंदी शायरी पढ़ें</span>
+        <span class="lang-card-sub">{hiCount} posts · अटैटीयूड, सैड, लव, दोस्ती और भी बहुत कुछ</span>
+      </a>
+      <a class="lang-card" href="/english/">
+        <span class="lang-card-title en">Read English Shayari</span>
+        <span class="lang-card-sub">{enCount} posts · sad, love, life, 2-line and more</span>
+      </a>
+    </div>
   </div>
 </Base>
+
+<style>
+  .stats-row { display: flex; flex-wrap: wrap; justify-content: center; gap: 8px; font-size: 0.9rem; color: var(--ink-soft); margin-bottom: 4px; }
+  .stats-row strong { color: var(--ink); }
+  .stats-row .dot { opacity: 0.4; }
+
+  .featured-card {
+    display: grid; grid-template-columns: 220px 1fr; gap: 24px; align-items: center;
+    background: var(--card-bg); border: 1px solid var(--line); border-radius: var(--radius);
+    padding: 18px; margin-top: 40px; transition: box-shadow .15s ease, transform .15s ease;
+  }
+  .featured-card:hover { box-shadow: var(--shadow); transform: translateY(-2px); }
+  .featured-img { border-radius: 12px; overflow: hidden; aspect-ratio: 4/5; }
+  .featured-img img { width: 100%; height: 100%; object-fit: cover; }
+  .featured-label { display: inline-block; font-size: 0.78rem; font-weight: 800; letter-spacing: 0.05em; color: var(--brand); text-transform: uppercase; margin-bottom: 8px; }
+  .featured-body h2 { margin: 0 0 10px; font-size: clamp(1.2rem, 2.4vw, 1.7rem); line-height: 1.3; }
+  .featured-body h2.hi { font-family: var(--font-hi); }
+  .featured-body h2.en { font-family: var(--font-en); }
+  .featured-snippet { color: var(--ink-soft); font-size: 1.05rem; margin: 0 0 14px; }
+  .featured-snippet.hi { font-family: var(--font-hi); }
+  .featured-snippet.en { font-family: var(--font-en); font-style: italic; }
+  .featured-cat { font-size: 0.85rem; color: var(--ink-soft); }
+
+  .grid-trending { grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); }
+
+  .category-tile { background-size: cover; background-position: center; position: relative; }
+  .category-tile .count { font-weight: 500; font-size: 0.78rem; opacity: 0.85; }
+
+  .lang-split { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; margin: 48px 0 60px; }
+  .lang-card {
+    padding: 30px 26px; border-radius: var(--radius); border: 1px solid var(--line);
+    background: var(--paper-alt); display: flex; flex-direction: column; gap: 8px;
+    transition: border-color .15s ease, transform .15s ease;
+  }
+  .lang-card:hover { border-color: var(--brand); transform: translateY(-2px); }
+  .lang-card-title { font-size: 1.3rem; font-weight: 700; }
+  .lang-card-title.hi { font-family: var(--font-hi); }
+  .lang-card-title.en { font-family: var(--font-en); }
+  .lang-card-sub { color: var(--ink-soft); font-size: 0.9rem; }
+
+  @media (max-width: 640px) {
+    .featured-card { grid-template-columns: 1fr; }
+    .featured-img { max-width: 240px; margin: 0 auto; }
+    .lang-split { grid-template-columns: 1fr; }
+  }
+</style>

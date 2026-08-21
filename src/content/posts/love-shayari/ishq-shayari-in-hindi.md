@@ -1,0 +1,15 @@
+---
+title: "इश्क़ शायरी हिंदी में"
+lang: hi
+category: love-shayari
+keyword: "ishq shayari in hindi"
+lines:
+  - "इश्क़ की भाषा लफ़्ज़ों की मोहताज नहीं,"
+  - "आँखें भी बहुत कुछ कह जाती हैं।"
+metaDescription: "इश्क़ शायरी हिंदी में — लव / इश्क़ शायरी पढ़ें और मुफ़्त HD फोटो शायरी कार्ड डाउनलोड करें। रोज़ नई शायरी सिर्फ़ Har Din Shayari पर।"
+image: "/cards/love-shayari/ishq-shayari-in-hindi.jpg"
+date: 2026-08-21
+tags: ["ishq", "shayari", "hindi", "love"]
+---
+
+लव / इश्क़ शायरी में इस बार एक नई रचना — "ishq shayari in hindi" खोज रहे पाठकों के लिए खासतौर पर लिखी गई। ऊपर दिया गया HD फोटो कार्ड मुफ़्त डाउनलोड करें और WhatsApp, Instagram या Facebook पर बेझिझक शेयर करें।

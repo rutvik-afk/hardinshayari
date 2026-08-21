@@ -1,0 +1,17 @@
+---
+title: "मुनव्वर फारूकी अंदाज़ की लव शायरी"
+lang: hi
+category: love-shayari
+keyword: "munawar faruqui shayari on love"
+lines:
+  - "मोहब्बत में हंसी और आँसू दोनों साथ चलते हैं,"
+  - "यही तो इसे सच्चा बनाते हैं।"
+metaDescription: "मुनव्वर फारूकी अंदाज़ की लव शायरी — लव / इश्क़ शायरी पढ़ें और मुफ़्त HD फोटो शायरी कार्ड डाउनलोड करें। रोज़ नई शायरी सिर्फ़ Har Din Shayari पर।"
+image: "/cards/love-shayari/munawar-faruqui-shayari-on-love.jpg"
+date: 2026-08-21
+tags: ["munawar", "faruqui", "shayari", "love"]
+---
+
+लव / इश्क़ शायरी में इस बार एक नई रचना — "munawar faruqui shayari on love" खोज रहे पाठकों के लिए खासतौर पर लिखी गई। ऊपर दिया गया HD फोटो कार्ड मुफ़्त डाउनलोड करें और WhatsApp, Instagram या Facebook पर बेझिझक शेयर करें।
+
+*यह एक ओरिजिनल रचना है, Munawar Faruqui की शैली से प्रेरित — इसे उनका सीधा कोटेशन न समझें।*
