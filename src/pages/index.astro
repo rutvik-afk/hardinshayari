@@ -55,9 +55,6 @@ const featuredCat = featured ? CATEGORY_MAP[featured.data.category] : null;
         <span class="dot">·</span>
         <span>Updated Daily</span>
       </div>
-      <div class="chip-row">
-        {CATEGORIES.map((c) => <a class="chip" href={`/${c.id}/`}>{c.emoji} {c.nameEn}</a>)}
-      </div>
     </div>
   </section>
 
