@@ -37,29 +37,33 @@ const jsonLd = {
 
 const featuredHref = featured ? `/${featured.data.category}/${featured.slug.split('/').pop()}/` : '/';
 const featuredCat = featured ? CATEGORY_MAP[featured.data.category] : null;
+
+const stackIds = ['attitude-shayari/attitude-shayari', 'sad-shayari/sad-shayari-in-english', 'love-shayari/ishq-shayari'];
+const stack = stackIds.map((id) => allPosts.find((p) => p.slug === id)).filter(Boolean);
 ---
 <Base title={null} description={SITE.description} jsonLd={jsonLd}>
   <section class="hero">
-    <div class="container">
-      <div class="tag-hi">हर दिन, हर एहसास</div>
-      <h1>Best Hindi &amp; English Shayari</h1>
-      <p>{SITE.description}</p>
+    <div class="container hero-grid">
+      <div class="hero-text">
+        <div class="tag-hi">हर दिन, हर एहसास</div>
+        <h1>Best Hindi &amp; English Shayari</h1>
+        <p>{SITE.description}</p>
+        <div class="hero-cta">
+          <a class="btn btn-primary" href="/hindi/">हिंदी शायरी पढ़ें</a>
+          <a class="btn btn-outline" href="/english/">Read English Shayari</a>
+        </div>
+      </div>
+      <div class="hero-stack">
+        {stack.map((post, i) => (
+          <a class={`stack-card stack-${i}`} href={`/${post.data.category}/${post.slug.split('/').pop()}/`}>
+            <img src={post.data.image} alt={post.data.title} width="300" height="375" loading="eager" />
+          </a>
+        ))}
+      </div>
     </div>
   </section>
 
   <div class="container">
-    {featured && (
-      <a class="featured-card" href={featuredHref}>
-        <div class="featured-img"><img src={featured.data.image} alt={featured.data.title} width="540" height="675" /></div>
-        <div class="featured-body">
-          <span class="featured-label">✨ Shayari of the Day</span>
-          <h2 class={featured.data.lang}>{featured.data.title}</h2>
-          <p class={`featured-snippet ${featured.data.lang}`}>{featured.data.lines[0]}</p>
-          <span class="featured-cat">{featuredCat.emoji} {featured.data.lang === 'hi' ? featuredCat.nameHi : featuredCat.nameEn}</span>
-        </div>
-      </a>
-    )}
-
     {trending.length > 0 && (
       <>
         <div class="section-title"><h2>🔥 Trending Right Now</h2></div>
@@ -104,26 +108,23 @@ const featuredCat = featured ? CATEGORY_MAP[featured.data.category] : null;
 </Base>
 
 <style>
-  .stats-row { display: flex; flex-wrap: wrap; justify-content: center; gap: 8px; font-size: 0.9rem; color: var(--ink-soft); margin-bottom: 4px; }
-  .stats-row strong { color: var(--ink); }
-  .stats-row .dot { opacity: 0.4; }
+  .hero-grid { display: grid; grid-template-columns: 1.1fr 0.9fr; gap: 40px; align-items: center; text-align: left; }
+  .hero-text .tag-hi { font-family: var(--font-hi); font-size: 1.3rem; color: var(--brand); margin-bottom: 6px; }
+  .hero-text h1 { font-family: var(--font-en); font-size: clamp(2rem, 4vw, 3rem); margin: 0 0 14px; letter-spacing: -0.01em; line-height: 1.15; }
+  .hero-text p { color: var(--ink-soft); font-size: 1.08rem; max-width: 480px; margin: 0 0 26px; }
+  .hero-cta { display: flex; gap: 12px; flex-wrap: wrap; }
 
-  .featured-card {
-    display: grid; grid-template-columns: 220px 1fr; gap: 24px; align-items: center;
-    background: var(--card-bg); border: 1px solid var(--line); border-radius: var(--radius);
-    padding: 18px; margin-top: 40px; transition: box-shadow .15s ease, transform .15s ease;
+  .hero-stack { position: relative; height: 380px; }
+  .stack-card {
+    position: absolute; width: 220px; border-radius: 14px; overflow: hidden;
+    box-shadow: 0 20px 40px -14px rgba(0,0,0,0.5); border: 3px solid var(--paper);
+    transition: transform .2s ease;
   }
-  .featured-card:hover { box-shadow: var(--shadow); transform: translateY(-2px); }
-  .featured-img { border-radius: 12px; overflow: hidden; aspect-ratio: 4/5; }
-  .featured-img img { width: 100%; height: 100%; object-fit: cover; }
-  .featured-label { display: inline-block; font-size: 0.78rem; font-weight: 800; letter-spacing: 0.05em; color: var(--brand); text-transform: uppercase; margin-bottom: 8px; }
-  .featured-body h2 { margin: 0 0 10px; font-size: clamp(1.2rem, 2.4vw, 1.7rem); line-height: 1.3; }
-  .featured-body h2.hi { font-family: var(--font-hi); }
-  .featured-body h2.en { font-family: var(--font-en); }
-  .featured-snippet { color: var(--ink-soft); font-size: 1.05rem; margin: 0 0 14px; }
-  .featured-snippet.hi { font-family: var(--font-hi); }
-  .featured-snippet.en { font-family: var(--font-en); font-style: italic; }
-  .featured-cat { font-size: 0.85rem; color: var(--ink-soft); }
+  .stack-card img { width: 100%; display: block; aspect-ratio: 4/5; object-fit: cover; }
+  .stack-0 { top: 0; left: 90px; transform: rotate(-6deg); z-index: 3; }
+  .stack-1 { top: 40px; left: 0; transform: rotate(8deg); z-index: 2; }
+  .stack-2 { top: 60px; left: 190px; transform: rotate(4deg); z-index: 1; }
+  .stack-card:hover { transform: rotate(0deg) scale(1.04); z-index: 4; }
 
   .grid-trending { grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); }
 
@@ -142,9 +143,14 @@ const featuredCat = featured ? CATEGORY_MAP[featured.data.category] : null;
   .lang-card-title.en { font-family: var(--font-en); }
   .lang-card-sub { color: var(--ink-soft); font-size: 0.9rem; }
 
-  @media (max-width: 640px) {
-    .featured-card { grid-template-columns: 1fr; }
-    .featured-img { max-width: 240px; margin: 0 auto; }
+  @media (max-width: 860px) {
+    .hero-grid { grid-template-columns: 1fr; text-align: center; }
+    .hero-text p { margin-inline: auto; }
+    .hero-cta { justify-content: center; }
+    .hero-stack { height: 300px; margin: 0 auto; max-width: 360px; }
+    .stack-card { width: 170px; }
+    .stack-0 { left: 70px; }
+    .stack-2 { left: 140px; }
     .lang-split { grid-template-columns: 1fr; }
   }
 </style>
