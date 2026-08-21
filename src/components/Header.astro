@@ -16,9 +16,34 @@ const path = Astro.url.pathname;
       <a href="/english-shayari/" class:list={{ active: path.startsWith('/english-shayari') }}>English</a>
       <a href="/categories/" class:list={{ active: path.startsWith('/categories') }}>All Categories</a>
     </nav>
-    <div class="lang-toggle">
-      <a href="/hindi/" class:list={{ active: lang === 'hi' }}>हिंदी</a>
-      <a href="/english/" class:list={{ active: lang === 'en' }}>English</a>
+    <div class="header-right">
+      <div class="lang-toggle">
+        <a href="/hindi/" class:list={{ active: lang === 'hi' }}>हिंदी</a>
+        <a href="/english/" class:list={{ active: lang === 'en' }}>English</a>
+      </div>
+      <button class="theme-toggle" id="theme-toggle" type="button" aria-label="Toggle dark/light theme">🌙</button>
     </div>
   </div>
 </header>
+<script is:inline>
+  (function () {
+    var btn = document.getElementById('theme-toggle');
+    if (!btn) return;
+    function sync() {
+      var isLight = document.documentElement.getAttribute('data-theme') === 'light';
+      btn.textContent = isLight ? '🌙' : '☀️';
+    }
+    sync();
+    btn.addEventListener('click', function () {
+      var isLight = document.documentElement.getAttribute('data-theme') === 'light';
+      if (isLight) {
+        document.documentElement.removeAttribute('data-theme');
+        localStorage.setItem('theme', 'dark');
+      } else {
+        document.documentElement.setAttribute('data-theme', 'light');
+        localStorage.setItem('theme', 'light');
+      }
+      sync();
+    });
+  })();
+</script>

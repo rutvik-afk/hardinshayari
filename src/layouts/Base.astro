@@ -23,6 +23,12 @@ const ogImage = new URL(image, SITE.url).toString();
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <script is:inline>
+    (function () {
+      var saved = localStorage.getItem('theme');
+      if (saved === 'light') document.documentElement.setAttribute('data-theme', 'light');
+    })();
+  </script>
   <title>{fullTitle}</title>
   <meta name="description" content={description} />
   <link rel="canonical" href={canonicalUrl} />
