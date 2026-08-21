@@ -1,0 +1,5652 @@
+{
+  "generatedAt": "2026-08-21T11:02:16.054Z",
+  "queue": [
+    {
+      "keyword": "attitude shayari",
+      "volume": 1000000,
+      "kd": 30,
+      "category": "attitude-shayari",
+      "lang": "hi",
+      "score": 28571.428571428572,
+      "used": true
+    },
+    {
+      "keyword": "sad shayari",
+      "volume": 550000,
+      "kd": 35,
+      "category": "sad-shayari",
+      "lang": "hi",
+      "score": 13750,
+      "used": true
+    },
+    {
+      "keyword": "shayari in english",
+      "volume": 60500,
+      "kd": 13,
+      "category": "english-shayari",
+      "lang": "en",
+      "score": 3361.1111111111113,
+      "used": true
+    },
+    {
+      "keyword": "sad shayari in english",
+      "volume": 49500,
+      "kd": 13,
+      "category": "sad-shayari",
+      "lang": "en",
+      "score": 2750,
+      "used": true
+    },
+    {
+      "keyword": "boys attitude shayari",
+      "volume": 74000,
+      "kd": 29,
+      "category": "attitude-shayari",
+      "lang": "hi",
+      "score": 2176.470588235294,
+      "used": true
+    },
+    {
+      "keyword": "dosti shayari in hindi",
+      "volume": 27100,
+      "kd": 12,
+      "category": "dosti-shayari",
+      "lang": "hi",
+      "score": 1594.1176470588234,
+      "used": true
+    },
+    {
+      "keyword": "adult shayari english",
+      "volume": 14800,
+      "kd": 5,
+      "category": "english-shayari",
+      "lang": "en",
+      "score": 1480,
+      "used": true
+    },
+    {
+      "keyword": "attitude shayri",
+      "volume": 40500,
+      "kd": 27,
+      "category": "attitude-shayari",
+      "lang": "hi",
+      "score": 1265.625,
+      "used": true
+    },
+    {
+      "keyword": "life shayari in english",
+      "volume": 14800,
+      "kd": 7,
+      "category": "life-shayari",
+      "lang": "en",
+      "score": 1233.3333333333333,
+      "used": true
+    },
+    {
+      "keyword": "adult shayari in english",
+      "volume": 9900,
+      "kd": 4,
+      "category": "english-shayari",
+      "lang": "en",
+      "score": 1100,
+      "used": false
+    },
+    {
+      "keyword": "attitude status in hindi",
+      "volume": 22200,
+      "kd": 17,
+      "category": "attitude-shayari",
+      "lang": "hi",
+      "score": 1009.0909090909091,
+      "used": true
+    },
+    {
+      "keyword": "hindi shayari in english",
+      "volume": 18100,
+      "kd": 13,
+      "category": "english-shayari",
+      "lang": "hi",
+      "score": 1005.5555555555555,
+      "used": true
+    },
+    {
+      "keyword": "gulzar shayari",
+      "volume": 33100,
+      "kd": 28,
+      "category": "gulzar-shayari",
+      "lang": "hi",
+      "score": 1003.030303030303,
+      "used": true
+    },
+    {
+      "keyword": "zakir khan tweet",
+      "volume": 27100,
+      "kd": 30,
+      "category": "gulzar-shayari",
+      "lang": "hi",
+      "score": 774.2857142857143,
+      "used": false
+    },
+    {
+      "keyword": "attitude status",
+      "volume": 22200,
+      "kd": 26,
+      "category": "attitude-shayari",
+      "lang": "hi",
+      "score": 716.1290322580645,
+      "used": false
+    },
+    {
+      "keyword": "rangdari shayari",
+      "volume": 22200,
+      "kd": 27,
+      "category": "attitude-shayari",
+      "lang": "hi",
+      "score": 693.75,
+      "used": true
+    },
+    {
+      "keyword": "attitude shayari 2 line",
+      "volume": 18100,
+      "kd": 23,
+      "category": "attitude-shayari",
+      "lang": "hi",
+      "score": 646.4285714285714,
+      "used": false
+    },
+    {
+      "keyword": "2 line sad shayari in english",
+      "volume": 6600,
+      "kd": 6,
+      "category": "sad-shayari",
+      "lang": "en",
+      "score": 600,
+      "used": true
+    },
+    {
+      "keyword": "long shayari in english",
+      "volume": 9900,
+      "kd": 13,
+      "category": "english-shayari",
+      "lang": "en",
+      "score": 550,
+      "used": true
+    },
+    {
+      "keyword": "sad shayari in english 2 lines",
+      "volume": 5400,
+      "kd": 5,
+      "category": "sad-shayari",
+      "lang": "en",
+      "score": 540,
+      "used": true
+    },
+    {
+      "keyword": "gulzar love shayari in hindi",
+      "volume": 14800,
+      "kd": 23,
+      "category": "love-shayari",
+      "lang": "hi",
+      "score": 528.5714285714286,
+      "used": true
+    },
+    {
+      "keyword": "gulzar shayari on love in hindi",
+      "volume": 14800,
+      "kd": 23,
+      "category": "love-shayari",
+      "lang": "hi",
+      "score": 528.5714285714286,
+      "used": true
+    },
+    {
+      "keyword": "gulzar shayari on love",
+      "volume": 12100,
+      "kd": 18,
+      "category": "love-shayari",
+      "lang": "hi",
+      "score": 526.0869565217391,
+      "used": true
+    },
+    {
+      "keyword": "dosti attitude shayari",
+      "volume": 5400,
+      "kd": 6,
+      "category": "attitude-shayari",
+      "lang": "hi",
+      "score": 490.90909090909093,
+      "used": false
+    },
+    {
+      "keyword": "gulzar shayari in hindi",
+      "volume": 12100,
+      "kd": 20,
+      "category": "gulzar-shayari",
+      "lang": "hi",
+      "score": 484,
+      "used": true
+    },
+    {
+      "keyword": "english shayari",
+      "volume": 12100,
+      "kd": 20,
+      "category": "english-shayari",
+      "lang": "en",
+      "score": 484,
+      "used": true
+    },
+    {
+      "keyword": "ishq shayari",
+      "volume": 6600,
+      "kd": 9,
+      "category": "love-shayari",
+      "lang": "hi",
+      "score": 471.42857142857144,
+      "used": true
+    },
+    {
+      "keyword": "attitude dosti shayari",
+      "volume": 5400,
+      "kd": 7,
+      "category": "attitude-shayari",
+      "lang": "hi",
+      "score": 450,
+      "used": false
+    },
+    {
+      "keyword": "gulzar poetry two lines",
+      "volume": 14800,
+      "kd": 30,
+      "category": "gulzar-shayari",
+      "lang": "hi",
+      "score": 422.85714285714283,
+      "used": true
+    },
+    {
+      "keyword": "ishq shayari hindi",
+      "volume": 5400,
+      "kd": 8,
+      "category": "love-shayari",
+      "lang": "hi",
+      "score": 415.38461538461536,
+      "used": true
+    },
+    {
+      "keyword": "mohsin naqvi shayari",
+      "volume": 8100,
+      "kd": 16,
+      "category": "gulzar-shayari",
+      "lang": "hi",
+      "score": 385.7142857142857,
+      "used": false
+    },
+    {
+      "keyword": "sad shayri in hindi",
+      "volume": 18100,
+      "kd": 42,
+      "category": "sad-shayari",
+      "lang": "hi",
+      "score": 385.1063829787234,
+      "used": true
+    },
+    {
+      "keyword": "sorry shayari",
+      "volume": 9900,
+      "kd": 21,
+      "category": "sorry-shayari",
+      "lang": "hi",
+      "score": 380.7692307692308,
+      "used": true
+    },
+    {
+      "keyword": "funny sad shayari in english",
+      "volume": 2900,
+      "kd": 3,
+      "category": "sad-shayari",
+      "lang": "en",
+      "score": 362.5,
+      "used": false
+    },
+    {
+      "keyword": "ishq shayari in hindi",
+      "volume": 5400,
+      "kd": 10,
+      "category": "love-shayari",
+      "lang": "hi",
+      "score": 360,
+      "used": false
+    },
+    {
+      "keyword": "english shayari attitude",
+      "volume": 5400,
+      "kd": 10,
+      "category": "attitude-shayari",
+      "lang": "en",
+      "score": 360,
+      "used": false
+    },
+    {
+      "keyword": "munawar faruqui shayari",
+      "volume": 8100,
+      "kd": 19,
+      "category": "gulzar-shayari",
+      "lang": "hi",
+      "score": 337.5,
+      "used": false
+    },
+    {
+      "keyword": "attitude quotes in hindi with emoji",
+      "volume": 9900,
+      "kd": 25,
+      "category": "attitude-shayari",
+      "lang": "hi",
+      "score": 330,
+      "used": false
+    },
+    {
+      "keyword": "mirza ghalib shayari",
+      "volume": 12100,
+      "kd": 33,
+      "category": "gulzar-shayari",
+      "lang": "hi",
+      "score": 318.42105263157896,
+      "used": false
+    },
+    {
+      "keyword": "shayari sad",
+      "volume": 9900,
+      "kd": 27,
+      "category": "sad-shayari",
+      "lang": "hi",
+      "score": 309.375,
+      "used": false
+    },
+    {
+      "keyword": "girls attitude shayri",
+      "volume": 3600,
+      "kd": 7,
+      "category": "attitude-shayari",
+      "lang": "hi",
+      "score": 300,
+      "used": false
+    },
+    {
+      "keyword": "english shayari on life 2 lines",
+      "volume": 2900,
+      "kd": 5,
+      "category": "two-line-shayari",
+      "lang": "en",
+      "score": 290,
+      "used": true
+    },
+    {
+      "keyword": "short love shayari in english",
+      "volume": 8100,
+      "kd": 24,
+      "category": "love-shayari",
+      "lang": "en",
+      "score": 279.3103448275862,
+      "used": false
+    },
+    {
+      "keyword": "sali shayari in english",
+      "volume": 3600,
+      "kd": 8,
+      "category": "english-shayari",
+      "lang": "en",
+      "score": 276.9230769230769,
+      "used": false
+    },
+    {
+      "keyword": "attitude boys shayari",
+      "volume": 9900,
+      "kd": 32,
+      "category": "attitude-shayari",
+      "lang": "hi",
+      "score": 267.56756756756755,
+      "used": false
+    },
+    {
+      "keyword": "ghalib shayari",
+      "volume": 9900,
+      "kd": 33,
+      "category": "gulzar-shayari",
+      "lang": "hi",
+      "score": 260.5263157894737,
+      "used": false
+    },
+    {
+      "keyword": "instagram shayari 2 line attitude in hindi",
+      "volume": 1300,
+      "kd": 0,
+      "category": "attitude-shayari",
+      "lang": "hi",
+      "score": 260,
+      "used": false
+    },
+    {
+      "keyword": "zakir khan shayari",
+      "volume": 5400,
+      "kd": 16,
+      "category": "gulzar-shayari",
+      "lang": "hi",
+      "score": 257.14285714285717,
+      "used": false
+    },
+    {
+      "keyword": "heart touching gulzar shayari",
+      "volume": 6600,
+      "kd": 22,
+      "category": "gulzar-shayari",
+      "lang": "hi",
+      "score": 244.44444444444446,
+      "used": false
+    },
+    {
+      "keyword": "emotional shayari in english",
+      "volume": 2400,
+      "kd": 5,
+      "category": "english-shayari",
+      "lang": "en",
+      "score": 240,
+      "used": false
+    },
+    {
+      "keyword": "shayari in hindi english words",
+      "volume": 1900,
+      "kd": 3,
+      "category": "english-shayari",
+      "lang": "hi",
+      "score": 237.5,
+      "used": false
+    },
+    {
+      "keyword": "shayari english",
+      "volume": 5400,
+      "kd": 18,
+      "category": "english-shayari",
+      "lang": "en",
+      "score": 234.7826086956522,
+      "used": false
+    },
+    {
+      "keyword": "english mein shayari",
+      "volume": 5400,
+      "kd": 19,
+      "category": "english-shayari",
+      "lang": "en",
+      "score": 225,
+      "used": false
+    },
+    {
+      "keyword": "english me shayari",
+      "volume": 8100,
+      "kd": 33,
+      "category": "english-shayari",
+      "lang": "en",
+      "score": 213.1578947368421,
+      "used": false
+    },
+    {
+      "keyword": "2 line attitude shayari",
+      "volume": 5400,
+      "kd": 21,
+      "category": "attitude-shayari",
+      "lang": "hi",
+      "score": 207.69230769230768,
+      "used": false
+    },
+    {
+      "keyword": "sad shayri",
+      "volume": 6600,
+      "kd": 27,
+      "category": "sad-shayari",
+      "lang": "hi",
+      "score": 206.25,
+      "used": false
+    },
+    {
+      "keyword": "mirza ghalib ki shayari",
+      "volume": 6600,
+      "kd": 27,
+      "category": "gulzar-shayari",
+      "lang": "hi",
+      "score": 206.25,
+      "used": false
+    },
+    {
+      "keyword": "happy shayari in english",
+      "volume": 1600,
+      "kd": 3,
+      "category": "english-shayari",
+      "lang": "en",
+      "score": 200,
+      "used": false
+    },
+    {
+      "keyword": "zakir khan twitter shayari",
+      "volume": 6600,
+      "kd": 30,
+      "category": "gulzar-shayari",
+      "lang": "hi",
+      "score": 188.57142857142858,
+      "used": false
+    },
+    {
+      "keyword": "hindi shayari in english letters",
+      "volume": 2900,
+      "kd": 11,
+      "category": "english-shayari",
+      "lang": "hi",
+      "score": 181.25,
+      "used": false
+    },
+    {
+      "keyword": "dosti shayari attitude",
+      "volume": 5400,
+      "kd": 25,
+      "category": "attitude-shayari",
+      "lang": "hi",
+      "score": 180,
+      "used": false
+    },
+    {
+      "keyword": "attitude shayari in english 2 line",
+      "volume": 1600,
+      "kd": 4,
+      "category": "attitude-shayari",
+      "lang": "en",
+      "score": 177.77777777777777,
+      "used": false
+    },
+    {
+      "keyword": "shayari english hindi",
+      "volume": 1600,
+      "kd": 4,
+      "category": "english-shayari",
+      "lang": "hi",
+      "score": 177.77777777777777,
+      "used": false
+    },
+    {
+      "keyword": "urdu shayari on life",
+      "volume": 5400,
+      "kd": 26,
+      "category": "life-shayari",
+      "lang": "hi",
+      "score": 174.19354838709677,
+      "used": true
+    },
+    {
+      "keyword": "indian shayari in english",
+      "volume": 1900,
+      "kd": 6,
+      "category": "english-shayari",
+      "lang": "en",
+      "score": 172.72727272727272,
+      "used": false
+    },
+    {
+      "keyword": "best sad shayari",
+      "volume": 2400,
+      "kd": 10,
+      "category": "sad-shayari",
+      "lang": "hi",
+      "score": 160,
+      "used": false
+    },
+    {
+      "keyword": "2 line attitude shayari in english",
+      "volume": 2400,
+      "kd": 10,
+      "category": "attitude-shayari",
+      "lang": "en",
+      "score": 160,
+      "used": false
+    },
+    {
+      "keyword": "shero shayari hindi english",
+      "volume": 1600,
+      "kd": 5,
+      "category": "english-shayari",
+      "lang": "hi",
+      "score": 160,
+      "used": false
+    },
+    {
+      "keyword": "one line gulzar shayari",
+      "volume": 5400,
+      "kd": 29,
+      "category": "gulzar-shayari",
+      "lang": "hi",
+      "score": 158.8235294117647,
+      "used": false
+    },
+    {
+      "keyword": "heart touching mirza ghalib shayari in hindi",
+      "volume": 2900,
+      "kd": 14,
+      "category": "gulzar-shayari",
+      "lang": "hi",
+      "score": 152.6315789473684,
+      "used": false
+    },
+    {
+      "keyword": "shayari english mein",
+      "volume": 2900,
+      "kd": 14,
+      "category": "english-shayari",
+      "lang": "en",
+      "score": 152.6315789473684,
+      "used": false
+    },
+    {
+      "keyword": "sorry shayari in hindi",
+      "volume": 3600,
+      "kd": 19,
+      "category": "sorry-shayari",
+      "lang": "hi",
+      "score": 150,
+      "used": true
+    },
+    {
+      "keyword": "hindi shayari in english new",
+      "volume": 1900,
+      "kd": 8,
+      "category": "english-shayari",
+      "lang": "hi",
+      "score": 146.15384615384616,
+      "used": false
+    },
+    {
+      "keyword": "boys attitude shayari in hindi",
+      "volume": 3600,
+      "kd": 21,
+      "category": "attitude-shayari",
+      "lang": "hi",
+      "score": 138.46153846153845,
+      "used": false
+    },
+    {
+      "keyword": "gulzar shayari on life in hindi",
+      "volume": 3600,
+      "kd": 21,
+      "category": "gulzar-shayari",
+      "lang": "hi",
+      "score": 138.46153846153845,
+      "used": false
+    },
+    {
+      "keyword": "sad shayari english in hindi",
+      "volume": 2900,
+      "kd": 16,
+      "category": "sad-shayari",
+      "lang": "hi",
+      "score": 138.0952380952381,
+      "used": false
+    },
+    {
+      "keyword": "heart touching shayari in english",
+      "volume": 1900,
+      "kd": 10,
+      "category": "english-shayari",
+      "lang": "en",
+      "score": 126.66666666666667,
+      "used": false
+    },
+    {
+      "keyword": "hindi shayari written in english",
+      "volume": 1000,
+      "kd": 3,
+      "category": "english-shayari",
+      "lang": "hi",
+      "score": 125,
+      "used": false
+    },
+    {
+      "keyword": "shayari gulzar",
+      "volume": 3600,
+      "kd": 24,
+      "category": "gulzar-shayari",
+      "lang": "hi",
+      "score": 124.13793103448276,
+      "used": false
+    },
+    {
+      "keyword": "my attitude shayari for girl",
+      "volume": 1600,
+      "kd": 8,
+      "category": "attitude-shayari",
+      "lang": "hi",
+      "score": 123.07692307692308,
+      "used": false
+    },
+    {
+      "keyword": "formal status in hindi",
+      "volume": 3600,
+      "kd": 25,
+      "category": "status-captions",
+      "lang": "hi",
+      "score": 120,
+      "used": true
+    },
+    {
+      "keyword": "nazar shayari 2 line",
+      "volume": 2400,
+      "kd": 15,
+      "category": "two-line-shayari",
+      "lang": "hi",
+      "score": 120,
+      "used": true
+    },
+    {
+      "keyword": "hindi shayari in english words",
+      "volume": 1900,
+      "kd": 11,
+      "category": "english-shayari",
+      "lang": "hi",
+      "score": 118.75,
+      "used": false
+    },
+    {
+      "keyword": "shayari in hindi english",
+      "volume": 1300,
+      "kd": 6,
+      "category": "english-shayari",
+      "lang": "hi",
+      "score": 118.18181818181819,
+      "used": false
+    },
+    {
+      "keyword": "munawar faruqui shayari in hindi",
+      "volume": 1300,
+      "kd": 6,
+      "category": "gulzar-shayari",
+      "lang": "hi",
+      "score": 118.18181818181819,
+      "used": false
+    },
+    {
+      "keyword": "sad poetry in hindi",
+      "volume": 3600,
+      "kd": 26,
+      "category": "sad-shayari",
+      "lang": "hi",
+      "score": 116.12903225806451,
+      "used": false
+    },
+    {
+      "keyword": "sad shayari english mein",
+      "volume": 1600,
+      "kd": 9,
+      "category": "sad-shayari",
+      "lang": "en",
+      "score": 114.28571428571429,
+      "used": false
+    },
+    {
+      "keyword": "munawar faruqui shayari on love",
+      "volume": 1600,
+      "kd": 9,
+      "category": "love-shayari",
+      "lang": "hi",
+      "score": 114.28571428571429,
+      "used": false
+    },
+    {
+      "keyword": "attitude caption in hindi",
+      "volume": 3600,
+      "kd": 27,
+      "category": "attitude-shayari",
+      "lang": "hi",
+      "score": 112.5,
+      "used": false
+    },
+    {
+      "keyword": "gulzar ki shayari",
+      "volume": 3600,
+      "kd": 27,
+      "category": "gulzar-shayari",
+      "lang": "hi",
+      "score": 112.5,
+      "used": false
+    },
+    {
+      "keyword": "very sad shayari",
+      "volume": 2900,
+      "kd": 21,
+      "category": "sad-shayari",
+      "lang": "hi",
+      "score": 111.53846153846153,
+      "used": false
+    },
+    {
+      "keyword": "zakir khan shayari on love",
+      "volume": 1000,
+      "kd": 4,
+      "category": "love-shayari",
+      "lang": "hi",
+      "score": 111.11111111111111,
+      "used": false
+    },
+    {
+      "keyword": "attitude caption hindi",
+      "volume": 3600,
+      "kd": 28,
+      "category": "attitude-shayari",
+      "lang": "hi",
+      "score": 109.0909090909091,
+      "used": false
+    },
+    {
+      "keyword": "attitude english shayari",
+      "volume": 1300,
+      "kd": 7,
+      "category": "attitude-shayari",
+      "lang": "en",
+      "score": 108.33333333333333,
+      "used": false
+    },
+    {
+      "keyword": "shayari on khushi in english",
+      "volume": 1300,
+      "kd": 7,
+      "category": "english-shayari",
+      "lang": "en",
+      "score": 108.33333333333333,
+      "used": false
+    },
+    {
+      "keyword": "2 line gulzar shayari",
+      "volume": 2900,
+      "kd": 22,
+      "category": "gulzar-shayari",
+      "lang": "hi",
+      "score": 107.4074074074074,
+      "used": false
+    },
+    {
+      "keyword": "sad shayari in english for life",
+      "volume": 1600,
+      "kd": 10,
+      "category": "sad-shayari",
+      "lang": "en",
+      "score": 106.66666666666667,
+      "used": false
+    },
+    {
+      "keyword": "2 line attitude shayari in hindi",
+      "volume": 3600,
+      "kd": 29,
+      "category": "attitude-shayari",
+      "lang": "hi",
+      "score": 105.88235294117646,
+      "used": false
+    },
+    {
+      "keyword": "shayari status",
+      "volume": 3600,
+      "kd": 29,
+      "category": "status-captions",
+      "lang": "hi",
+      "score": 105.88235294117646,
+      "used": true
+    },
+    {
+      "keyword": "new hindi shayari status",
+      "volume": 3600,
+      "kd": 29,
+      "category": "status-captions",
+      "lang": "hi",
+      "score": 105.88235294117646,
+      "used": true
+    },
+    {
+      "keyword": "ghalib ki shayari",
+      "volume": 3600,
+      "kd": 30,
+      "category": "gulzar-shayari",
+      "lang": "hi",
+      "score": 102.85714285714286,
+      "used": false
+    },
+    {
+      "keyword": "attitude shayri in hindi",
+      "volume": 2900,
+      "kd": 24,
+      "category": "attitude-shayari",
+      "lang": "hi",
+      "score": 100,
+      "used": false
+    },
+    {
+      "keyword": "2 line shayari attitude",
+      "volume": 1600,
+      "kd": 11,
+      "category": "attitude-shayari",
+      "lang": "hi",
+      "score": 100,
+      "used": false
+    },
+    {
+      "keyword": "shayari in hindi gulzar",
+      "volume": 2400,
+      "kd": 19,
+      "category": "gulzar-shayari",
+      "lang": "hi",
+      "score": 100,
+      "used": false
+    },
+    {
+      "keyword": "do line status attitude",
+      "volume": 3600,
+      "kd": 32,
+      "category": "attitude-shayari",
+      "lang": "hi",
+      "score": 97.29729729729729,
+      "used": false
+    },
+    {
+      "keyword": "image shayari in english",
+      "volume": 3600,
+      "kd": 32,
+      "category": "english-shayari",
+      "lang": "en",
+      "score": 97.29729729729729,
+      "used": false
+    },
+    {
+      "keyword": "gulzar shayari on life",
+      "volume": 2900,
+      "kd": 25,
+      "category": "gulzar-shayari",
+      "lang": "hi",
+      "score": 96.66666666666667,
+      "used": false
+    },
+    {
+      "keyword": "hindi shero shayari in english",
+      "volume": 1600,
+      "kd": 12,
+      "category": "english-shayari",
+      "lang": "hi",
+      "score": 94.11764705882354,
+      "used": false
+    },
+    {
+      "keyword": "sad shayari in roman english",
+      "volume": 1600,
+      "kd": 12,
+      "category": "sad-shayari",
+      "lang": "en",
+      "score": 94.11764705882354,
+      "used": false
+    },
+    {
+      "keyword": "gulzar shayari for husband",
+      "volume": 2900,
+      "kd": 26,
+      "category": "gulzar-shayari",
+      "lang": "hi",
+      "score": 93.54838709677419,
+      "used": false
+    },
+    {
+      "keyword": "shayari hindi and english",
+      "volume": 1000,
+      "kd": 6,
+      "category": "english-shayari",
+      "lang": "hi",
+      "score": 90.9090909090909,
+      "used": false
+    },
+    {
+      "keyword": "fb status hindi in english",
+      "volume": 720,
+      "kd": 3,
+      "category": "status-captions",
+      "lang": "hi",
+      "score": 90,
+      "used": false
+    },
+    {
+      "keyword": "gulzar two line",
+      "volume": 2400,
+      "kd": 22,
+      "category": "gulzar-shayari",
+      "lang": "hi",
+      "score": 88.88888888888889,
+      "used": false
+    },
+    {
+      "keyword": "shayari pic english",
+      "volume": 2900,
+      "kd": 28,
+      "category": "english-shayari",
+      "lang": "en",
+      "score": 87.87878787878788,
+      "used": false
+    },
+    {
+      "keyword": "dosti shayri attitude",
+      "volume": 1300,
+      "kd": 10,
+      "category": "attitude-shayari",
+      "lang": "hi",
+      "score": 86.66666666666667,
+      "used": false
+    },
+    {
+      "keyword": "shayari in english letter",
+      "volume": 1300,
+      "kd": 10,
+      "category": "english-shayari",
+      "lang": "en",
+      "score": 86.66666666666667,
+      "used": false
+    },
+    {
+      "keyword": "shayari attitude in english",
+      "volume": 1300,
+      "kd": 10,
+      "category": "attitude-shayari",
+      "lang": "en",
+      "score": 86.66666666666667,
+      "used": false
+    },
+    {
+      "keyword": "sadgi shayari",
+      "volume": 1900,
+      "kd": 17,
+      "category": "sad-shayari",
+      "lang": "hi",
+      "score": 86.36363636363636,
+      "used": false
+    },
+    {
+      "keyword": "shayri attitude",
+      "volume": 2900,
+      "kd": 29,
+      "category": "attitude-shayari",
+      "lang": "hi",
+      "score": 85.29411764705883,
+      "used": false
+    },
+    {
+      "keyword": "long distance love shayari",
+      "volume": 1000,
+      "kd": 7,
+      "category": "love-shayari",
+      "lang": "hi",
+      "score": 83.33333333333333,
+      "used": false
+    },
+    {
+      "keyword": "two line attitude shayari in hindi",
+      "volume": 2400,
+      "kd": 24,
+      "category": "attitude-shayari",
+      "lang": "hi",
+      "score": 82.75862068965517,
+      "used": false
+    },
+    {
+      "keyword": "gulzar 2 line",
+      "volume": 1900,
+      "kd": 18,
+      "category": "gulzar-shayari",
+      "lang": "hi",
+      "score": 82.6086956521739,
+      "used": false
+    },
+    {
+      "keyword": "ishq shayari urdu",
+      "volume": 1300,
+      "kd": 11,
+      "category": "love-shayari",
+      "lang": "hi",
+      "score": 81.25,
+      "used": false
+    },
+    {
+      "keyword": "ishq quotes in hindi",
+      "volume": 880,
+      "kd": 6,
+      "category": "love-shayari",
+      "lang": "hi",
+      "score": 80,
+      "used": false
+    },
+    {
+      "keyword": "love sonnets of ghalib in hindi",
+      "volume": 2400,
+      "kd": 25,
+      "category": "love-shayari",
+      "lang": "hi",
+      "score": 80,
+      "used": false
+    },
+    {
+      "keyword": "mood off shayari in english",
+      "volume": 720,
+      "kd": 4,
+      "category": "english-shayari",
+      "lang": "en",
+      "score": 80,
+      "used": false
+    },
+    {
+      "keyword": "gulzar 2 liners",
+      "volume": 1900,
+      "kd": 19,
+      "category": "gulzar-shayari",
+      "lang": "hi",
+      "score": 79.16666666666667,
+      "used": false
+    },
+    {
+      "keyword": "shayari for girls in english",
+      "volume": 1000,
+      "kd": 8,
+      "category": "english-shayari",
+      "lang": "en",
+      "score": 76.92307692307692,
+      "used": false
+    },
+    {
+      "keyword": "best attitude shayari",
+      "volume": 2900,
+      "kd": 33,
+      "category": "attitude-shayari",
+      "lang": "hi",
+      "score": 76.3157894736842,
+      "used": false
+    },
+    {
+      "keyword": "gulzar two liners",
+      "volume": 2400,
+      "kd": 27,
+      "category": "gulzar-shayari",
+      "lang": "hi",
+      "score": 75,
+      "used": false
+    },
+    {
+      "keyword": "royal attitude status in hindi for instagram",
+      "volume": 590,
+      "kd": 3,
+      "category": "attitude-shayari",
+      "lang": "hi",
+      "score": 73.75,
+      "used": false
+    },
+    {
+      "keyword": "2 line heart touching shayari in english",
+      "volume": 590,
+      "kd": 3,
+      "category": "two-line-shayari",
+      "lang": "en",
+      "score": 73.75,
+      "used": true
+    },
+    {
+      "keyword": "zindagi shayari in english",
+      "volume": 590,
+      "kd": 3,
+      "category": "life-shayari",
+      "lang": "en",
+      "score": 73.75,
+      "used": true
+    },
+    {
+      "keyword": "two line shayari in english",
+      "volume": 590,
+      "kd": 3,
+      "category": "two-line-shayari",
+      "lang": "en",
+      "score": 73.75,
+      "used": true
+    },
+    {
+      "keyword": "sad shayari hindi english",
+      "volume": 590,
+      "kd": 3,
+      "category": "sad-shayari",
+      "lang": "hi",
+      "score": 73.75,
+      "used": false
+    },
+    {
+      "keyword": "ghalib shayari on love",
+      "volume": 1900,
+      "kd": 21,
+      "category": "love-shayari",
+      "lang": "hi",
+      "score": 73.07692307692308,
+      "used": false
+    },
+    {
+      "keyword": "short shayari in english",
+      "volume": 1300,
+      "kd": 13,
+      "category": "english-shayari",
+      "lang": "en",
+      "score": 72.22222222222223,
+      "used": false
+    },
+    {
+      "keyword": "ishq ki shayari",
+      "volume": 720,
+      "kd": 5,
+      "category": "love-shayari",
+      "lang": "hi",
+      "score": 72,
+      "used": false
+    },
+    {
+      "keyword": "simple boy status in hindi",
+      "volume": 1000,
+      "kd": 9,
+      "category": "status-captions",
+      "lang": "hi",
+      "score": 71.42857142857143,
+      "used": true
+    },
+    {
+      "keyword": "mirza ghalib shayari in hindi",
+      "volume": 2900,
+      "kd": 36,
+      "category": "gulzar-shayari",
+      "lang": "hi",
+      "score": 70.73170731707317,
+      "used": false
+    },
+    {
+      "keyword": "sher o shayari in english on love",
+      "volume": 1300,
+      "kd": 14,
+      "category": "love-shayari",
+      "lang": "en",
+      "score": 68.42105263157895,
+      "used": false
+    },
+    {
+      "keyword": "best shayari in english",
+      "volume": 1900,
+      "kd": 23,
+      "category": "english-shayari",
+      "lang": "en",
+      "score": 67.85714285714286,
+      "used": false
+    },
+    {
+      "keyword": "mobile shayari in english",
+      "volume": 1900,
+      "kd": 24,
+      "category": "english-shayari",
+      "lang": "en",
+      "score": 65.51724137931035,
+      "used": false
+    },
+    {
+      "keyword": "english shayari photo",
+      "volume": 1300,
+      "kd": 15,
+      "category": "english-shayari",
+      "lang": "en",
+      "score": 65,
+      "used": false
+    },
+    {
+      "keyword": "shayari english attitude",
+      "volume": 1600,
+      "kd": 20,
+      "category": "attitude-shayari",
+      "lang": "en",
+      "score": 64,
+      "used": false
+    },
+    {
+      "keyword": "ishq in hindi",
+      "volume": 2400,
+      "kd": 33,
+      "category": "love-shayari",
+      "lang": "hi",
+      "score": 63.1578947368421,
+      "used": false
+    },
+    {
+      "keyword": "self shayari in english",
+      "volume": 880,
+      "kd": 9,
+      "category": "english-shayari",
+      "lang": "en",
+      "score": 62.857142857142854,
+      "used": false
+    },
+    {
+      "keyword": "shayari on life gulzar",
+      "volume": 1300,
+      "kd": 16,
+      "category": "gulzar-shayari",
+      "lang": "hi",
+      "score": 61.904761904761905,
+      "used": false
+    },
+    {
+      "keyword": "mirza ghalib love shayari",
+      "volume": 1600,
+      "kd": 21,
+      "category": "love-shayari",
+      "lang": "hi",
+      "score": 61.53846153846154,
+      "used": false
+    },
+    {
+      "keyword": "gulzar quotes hindi",
+      "volume": 1600,
+      "kd": 21,
+      "category": "gulzar-shayari",
+      "lang": "hi",
+      "score": 61.53846153846154,
+      "used": false
+    },
+    {
+      "keyword": "attitude status in hindi short",
+      "volume": 2400,
+      "kd": 35,
+      "category": "attitude-shayari",
+      "lang": "hi",
+      "score": 60,
+      "used": false
+    },
+    {
+      "keyword": "shayari life english",
+      "volume": 480,
+      "kd": 3,
+      "category": "life-shayari",
+      "lang": "en",
+      "score": 60,
+      "used": false
+    },
+    {
+      "keyword": "ishq wali shayari",
+      "volume": 590,
+      "kd": 5,
+      "category": "love-shayari",
+      "lang": "hi",
+      "score": 59,
+      "used": false
+    },
+    {
+      "keyword": "ishq quotes",
+      "volume": 590,
+      "kd": 5,
+      "category": "love-shayari",
+      "lang": "hi",
+      "score": 59,
+      "used": false
+    },
+    {
+      "keyword": "2 line shayari english",
+      "volume": 590,
+      "kd": 5,
+      "category": "two-line-shayari",
+      "lang": "en",
+      "score": 59,
+      "used": true
+    },
+    {
+      "keyword": "yaad shayari in english",
+      "volume": 590,
+      "kd": 5,
+      "category": "english-shayari",
+      "lang": "en",
+      "score": 59,
+      "used": false
+    },
+    {
+      "keyword": "sadgi shayari in hindi",
+      "volume": 1000,
+      "kd": 12,
+      "category": "sad-shayari",
+      "lang": "hi",
+      "score": 58.8235294117647,
+      "used": false
+    },
+    {
+      "keyword": "status with emoji in english",
+      "volume": 880,
+      "kd": 10,
+      "category": "status-captions",
+      "lang": "en",
+      "score": 58.666666666666664,
+      "used": false
+    },
+    {
+      "keyword": "ghalib shayari on life",
+      "volume": 1900,
+      "kd": 28,
+      "category": "gulzar-shayari",
+      "lang": "hi",
+      "score": 57.57575757575758,
+      "used": false
+    },
+    {
+      "keyword": "hindi shayari status",
+      "volume": 2400,
+      "kd": 37,
+      "category": "status-captions",
+      "lang": "hi",
+      "score": 57.142857142857146,
+      "used": true
+    },
+    {
+      "keyword": "gulzar quotes in hindi",
+      "volume": 1900,
+      "kd": 29,
+      "category": "gulzar-shayari",
+      "lang": "hi",
+      "score": 55.88235294117647,
+      "used": false
+    },
+    {
+      "keyword": "online shayari english",
+      "volume": 1000,
+      "kd": 13,
+      "category": "english-shayari",
+      "lang": "en",
+      "score": 55.55555555555556,
+      "used": false
+    },
+    {
+      "keyword": "ishq par shayari",
+      "volume": 720,
+      "kd": 8,
+      "category": "love-shayari",
+      "lang": "hi",
+      "score": 55.38461538461539,
+      "used": false
+    },
+    {
+      "keyword": "romantic shayari gulzar",
+      "volume": 1600,
+      "kd": 24,
+      "category": "love-shayari",
+      "lang": "hi",
+      "score": 55.172413793103445,
+      "used": false
+    },
+    {
+      "keyword": "gulzar romantic shayari",
+      "volume": 1600,
+      "kd": 24,
+      "category": "love-shayari",
+      "lang": "hi",
+      "score": 55.172413793103445,
+      "used": false
+    },
+    {
+      "keyword": "ghalib shayari on one sided love",
+      "volume": 880,
+      "kd": 11,
+      "category": "love-shayari",
+      "lang": "hi",
+      "score": 55,
+      "used": false
+    },
+    {
+      "keyword": "shayari attitude in hindi",
+      "volume": 2400,
+      "kd": 39,
+      "category": "attitude-shayari",
+      "lang": "hi",
+      "score": 54.54545454545455,
+      "used": false
+    },
+    {
+      "keyword": "attitude shayari for boys in hindi",
+      "volume": 1900,
+      "kd": 30,
+      "category": "attitude-shayari",
+      "lang": "hi",
+      "score": 54.285714285714285,
+      "used": false
+    },
+    {
+      "keyword": "attitude shayari new",
+      "volume": 1300,
+      "kd": 19,
+      "category": "attitude-shayari",
+      "lang": "hi",
+      "score": 54.166666666666664,
+      "used": false
+    },
+    {
+      "keyword": "attitude shayari hindi to english",
+      "volume": 590,
+      "kd": 6,
+      "category": "attitude-shayari",
+      "lang": "hi",
+      "score": 53.63636363636363,
+      "used": false
+    },
+    {
+      "keyword": "attitude shayari in roman english",
+      "volume": 590,
+      "kd": 6,
+      "category": "attitude-shayari",
+      "lang": "en",
+      "score": 53.63636363636363,
+      "used": false
+    },
+    {
+      "keyword": "attitude shayari dosti",
+      "volume": 480,
+      "kd": 4,
+      "category": "attitude-shayari",
+      "lang": "hi",
+      "score": 53.333333333333336,
+      "used": false
+    },
+    {
+      "keyword": "shayari 2 line english",
+      "volume": 480,
+      "kd": 4,
+      "category": "two-line-shayari",
+      "lang": "en",
+      "score": 53.333333333333336,
+      "used": false
+    },
+    {
+      "keyword": "sad shayari in english hindi",
+      "volume": 480,
+      "kd": 4,
+      "category": "sad-shayari",
+      "lang": "hi",
+      "score": 53.333333333333336,
+      "used": false
+    },
+    {
+      "keyword": "mood off shayari english",
+      "volume": 480,
+      "kd": 4,
+      "category": "english-shayari",
+      "lang": "en",
+      "score": 53.333333333333336,
+      "used": false
+    },
+    {
+      "keyword": "shayari for attitude",
+      "volume": 1900,
+      "kd": 31,
+      "category": "attitude-shayari",
+      "lang": "hi",
+      "score": 52.77777777777778,
+      "used": false
+    },
+    {
+      "keyword": "gulzar 2 line shayari on love",
+      "volume": 1300,
+      "kd": 20,
+      "category": "love-shayari",
+      "lang": "hi",
+      "score": 52,
+      "used": false
+    },
+    {
+      "keyword": "2 line ghazal in hindi",
+      "volume": 1300,
+      "kd": 20,
+      "category": "two-line-shayari",
+      "lang": "hi",
+      "score": 52,
+      "used": false
+    },
+    {
+      "keyword": "gulzar shayari love",
+      "volume": 1600,
+      "kd": 26,
+      "category": "love-shayari",
+      "lang": "hi",
+      "score": 51.61290322580645,
+      "used": false
+    },
+    {
+      "keyword": "attitude wala shayari",
+      "volume": 1600,
+      "kd": 27,
+      "category": "attitude-shayari",
+      "lang": "hi",
+      "score": 50,
+      "used": false
+    },
+    {
+      "keyword": "shayari pic in english",
+      "volume": 590,
+      "kd": 7,
+      "category": "english-shayari",
+      "lang": "en",
+      "score": 49.166666666666664,
+      "used": false
+    },
+    {
+      "keyword": "good shayari in english",
+      "volume": 590,
+      "kd": 7,
+      "category": "english-shayari",
+      "lang": "en",
+      "score": 49.166666666666664,
+      "used": false
+    },
+    {
+      "keyword": "shayari ishq",
+      "volume": 880,
+      "kd": 13,
+      "category": "love-shayari",
+      "lang": "hi",
+      "score": 48.888888888888886,
+      "used": false
+    },
+    {
+      "keyword": "manane wali shayari in english",
+      "volume": 390,
+      "kd": 3,
+      "category": "english-shayari",
+      "lang": "en",
+      "score": 48.75,
+      "used": false
+    },
+    {
+      "keyword": "sad shayari hindi english translation",
+      "volume": 390,
+      "kd": 3,
+      "category": "sad-shayari",
+      "lang": "hi",
+      "score": 48.75,
+      "used": false
+    },
+    {
+      "keyword": "ghalib shayari in hindi",
+      "volume": 1600,
+      "kd": 28,
+      "category": "gulzar-shayari",
+      "lang": "hi",
+      "score": 48.484848484848484,
+      "used": false
+    },
+    {
+      "keyword": "gulzar sahab shayari",
+      "volume": 1600,
+      "kd": 28,
+      "category": "gulzar-shayari",
+      "lang": "hi",
+      "score": 48.484848484848484,
+      "used": false
+    },
+    {
+      "keyword": "gulzar poetry on life in hindi",
+      "volume": 1600,
+      "kd": 28,
+      "category": "gulzar-shayari",
+      "lang": "hi",
+      "score": 48.484848484848484,
+      "used": false
+    },
+    {
+      "keyword": "royal attitude shayari for boys",
+      "volume": 480,
+      "kd": 5,
+      "category": "attitude-shayari",
+      "lang": "hi",
+      "score": 48,
+      "used": false
+    },
+    {
+      "keyword": "one line shayari in english",
+      "volume": 720,
+      "kd": 10,
+      "category": "english-shayari",
+      "lang": "en",
+      "score": 48,
+      "used": false
+    },
+    {
+      "keyword": "munawar shayari",
+      "volume": 1600,
+      "kd": 29,
+      "category": "gulzar-shayari",
+      "lang": "hi",
+      "score": 47.05882352941177,
+      "used": false
+    },
+    {
+      "keyword": "nida fazli on love",
+      "volume": 1300,
+      "kd": 23,
+      "category": "love-shayari",
+      "lang": "hi",
+      "score": 46.42857142857143,
+      "used": false
+    },
+    {
+      "keyword": "ishq mohabbat shayari",
+      "volume": 1300,
+      "kd": 23,
+      "category": "love-shayari",
+      "lang": "hi",
+      "score": 46.42857142857143,
+      "used": false
+    },
+    {
+      "keyword": "ehsaas shayari in english",
+      "volume": 1300,
+      "kd": 23,
+      "category": "english-shayari",
+      "lang": "en",
+      "score": 46.42857142857143,
+      "used": false
+    },
+    {
+      "keyword": "love shayari english mein",
+      "volume": 1300,
+      "kd": 23,
+      "category": "love-shayari",
+      "lang": "en",
+      "score": 46.42857142857143,
+      "used": false
+    },
+    {
+      "keyword": "fb status hindi english",
+      "volume": 880,
+      "kd": 14,
+      "category": "status-captions",
+      "lang": "hi",
+      "score": 46.31578947368421,
+      "used": false
+    },
+    {
+      "keyword": "shayari translate in english",
+      "volume": 1600,
+      "kd": 30,
+      "category": "english-shayari",
+      "lang": "en",
+      "score": 45.714285714285715,
+      "used": false
+    },
+    {
+      "keyword": "sad shayri english",
+      "volume": 320,
+      "kd": 2,
+      "category": "sad-shayari",
+      "lang": "en",
+      "score": 45.714285714285715,
+      "used": false
+    },
+    {
+      "keyword": "2 line ishq shayari",
+      "volume": 1000,
+      "kd": 17,
+      "category": "love-shayari",
+      "lang": "hi",
+      "score": 45.45454545454545,
+      "used": false
+    },
+    {
+      "keyword": "shayari love in english",
+      "volume": 1000,
+      "kd": 17,
+      "category": "love-shayari",
+      "lang": "en",
+      "score": 45.45454545454545,
+      "used": false
+    },
+    {
+      "keyword": "attitude shayari english mein",
+      "volume": 590,
+      "kd": 8,
+      "category": "attitude-shayari",
+      "lang": "en",
+      "score": 45.38461538461539,
+      "used": false
+    },
+    {
+      "keyword": "ishq shayari urdu in hindi",
+      "volume": 720,
+      "kd": 11,
+      "category": "love-shayari",
+      "lang": "hi",
+      "score": 45,
+      "used": false
+    },
+    {
+      "keyword": "sher shayari attitude",
+      "volume": 1600,
+      "kd": 31,
+      "category": "attitude-shayari",
+      "lang": "hi",
+      "score": 44.44444444444444,
+      "used": false
+    },
+    {
+      "keyword": "urdu love shayari in hindi",
+      "volume": 1600,
+      "kd": 31,
+      "category": "love-shayari",
+      "lang": "hi",
+      "score": 44.44444444444444,
+      "used": false
+    },
+    {
+      "keyword": "hindi shayari in english letter",
+      "volume": 880,
+      "kd": 15,
+      "category": "english-shayari",
+      "lang": "hi",
+      "score": 44,
+      "used": false
+    },
+    {
+      "keyword": "hasi shayari english",
+      "volume": 480,
+      "kd": 6,
+      "category": "english-shayari",
+      "lang": "en",
+      "score": 43.63636363636363,
+      "used": false
+    },
+    {
+      "keyword": "hindi shayari english writing",
+      "volume": 480,
+      "kd": 6,
+      "category": "english-shayari",
+      "lang": "hi",
+      "score": 43.63636363636363,
+      "used": false
+    },
+    {
+      "keyword": "attitude shayari 2021",
+      "volume": 1300,
+      "kd": 25,
+      "category": "attitude-shayari",
+      "lang": "hi",
+      "score": 43.333333333333336,
+      "used": false
+    },
+    {
+      "keyword": "best shayari in english on life",
+      "volume": 390,
+      "kd": 4,
+      "category": "life-shayari",
+      "lang": "en",
+      "score": 43.333333333333336,
+      "used": true
+    },
+    {
+      "keyword": "jalne walo ke liye shayari in english",
+      "volume": 390,
+      "kd": 4,
+      "category": "english-shayari",
+      "lang": "en",
+      "score": 43.333333333333336,
+      "used": false
+    },
+    {
+      "keyword": "emotional shayari english",
+      "volume": 390,
+      "kd": 4,
+      "category": "english-shayari",
+      "lang": "en",
+      "score": 43.333333333333336,
+      "used": false
+    },
+    {
+      "keyword": "happiness shayari in english",
+      "volume": 390,
+      "kd": 4,
+      "category": "english-shayari",
+      "lang": "en",
+      "score": 43.333333333333336,
+      "used": false
+    },
+    {
+      "keyword": "english to hindi sad status",
+      "volume": 590,
+      "kd": 9,
+      "category": "sad-shayari",
+      "lang": "hi",
+      "score": 42.142857142857146,
+      "used": false
+    },
+    {
+      "keyword": "shair o shayari in english",
+      "volume": 210,
+      "kd": 0,
+      "category": "english-shayari",
+      "lang": "en",
+      "score": 42,
+      "used": false
+    },
+    {
+      "keyword": "sadgi quotes in hindi",
+      "volume": 1000,
+      "kd": 19,
+      "category": "sad-shayari",
+      "lang": "hi",
+      "score": 41.666666666666664,
+      "used": false
+    },
+    {
+      "keyword": "attitude shayari 2 line hindi",
+      "volume": 1000,
+      "kd": 20,
+      "category": "attitude-shayari",
+      "lang": "hi",
+      "score": 40,
+      "used": false
+    },
+    {
+      "keyword": "struggle shayari in english",
+      "volume": 320,
+      "kd": 3,
+      "category": "life-shayari",
+      "lang": "en",
+      "score": 40,
+      "used": true
+    },
+    {
+      "keyword": "zindagi khushi shayari in english",
+      "volume": 320,
+      "kd": 3,
+      "category": "life-shayari",
+      "lang": "en",
+      "score": 40,
+      "used": false
+    },
+    {
+      "keyword": "new sad shayari",
+      "volume": 1900,
+      "kd": 43,
+      "category": "sad-shayari",
+      "lang": "hi",
+      "score": 39.583333333333336,
+      "used": false
+    },
+    {
+      "keyword": "time sad shayari",
+      "volume": 590,
+      "kd": 10,
+      "category": "sad-shayari",
+      "lang": "hi",
+      "score": 39.333333333333336,
+      "used": false
+    },
+    {
+      "keyword": "hindi shayari writing english",
+      "volume": 880,
+      "kd": 18,
+      "category": "english-shayari",
+      "lang": "hi",
+      "score": 38.26086956521739,
+      "used": false
+    },
+    {
+      "keyword": "badla shayari in english",
+      "volume": 1300,
+      "kd": 29,
+      "category": "english-shayari",
+      "lang": "en",
+      "score": 38.23529411764706,
+      "used": false
+    },
+    {
+      "keyword": "sad shayari hashtags",
+      "volume": 720,
+      "kd": 14,
+      "category": "sad-shayari",
+      "lang": "hi",
+      "score": 37.89473684210526,
+      "used": false
+    },
+    {
+      "keyword": "new attitude shayari",
+      "volume": 1300,
+      "kd": 30,
+      "category": "attitude-shayari",
+      "lang": "hi",
+      "score": 37.142857142857146,
+      "used": false
+    },
+    {
+      "keyword": "shayri in hindi attitude",
+      "volume": 1300,
+      "kd": 30,
+      "category": "attitude-shayari",
+      "lang": "hi",
+      "score": 37.142857142857146,
+      "used": false
+    },
+    {
+      "keyword": "shayari boy attitude",
+      "volume": 1300,
+      "kd": 30,
+      "category": "attitude-shayari",
+      "lang": "hi",
+      "score": 37.142857142857146,
+      "used": false
+    },
+    {
+      "keyword": "2 line urdu shayari in hindi",
+      "volume": 1300,
+      "kd": 30,
+      "category": "two-line-shayari",
+      "lang": "hi",
+      "score": 37.142857142857146,
+      "used": false
+    },
+    {
+      "keyword": "best sad shayari in hindi",
+      "volume": 1000,
+      "kd": 22,
+      "category": "sad-shayari",
+      "lang": "hi",
+      "score": 37.03703703703704,
+      "used": false
+    },
+    {
+      "keyword": "sad shayari hindi translation english",
+      "volume": 480,
+      "kd": 8,
+      "category": "sad-shayari",
+      "lang": "hi",
+      "score": 36.92307692307692,
+      "used": false
+    },
+    {
+      "keyword": "attitude shayri in english",
+      "volume": 590,
+      "kd": 11,
+      "category": "attitude-shayari",
+      "lang": "en",
+      "score": 36.875,
+      "used": false
+    },
+    {
+      "keyword": "thought gulzar 2 line shayari",
+      "volume": 880,
+      "kd": 19,
+      "category": "gulzar-shayari",
+      "lang": "hi",
+      "score": 36.666666666666664,
+      "used": false
+    },
+    {
+      "keyword": "sher shayari english",
+      "volume": 880,
+      "kd": 19,
+      "category": "english-shayari",
+      "lang": "en",
+      "score": 36.666666666666664,
+      "used": false
+    },
+    {
+      "keyword": "two line urdu shayari in hindi",
+      "volume": 1000,
+      "kd": 23,
+      "category": "two-line-shayari",
+      "lang": "hi",
+      "score": 35.714285714285715,
+      "used": false
+    },
+    {
+      "keyword": "gulzar poetry in hindi",
+      "volume": 1000,
+      "kd": 23,
+      "category": "gulzar-shayari",
+      "lang": "hi",
+      "score": 35.714285714285715,
+      "used": false
+    },
+    {
+      "keyword": "royal shayari 2 line",
+      "volume": 320,
+      "kd": 4,
+      "category": "attitude-shayari",
+      "lang": "hi",
+      "score": 35.55555555555556,
+      "used": false
+    },
+    {
+      "keyword": "smart boy status in hindi",
+      "volume": 320,
+      "kd": 4,
+      "category": "status-captions",
+      "lang": "hi",
+      "score": 35.55555555555556,
+      "used": false
+    },
+    {
+      "keyword": "shayari attitude girl hindi",
+      "volume": 320,
+      "kd": 4,
+      "category": "attitude-shayari",
+      "lang": "hi",
+      "score": 35.55555555555556,
+      "used": false
+    },
+    {
+      "keyword": "munawar shayari in hindi",
+      "volume": 880,
+      "kd": 20,
+      "category": "gulzar-shayari",
+      "lang": "hi",
+      "score": 35.2,
+      "used": false
+    },
+    {
+      "keyword": "attitude status shayari",
+      "volume": 1300,
+      "kd": 32,
+      "category": "attitude-shayari",
+      "lang": "hi",
+      "score": 35.13513513513514,
+      "used": false
+    },
+    {
+      "keyword": "ishqiya shayari",
+      "volume": 590,
+      "kd": 12,
+      "category": "love-shayari",
+      "lang": "hi",
+      "score": 34.705882352941174,
+      "used": false
+    },
+    {
+      "keyword": "come back shayari in english",
+      "volume": 590,
+      "kd": 12,
+      "category": "english-shayari",
+      "lang": "en",
+      "score": 34.705882352941174,
+      "used": false
+    },
+    {
+      "keyword": "munawar ki shayari",
+      "volume": 590,
+      "kd": 12,
+      "category": "gulzar-shayari",
+      "lang": "hi",
+      "score": 34.705882352941174,
+      "used": false
+    },
+    {
+      "keyword": "attitude shayari two line",
+      "volume": 720,
+      "kd": 16,
+      "category": "attitude-shayari",
+      "lang": "hi",
+      "score": 34.285714285714285,
+      "used": false
+    },
+    {
+      "keyword": "ishq word in hindi",
+      "volume": 1300,
+      "kd": 33,
+      "category": "love-shayari",
+      "lang": "hi",
+      "score": 34.21052631578947,
+      "used": false
+    },
+    {
+      "keyword": "attitude status 2021",
+      "volume": 1000,
+      "kd": 25,
+      "category": "attitude-shayari",
+      "lang": "hi",
+      "score": 33.333333333333336,
+      "used": false
+    },
+    {
+      "keyword": "gulzar sad shayari",
+      "volume": 1000,
+      "kd": 25,
+      "category": "sad-shayari",
+      "lang": "hi",
+      "score": 33.333333333333336,
+      "used": false
+    },
+    {
+      "keyword": "shayari on life in urdu",
+      "volume": 1000,
+      "kd": 25,
+      "category": "life-shayari",
+      "lang": "hi",
+      "score": 33.333333333333336,
+      "used": false
+    },
+    {
+      "keyword": "gulzar shayari on eyes",
+      "volume": 1000,
+      "kd": 25,
+      "category": "gulzar-shayari",
+      "lang": "hi",
+      "score": 33.333333333333336,
+      "used": false
+    },
+    {
+      "keyword": "rangdari shayari 2 line",
+      "volume": 590,
+      "kd": 13,
+      "category": "attitude-shayari",
+      "lang": "hi",
+      "score": 32.77777777777778,
+      "used": false
+    },
+    {
+      "keyword": "veri sad shayari",
+      "volume": 720,
+      "kd": 17,
+      "category": "sad-shayari",
+      "lang": "hi",
+      "score": 32.72727272727273,
+      "used": false
+    },
+    {
+      "keyword": "mobile phone shayari in english",
+      "volume": 720,
+      "kd": 17,
+      "category": "english-shayari",
+      "lang": "en",
+      "score": 32.72727272727273,
+      "used": false
+    },
+    {
+      "keyword": "new shayari english",
+      "volume": 720,
+      "kd": 17,
+      "category": "english-shayari",
+      "lang": "en",
+      "score": 32.72727272727273,
+      "used": false
+    },
+    {
+      "keyword": "hindi shayari english translation",
+      "volume": 260,
+      "kd": 3,
+      "category": "english-shayari",
+      "lang": "hi",
+      "score": 32.5,
+      "used": false
+    },
+    {
+      "keyword": "life english shayari",
+      "volume": 260,
+      "kd": 3,
+      "category": "life-shayari",
+      "lang": "en",
+      "score": 32.5,
+      "used": false
+    },
+    {
+      "keyword": "friends attitude shayari in english",
+      "volume": 260,
+      "kd": 3,
+      "category": "attitude-shayari",
+      "lang": "en",
+      "score": 32.5,
+      "used": false
+    },
+    {
+      "keyword": "shayari sad shayari",
+      "volume": 1000,
+      "kd": 26,
+      "category": "sad-shayari",
+      "lang": "hi",
+      "score": 32.25806451612903,
+      "used": false
+    },
+    {
+      "keyword": "zakir khan shayari on life",
+      "volume": 320,
+      "kd": 5,
+      "category": "gulzar-shayari",
+      "lang": "hi",
+      "score": 32,
+      "used": false
+    },
+    {
+      "keyword": "hindi shayari english mein",
+      "volume": 480,
+      "kd": 10,
+      "category": "english-shayari",
+      "lang": "hi",
+      "score": 32,
+      "used": false
+    },
+    {
+      "keyword": "english short shayari",
+      "volume": 320,
+      "kd": 5,
+      "category": "english-shayari",
+      "lang": "en",
+      "score": 32,
+      "used": false
+    },
+    {
+      "keyword": "emotional heart touching shayari in english",
+      "volume": 320,
+      "kd": 5,
+      "category": "english-shayari",
+      "lang": "en",
+      "score": 32,
+      "used": false
+    },
+    {
+      "keyword": "khushi ki shayari in english",
+      "volume": 480,
+      "kd": 10,
+      "category": "english-shayari",
+      "lang": "en",
+      "score": 32,
+      "used": false
+    },
+    {
+      "keyword": "new shayari attitude",
+      "volume": 1300,
+      "kd": 36,
+      "category": "attitude-shayari",
+      "lang": "hi",
+      "score": 31.70731707317073,
+      "used": false
+    },
+    {
+      "keyword": "new hindi status attitude",
+      "volume": 880,
+      "kd": 23,
+      "category": "attitude-shayari",
+      "lang": "hi",
+      "score": 31.428571428571427,
+      "used": false
+    },
+    {
+      "keyword": "love ghazal in hindi",
+      "volume": 720,
+      "kd": 18,
+      "category": "love-shayari",
+      "lang": "hi",
+      "score": 31.304347826086957,
+      "used": false
+    },
+    {
+      "keyword": "love gazal hindi",
+      "volume": 720,
+      "kd": 18,
+      "category": "love-shayari",
+      "lang": "hi",
+      "score": 31.304347826086957,
+      "used": false
+    },
+    {
+      "keyword": "attitude shayari in english hindi",
+      "volume": 720,
+      "kd": 18,
+      "category": "attitude-shayari",
+      "lang": "hi",
+      "score": 31.304347826086957,
+      "used": false
+    },
+    {
+      "keyword": "whatsapp status in hindi attitude",
+      "volume": 1000,
+      "kd": 27,
+      "category": "attitude-shayari",
+      "lang": "hi",
+      "score": 31.25,
+      "used": false
+    },
+    {
+      "keyword": "ghalib ki shayari in hindi",
+      "volume": 1000,
+      "kd": 27,
+      "category": "gulzar-shayari",
+      "lang": "hi",
+      "score": 31.25,
+      "used": false
+    },
+    {
+      "keyword": "zindagi shayari gulzar",
+      "volume": 1000,
+      "kd": 27,
+      "category": "gulzar-shayari",
+      "lang": "hi",
+      "score": 31.25,
+      "used": false
+    },
+    {
+      "keyword": "gulzar poetry in hindi love",
+      "volume": 880,
+      "kd": 24,
+      "category": "love-shayari",
+      "lang": "hi",
+      "score": 30.344827586206897,
+      "used": false
+    },
+    {
+      "keyword": "ghalib ke sher",
+      "volume": 880,
+      "kd": 24,
+      "category": "gulzar-shayari",
+      "lang": "hi",
+      "score": 30.344827586206897,
+      "used": false
+    },
+    {
+      "keyword": "top new status in hindi",
+      "volume": 1000,
+      "kd": 28,
+      "category": "status-captions",
+      "lang": "hi",
+      "score": 30.303030303030305,
+      "used": false
+    },
+    {
+      "keyword": "urdu shayari on zindagi in hindi",
+      "volume": 720,
+      "kd": 19,
+      "category": "life-shayari",
+      "lang": "hi",
+      "score": 30,
+      "used": false
+    },
+    {
+      "keyword": "hindi shayari in english text",
+      "volume": 390,
+      "kd": 8,
+      "category": "english-shayari",
+      "lang": "hi",
+      "score": 30,
+      "used": false
+    },
+    {
+      "keyword": "feeling sorry shayari in english",
+      "volume": 210,
+      "kd": 2,
+      "category": "sorry-shayari",
+      "lang": "en",
+      "score": 30,
+      "used": false
+    },
+    {
+      "keyword": "two line shayari english",
+      "volume": 210,
+      "kd": 2,
+      "category": "two-line-shayari",
+      "lang": "en",
+      "score": 30,
+      "used": false
+    },
+    {
+      "keyword": "munawar faruqui shayari love",
+      "volume": 390,
+      "kd": 8,
+      "category": "love-shayari",
+      "lang": "hi",
+      "score": 30,
+      "used": false
+    },
+    {
+      "keyword": "gulzar urdu shayari in hindi",
+      "volume": 590,
+      "kd": 15,
+      "category": "gulzar-shayari",
+      "lang": "hi",
+      "score": 29.5,
+      "used": false
+    },
+    {
+      "keyword": "zakir khan quotes",
+      "volume": 1000,
+      "kd": 29,
+      "category": "gulzar-shayari",
+      "lang": "hi",
+      "score": 29.41176470588235,
+      "used": false
+    },
+    {
+      "keyword": "dosti shayari in hindi attitude",
+      "volume": 320,
+      "kd": 6,
+      "category": "attitude-shayari",
+      "lang": "hi",
+      "score": 29.09090909090909,
+      "used": false
+    },
+    {
+      "keyword": "khatarnak shayari 2 line",
+      "volume": 320,
+      "kd": 6,
+      "category": "two-line-shayari",
+      "lang": "hi",
+      "score": 29.09090909090909,
+      "used": false
+    },
+    {
+      "keyword": "dadagiri status english",
+      "volume": 320,
+      "kd": 6,
+      "category": "status-captions",
+      "lang": "en",
+      "score": 29.09090909090909,
+      "used": false
+    },
+    {
+      "keyword": "bad boy shayari in english",
+      "volume": 320,
+      "kd": 6,
+      "category": "english-shayari",
+      "lang": "en",
+      "score": 29.09090909090909,
+      "used": false
+    },
+    {
+      "keyword": "yaad shayari english",
+      "volume": 260,
+      "kd": 4,
+      "category": "english-shayari",
+      "lang": "en",
+      "score": 28.88888888888889,
+      "used": false
+    },
+    {
+      "keyword": "zindagi urdu shayari in hindi",
+      "volume": 720,
+      "kd": 20,
+      "category": "life-shayari",
+      "lang": "hi",
+      "score": 28.8,
+      "used": false
+    },
+    {
+      "keyword": "hindi status text",
+      "volume": 1000,
+      "kd": 30,
+      "category": "status-captions",
+      "lang": "hi",
+      "score": 28.571428571428573,
+      "used": false
+    },
+    {
+      "keyword": "gulzar best shayari",
+      "volume": 880,
+      "kd": 26,
+      "category": "gulzar-shayari",
+      "lang": "hi",
+      "score": 28.387096774193548,
+      "used": false
+    },
+    {
+      "keyword": "shayari in hindi translation in english",
+      "volume": 390,
+      "kd": 9,
+      "category": "english-shayari",
+      "lang": "hi",
+      "score": 27.857142857142858,
+      "used": false
+    },
+    {
+      "keyword": "quotes shayari in english",
+      "volume": 390,
+      "kd": 9,
+      "category": "english-shayari",
+      "lang": "en",
+      "score": 27.857142857142858,
+      "used": false
+    },
+    {
+      "keyword": "life gulzar shayari",
+      "volume": 720,
+      "kd": 21,
+      "category": "gulzar-shayari",
+      "lang": "hi",
+      "score": 27.692307692307693,
+      "used": false
+    },
+    {
+      "keyword": "best hindi attitude shayari",
+      "volume": 880,
+      "kd": 27,
+      "category": "attitude-shayari",
+      "lang": "hi",
+      "score": 27.5,
+      "used": false
+    },
+    {
+      "keyword": "so sad shayari",
+      "volume": 880,
+      "kd": 27,
+      "category": "sad-shayari",
+      "lang": "hi",
+      "score": 27.5,
+      "used": false
+    },
+    {
+      "keyword": "bio shayari english",
+      "volume": 590,
+      "kd": 17,
+      "category": "english-shayari",
+      "lang": "en",
+      "score": 26.818181818181817,
+      "used": false
+    },
+    {
+      "keyword": "sadgi par shayari",
+      "volume": 590,
+      "kd": 17,
+      "category": "sad-shayari",
+      "lang": "hi",
+      "score": 26.818181818181817,
+      "used": false
+    },
+    {
+      "keyword": "very very sad shayari",
+      "volume": 720,
+      "kd": 22,
+      "category": "sad-shayari",
+      "lang": "hi",
+      "score": 26.666666666666668,
+      "used": false
+    },
+    {
+      "keyword": "zakir khan shayari in hindi",
+      "volume": 320,
+      "kd": 7,
+      "category": "gulzar-shayari",
+      "lang": "hi",
+      "score": 26.666666666666668,
+      "used": false
+    },
+    {
+      "keyword": "best shayari by zakir khan",
+      "volume": 210,
+      "kd": 3,
+      "category": "gulzar-shayari",
+      "lang": "hi",
+      "score": 26.25,
+      "used": false
+    },
+    {
+      "keyword": "hindi shayari english spelling",
+      "volume": 210,
+      "kd": 3,
+      "category": "english-shayari",
+      "lang": "hi",
+      "score": 26.25,
+      "used": false
+    },
+    {
+      "keyword": "two line shayari in english on life",
+      "volume": 210,
+      "kd": 3,
+      "category": "two-line-shayari",
+      "lang": "en",
+      "score": 26.25,
+      "used": false
+    },
+    {
+      "keyword": "rone wali shayari english",
+      "volume": 210,
+      "kd": 3,
+      "category": "english-shayari",
+      "lang": "en",
+      "score": 26.25,
+      "used": false
+    },
+    {
+      "keyword": "long distance love shayari in hindi",
+      "volume": 210,
+      "kd": 3,
+      "category": "love-shayari",
+      "lang": "hi",
+      "score": 26.25,
+      "used": false
+    },
+    {
+      "keyword": "jaat shayari attitude",
+      "volume": 210,
+      "kd": 3,
+      "category": "attitude-shayari",
+      "lang": "hi",
+      "score": 26.25,
+      "used": false
+    },
+    {
+      "keyword": "stylish shayari attitude",
+      "volume": 390,
+      "kd": 10,
+      "category": "attitude-shayari",
+      "lang": "hi",
+      "score": 26,
+      "used": false
+    },
+    {
+      "keyword": "dosti attitude shayari in hindi",
+      "volume": 260,
+      "kd": 5,
+      "category": "attitude-shayari",
+      "lang": "hi",
+      "score": 26,
+      "used": false
+    },
+    {
+      "keyword": "taqdeer shayari in english",
+      "volume": 260,
+      "kd": 5,
+      "category": "english-shayari",
+      "lang": "en",
+      "score": 26,
+      "used": false
+    },
+    {
+      "keyword": "feeling shayari in english",
+      "volume": 260,
+      "kd": 5,
+      "category": "english-shayari",
+      "lang": "en",
+      "score": 26,
+      "used": false
+    },
+    {
+      "keyword": "kismat shayari in english",
+      "volume": 260,
+      "kd": 5,
+      "category": "english-shayari",
+      "lang": "en",
+      "score": 26,
+      "used": false
+    },
+    {
+      "keyword": "attitude text in hindi",
+      "volume": 880,
+      "kd": 29,
+      "category": "attitude-shayari",
+      "lang": "hi",
+      "score": 25.88235294117647,
+      "used": false
+    },
+    {
+      "keyword": "2 line shayari in hindi attitude",
+      "volume": 720,
+      "kd": 23,
+      "category": "attitude-shayari",
+      "lang": "hi",
+      "score": 25.714285714285715,
+      "used": false
+    },
+    {
+      "keyword": "shero shayari in english",
+      "volume": 720,
+      "kd": 23,
+      "category": "english-shayari",
+      "lang": "en",
+      "score": 25.714285714285715,
+      "used": false
+    },
+    {
+      "keyword": "ghalib sad shayari",
+      "volume": 590,
+      "kd": 18,
+      "category": "sad-shayari",
+      "lang": "hi",
+      "score": 25.652173913043477,
+      "used": false
+    },
+    {
+      "keyword": "english me shayari attitude",
+      "volume": 320,
+      "kd": 8,
+      "category": "attitude-shayari",
+      "lang": "en",
+      "score": 24.615384615384617,
+      "used": false
+    },
+    {
+      "keyword": "deep shayari in english",
+      "volume": 320,
+      "kd": 8,
+      "category": "english-shayari",
+      "lang": "en",
+      "score": 24.615384615384617,
+      "used": false
+    },
+    {
+      "keyword": "nazar shayari english",
+      "volume": 320,
+      "kd": 8,
+      "category": "english-shayari",
+      "lang": "en",
+      "score": 24.615384615384617,
+      "used": false
+    },
+    {
+      "keyword": "attitude status girl hindi",
+      "volume": 590,
+      "kd": 19,
+      "category": "attitude-shayari",
+      "lang": "hi",
+      "score": 24.583333333333332,
+      "used": false
+    },
+    {
+      "keyword": "best hindi shayari in english translation",
+      "volume": 590,
+      "kd": 19,
+      "category": "english-shayari",
+      "lang": "hi",
+      "score": 24.583333333333332,
+      "used": false
+    },
+    {
+      "keyword": "best attitude shayari in hindi",
+      "volume": 880,
+      "kd": 31,
+      "category": "attitude-shayari",
+      "lang": "hi",
+      "score": 24.444444444444443,
+      "used": false
+    },
+    {
+      "keyword": "gulzar sahab ki shayari",
+      "volume": 880,
+      "kd": 31,
+      "category": "gulzar-shayari",
+      "lang": "hi",
+      "score": 24.444444444444443,
+      "used": false
+    },
+    {
+      "keyword": "attitude status written in hindi",
+      "volume": 480,
+      "kd": 15,
+      "category": "attitude-shayari",
+      "lang": "hi",
+      "score": 24,
+      "used": false
+    },
+    {
+      "keyword": "hindi shayari english writing photo",
+      "volume": 720,
+      "kd": 25,
+      "category": "english-shayari",
+      "lang": "hi",
+      "score": 24,
+      "used": false
+    },
+    {
+      "keyword": "dosti shayari hindi attitude",
+      "volume": 260,
+      "kd": 6,
+      "category": "attitude-shayari",
+      "lang": "hi",
+      "score": 23.636363636363637,
+      "used": false
+    },
+    {
+      "keyword": "touching shayari in english",
+      "volume": 260,
+      "kd": 6,
+      "category": "english-shayari",
+      "lang": "en",
+      "score": 23.636363636363637,
+      "used": false
+    },
+    {
+      "keyword": "gulzar love shayari in hindi pdf",
+      "volume": 590,
+      "kd": 20,
+      "category": "love-shayari",
+      "lang": "hi",
+      "score": 23.6,
+      "used": false
+    },
+    {
+      "keyword": "shayari in english language",
+      "volume": 590,
+      "kd": 20,
+      "category": "english-shayari",
+      "lang": "en",
+      "score": 23.6,
+      "used": false
+    },
+    {
+      "keyword": "shayari love sad english",
+      "volume": 210,
+      "kd": 4,
+      "category": "sad-shayari",
+      "lang": "en",
+      "score": 23.333333333333332,
+      "used": false
+    },
+    {
+      "keyword": "sun pagli status english",
+      "volume": 210,
+      "kd": 4,
+      "category": "status-captions",
+      "lang": "en",
+      "score": 23.333333333333332,
+      "used": false
+    },
+    {
+      "keyword": "zakir khan poetry",
+      "volume": 720,
+      "kd": 26,
+      "category": "gulzar-shayari",
+      "lang": "hi",
+      "score": 23.225806451612904,
+      "used": false
+    },
+    {
+      "keyword": "attitude status in hindi boy",
+      "volume": 390,
+      "kd": 12,
+      "category": "attitude-shayari",
+      "lang": "hi",
+      "score": 22.941176470588236,
+      "used": false
+    },
+    {
+      "keyword": "instagram shayari english",
+      "volume": 320,
+      "kd": 9,
+      "category": "english-shayari",
+      "lang": "en",
+      "score": 22.857142857142858,
+      "used": false
+    },
+    {
+      "keyword": "attitude hindi shayri",
+      "volume": 720,
+      "kd": 27,
+      "category": "attitude-shayari",
+      "lang": "hi",
+      "score": 22.5,
+      "used": false
+    },
+    {
+      "keyword": "attitude two line shayari",
+      "volume": 480,
+      "kd": 17,
+      "category": "attitude-shayari",
+      "lang": "hi",
+      "score": 21.818181818181817,
+      "used": false
+    },
+    {
+      "keyword": "raat shayari gulzar",
+      "volume": 720,
+      "kd": 28,
+      "category": "gulzar-shayari",
+      "lang": "hi",
+      "score": 21.818181818181817,
+      "used": false
+    },
+    {
+      "keyword": "urdu shayari on life by ghalib",
+      "volume": 480,
+      "kd": 17,
+      "category": "gulzar-shayari",
+      "lang": "hi",
+      "score": 21.818181818181817,
+      "used": false
+    },
+    {
+      "keyword": "small shayari in english",
+      "volume": 480,
+      "kd": 17,
+      "category": "english-shayari",
+      "lang": "en",
+      "score": 21.818181818181817,
+      "used": false
+    },
+    {
+      "keyword": "shayari munawar faruqui",
+      "volume": 480,
+      "kd": 17,
+      "category": "gulzar-shayari",
+      "lang": "hi",
+      "score": 21.818181818181817,
+      "used": false
+    },
+    {
+      "keyword": "ghalib romantic shayari",
+      "volume": 390,
+      "kd": 13,
+      "category": "love-shayari",
+      "lang": "hi",
+      "score": 21.666666666666668,
+      "used": false
+    },
+    {
+      "keyword": "attitude shayari in hindi english",
+      "volume": 390,
+      "kd": 13,
+      "category": "attitude-shayari",
+      "lang": "hi",
+      "score": 21.666666666666668,
+      "used": false
+    },
+    {
+      "keyword": "sad shayari roman english",
+      "volume": 390,
+      "kd": 13,
+      "category": "sad-shayari",
+      "lang": "en",
+      "score": 21.666666666666668,
+      "used": false
+    },
+    {
+      "keyword": "kismat zindagi dard shayari",
+      "volume": 390,
+      "kd": 13,
+      "category": "sad-shayari",
+      "lang": "hi",
+      "score": 21.666666666666668,
+      "used": false
+    },
+    {
+      "keyword": "dabang status",
+      "volume": 320,
+      "kd": 10,
+      "category": "status-captions",
+      "lang": "hi",
+      "score": 21.333333333333332,
+      "used": false
+    },
+    {
+      "keyword": "shayari in english font",
+      "volume": 320,
+      "kd": 10,
+      "category": "english-shayari",
+      "lang": "en",
+      "score": 21.333333333333332,
+      "used": false
+    },
+    {
+      "keyword": "yaad quotes in english",
+      "volume": 320,
+      "kd": 10,
+      "category": "english-shayari",
+      "lang": "en",
+      "score": 21.333333333333332,
+      "used": false
+    },
+    {
+      "keyword": "sad shayari hindi in english",
+      "volume": 320,
+      "kd": 10,
+      "category": "sad-shayari",
+      "lang": "hi",
+      "score": 21.333333333333332,
+      "used": false
+    },
+    {
+      "keyword": "sad shayri in english",
+      "volume": 320,
+      "kd": 10,
+      "category": "sad-shayari",
+      "lang": "en",
+      "score": 21.333333333333332,
+      "used": false
+    },
+    {
+      "keyword": "munawar faruqui shayri",
+      "volume": 320,
+      "kd": 10,
+      "category": "gulzar-shayari",
+      "lang": "hi",
+      "score": 21.333333333333332,
+      "used": false
+    },
+    {
+      "keyword": "image shayari english",
+      "volume": 720,
+      "kd": 29,
+      "category": "english-shayari",
+      "lang": "en",
+      "score": 21.176470588235293,
+      "used": false
+    },
+    {
+      "keyword": "gulzar famous shayari",
+      "volume": 590,
+      "kd": 23,
+      "category": "gulzar-shayari",
+      "lang": "hi",
+      "score": 21.071428571428573,
+      "used": false
+    },
+    {
+      "keyword": "shayari english mein love",
+      "volume": 590,
+      "kd": 23,
+      "category": "love-shayari",
+      "lang": "en",
+      "score": 21.071428571428573,
+      "used": false
+    },
+    {
+      "keyword": "hindi or english shayari",
+      "volume": 210,
+      "kd": 5,
+      "category": "english-shayari",
+      "lang": "hi",
+      "score": 21,
+      "used": false
+    },
+    {
+      "keyword": "zindagi gulzar shayari",
+      "volume": 480,
+      "kd": 18,
+      "category": "gulzar-shayari",
+      "lang": "hi",
+      "score": 20.869565217391305,
+      "used": false
+    },
+    {
+      "keyword": "english word hindi shayari",
+      "volume": 390,
+      "kd": 14,
+      "category": "english-shayari",
+      "lang": "hi",
+      "score": 20.526315789473685,
+      "used": false
+    },
+    {
+      "keyword": "attitude shayari 2022",
+      "volume": 1000,
+      "kd": 44,
+      "category": "attitude-shayari",
+      "lang": "hi",
+      "score": 20.408163265306122,
+      "used": false
+    },
+    {
+      "keyword": "gulzar best shayari on life",
+      "volume": 590,
+      "kd": 24,
+      "category": "gulzar-shayari",
+      "lang": "hi",
+      "score": 20.344827586206897,
+      "used": false
+    },
+    {
+      "keyword": "tere ishq mein shayari",
+      "volume": 320,
+      "kd": 11,
+      "category": "love-shayari",
+      "lang": "hi",
+      "score": 20,
+      "used": false
+    },
+    {
+      "keyword": "two line shayari of ghalib",
+      "volume": 480,
+      "kd": 19,
+      "category": "gulzar-shayari",
+      "lang": "hi",
+      "score": 20,
+      "used": false
+    },
+    {
+      "keyword": "ghalib 2 line shayari",
+      "volume": 480,
+      "kd": 19,
+      "category": "gulzar-shayari",
+      "lang": "hi",
+      "score": 20,
+      "used": false
+    },
+    {
+      "keyword": "best shayari gulzar",
+      "volume": 480,
+      "kd": 19,
+      "category": "gulzar-shayari",
+      "lang": "hi",
+      "score": 20,
+      "used": false
+    },
+    {
+      "keyword": "simple shayari in english",
+      "volume": 260,
+      "kd": 8,
+      "category": "english-shayari",
+      "lang": "en",
+      "score": 20,
+      "used": false
+    },
+    {
+      "keyword": "fire shayari in english",
+      "volume": 320,
+      "kd": 11,
+      "category": "english-shayari",
+      "lang": "en",
+      "score": 20,
+      "used": false
+    },
+    {
+      "keyword": "feelings shayari in english",
+      "volume": 260,
+      "kd": 8,
+      "category": "english-shayari",
+      "lang": "en",
+      "score": 20,
+      "used": false
+    },
+    {
+      "keyword": "english 2 line shayari",
+      "volume": 260,
+      "kd": 8,
+      "category": "two-line-shayari",
+      "lang": "en",
+      "score": 20,
+      "used": false
+    },
+    {
+      "keyword": "shayari on city life",
+      "volume": 590,
+      "kd": 25,
+      "category": "life-shayari",
+      "lang": "hi",
+      "score": 19.666666666666668,
+      "used": false
+    },
+    {
+      "keyword": "sad new shayari 2018",
+      "volume": 590,
+      "kd": 25,
+      "category": "sad-shayari",
+      "lang": "hi",
+      "score": 19.666666666666668,
+      "used": false
+    },
+    {
+      "keyword": "ghalib ki shayari urdu",
+      "volume": 590,
+      "kd": 25,
+      "category": "gulzar-shayari",
+      "lang": "hi",
+      "score": 19.666666666666668,
+      "used": false
+    },
+    {
+      "keyword": "mirza ghalib best shayari",
+      "volume": 590,
+      "kd": 25,
+      "category": "gulzar-shayari",
+      "lang": "hi",
+      "score": 19.666666666666668,
+      "used": false
+    },
+    {
+      "keyword": "shayar in english",
+      "volume": 720,
+      "kd": 32,
+      "category": "english-shayari",
+      "lang": "en",
+      "score": 19.45945945945946,
+      "used": false
+    },
+    {
+      "keyword": "mirza ghalib sad shayari",
+      "volume": 480,
+      "kd": 20,
+      "category": "sad-shayari",
+      "lang": "hi",
+      "score": 19.2,
+      "used": false
+    },
+    {
+      "keyword": "love ghazal shayari",
+      "volume": 480,
+      "kd": 20,
+      "category": "love-shayari",
+      "lang": "hi",
+      "score": 19.2,
+      "used": false
+    },
+    {
+      "keyword": "hurt shayari in roman english",
+      "volume": 210,
+      "kd": 6,
+      "category": "english-shayari",
+      "lang": "en",
+      "score": 19.09090909090909,
+      "used": false
+    },
+    {
+      "keyword": "aukat shayari english",
+      "volume": 210,
+      "kd": 6,
+      "category": "english-shayari",
+      "lang": "en",
+      "score": 19.09090909090909,
+      "used": false
+    },
+    {
+      "keyword": "sher shayari in roman english",
+      "volume": 260,
+      "kd": 9,
+      "category": "english-shayari",
+      "lang": "en",
+      "score": 18.571428571428573,
+      "used": false
+    },
+    {
+      "keyword": "full attitude shayari",
+      "volume": 720,
+      "kd": 34,
+      "category": "attitude-shayari",
+      "lang": "hi",
+      "score": 18.46153846153846,
+      "used": false
+    },
+    {
+      "keyword": "nida fazli best lines",
+      "volume": 480,
+      "kd": 21,
+      "category": "gulzar-shayari",
+      "lang": "hi",
+      "score": 18.46153846153846,
+      "used": false
+    },
+    {
+      "keyword": "1 line status in hindi attitude",
+      "volume": 590,
+      "kd": 28,
+      "category": "attitude-shayari",
+      "lang": "hi",
+      "score": 17.87878787878788,
+      "used": false
+    },
+    {
+      "keyword": "shayari in english word",
+      "volume": 590,
+      "kd": 28,
+      "category": "english-shayari",
+      "lang": "en",
+      "score": 17.87878787878788,
+      "used": false
+    },
+    {
+      "keyword": "best sad shayari in english",
+      "volume": 320,
+      "kd": 13,
+      "category": "sad-shayari",
+      "lang": "en",
+      "score": 17.77777777777778,
+      "used": false
+    },
+    {
+      "keyword": "cool attitude status in hindi",
+      "volume": 390,
+      "kd": 17,
+      "category": "attitude-shayari",
+      "lang": "hi",
+      "score": 17.727272727272727,
+      "used": false
+    },
+    {
+      "keyword": "sad shayari in english language",
+      "volume": 390,
+      "kd": 17,
+      "category": "sad-shayari",
+      "lang": "en",
+      "score": 17.727272727272727,
+      "used": false
+    },
+    {
+      "keyword": "shayari in attitude",
+      "volume": 720,
+      "kd": 36,
+      "category": "attitude-shayari",
+      "lang": "hi",
+      "score": 17.5609756097561,
+      "used": false
+    },
+    {
+      "keyword": "dost attitude shayari",
+      "volume": 210,
+      "kd": 7,
+      "category": "attitude-shayari",
+      "lang": "hi",
+      "score": 17.5,
+      "used": false
+    },
+    {
+      "keyword": "hindi shayari english typing",
+      "volume": 210,
+      "kd": 7,
+      "category": "english-shayari",
+      "lang": "hi",
+      "score": 17.5,
+      "used": false
+    },
+    {
+      "keyword": "hindi shayari in english on life",
+      "volume": 210,
+      "kd": 7,
+      "category": "life-shayari",
+      "lang": "hi",
+      "score": 17.5,
+      "used": false
+    },
+    {
+      "keyword": "1 line shayari in english",
+      "volume": 210,
+      "kd": 7,
+      "category": "english-shayari",
+      "lang": "en",
+      "score": 17.5,
+      "used": false
+    },
+    {
+      "keyword": "romantic ishq",
+      "volume": 590,
+      "kd": 29,
+      "category": "love-shayari",
+      "lang": "hi",
+      "score": 17.352941176470587,
+      "used": false
+    },
+    {
+      "keyword": "matlabi dost shayari in english",
+      "volume": 260,
+      "kd": 10,
+      "category": "english-shayari",
+      "lang": "en",
+      "score": 17.333333333333332,
+      "used": false
+    },
+    {
+      "keyword": "instagram shayari in english",
+      "volume": 260,
+      "kd": 10,
+      "category": "english-shayari",
+      "lang": "en",
+      "score": 17.333333333333332,
+      "used": false
+    },
+    {
+      "keyword": "english ki shayari",
+      "volume": 260,
+      "kd": 10,
+      "category": "english-shayari",
+      "lang": "en",
+      "score": 17.333333333333332,
+      "used": false
+    },
+    {
+      "keyword": "sad shayari english hindi",
+      "volume": 260,
+      "kd": 10,
+      "category": "sad-shayari",
+      "lang": "hi",
+      "score": 17.333333333333332,
+      "used": false
+    },
+    {
+      "keyword": "one line attitude shayari in hindi",
+      "volume": 480,
+      "kd": 23,
+      "category": "attitude-shayari",
+      "lang": "hi",
+      "score": 17.142857142857142,
+      "used": false
+    },
+    {
+      "keyword": "zakir khan book",
+      "volume": 480,
+      "kd": 23,
+      "category": "gulzar-shayari",
+      "lang": "hi",
+      "score": 17.142857142857142,
+      "used": false
+    },
+    {
+      "keyword": "mirza ghalib shayari on taj mahal",
+      "volume": 390,
+      "kd": 18,
+      "category": "gulzar-shayari",
+      "lang": "hi",
+      "score": 16.956521739130434,
+      "used": false
+    },
+    {
+      "keyword": "english me shayari love",
+      "volume": 390,
+      "kd": 18,
+      "category": "love-shayari",
+      "lang": "en",
+      "score": 16.956521739130434,
+      "used": false
+    },
+    {
+      "keyword": "two line gulzar poetry",
+      "volume": 320,
+      "kd": 14,
+      "category": "gulzar-shayari",
+      "lang": "hi",
+      "score": 16.842105263157894,
+      "used": false
+    },
+    {
+      "keyword": "sher shayari in english",
+      "volume": 480,
+      "kd": 24,
+      "category": "english-shayari",
+      "lang": "en",
+      "score": 16.551724137931036,
+      "used": false
+    },
+    {
+      "keyword": "two line attitude status",
+      "volume": 260,
+      "kd": 11,
+      "category": "attitude-shayari",
+      "lang": "hi",
+      "score": 16.25,
+      "used": false
+    },
+    {
+      "keyword": "ishq pe shayari",
+      "volume": 260,
+      "kd": 11,
+      "category": "love-shayari",
+      "lang": "hi",
+      "score": 16.25,
+      "used": false
+    },
+    {
+      "keyword": "sadabahar shayari",
+      "volume": 320,
+      "kd": 15,
+      "category": "sad-shayari",
+      "lang": "hi",
+      "score": 16,
+      "used": false
+    },
+    {
+      "keyword": "hindi shayari english version",
+      "volume": 320,
+      "kd": 15,
+      "category": "english-shayari",
+      "lang": "hi",
+      "score": 16,
+      "used": false
+    },
+    {
+      "keyword": "body attitude status in hindi",
+      "volume": 390,
+      "kd": 20,
+      "category": "attitude-shayari",
+      "lang": "hi",
+      "score": 15.6,
+      "used": false
+    },
+    {
+      "keyword": "aashiq shayari 2 line",
+      "volume": 390,
+      "kd": 20,
+      "category": "two-line-shayari",
+      "lang": "hi",
+      "score": 15.6,
+      "used": false
+    },
+    {
+      "keyword": "sad shayris",
+      "volume": 390,
+      "kd": 20,
+      "category": "sad-shayari",
+      "lang": "hi",
+      "score": 15.6,
+      "used": false
+    },
+    {
+      "keyword": "sad sher shayari",
+      "volume": 390,
+      "kd": 20,
+      "category": "sad-shayari",
+      "lang": "hi",
+      "score": 15.6,
+      "used": false
+    },
+    {
+      "keyword": "sad sher",
+      "volume": 390,
+      "kd": 20,
+      "category": "sad-shayari",
+      "lang": "hi",
+      "score": 15.6,
+      "used": false
+    },
+    {
+      "keyword": "shayari written in english",
+      "volume": 390,
+      "kd": 20,
+      "category": "english-shayari",
+      "lang": "en",
+      "score": 15.6,
+      "used": false
+    },
+    {
+      "keyword": "urdu shayari in hindi on life",
+      "volume": 480,
+      "kd": 26,
+      "category": "life-shayari",
+      "lang": "hi",
+      "score": 15.483870967741936,
+      "used": false
+    },
+    {
+      "keyword": "english shayari image",
+      "volume": 480,
+      "kd": 26,
+      "category": "english-shayari",
+      "lang": "en",
+      "score": 15.483870967741936,
+      "used": false
+    },
+    {
+      "keyword": "heart touching attitude shayari",
+      "volume": 260,
+      "kd": 12,
+      "category": "attitude-shayari",
+      "lang": "hi",
+      "score": 15.294117647058824,
+      "used": false
+    },
+    {
+      "keyword": "status shayari in english",
+      "volume": 260,
+      "kd": 12,
+      "category": "status-captions",
+      "lang": "en",
+      "score": 15.294117647058824,
+      "used": false
+    },
+    {
+      "keyword": "munawar faruqui shayari lyrics",
+      "volume": 260,
+      "kd": 12,
+      "category": "gulzar-shayari",
+      "lang": "hi",
+      "score": 15.294117647058824,
+      "used": false
+    },
+    {
+      "keyword": "love shayari galib",
+      "volume": 320,
+      "kd": 16,
+      "category": "love-shayari",
+      "lang": "hi",
+      "score": 15.238095238095237,
+      "used": false
+    },
+    {
+      "keyword": "shayari in hindi written in english",
+      "volume": 320,
+      "kd": 16,
+      "category": "english-shayari",
+      "lang": "hi",
+      "score": 15.238095238095237,
+      "used": false
+    },
+    {
+      "keyword": "attitude shayari line",
+      "volume": 480,
+      "kd": 27,
+      "category": "attitude-shayari",
+      "lang": "hi",
+      "score": 15,
+      "used": false
+    },
+    {
+      "keyword": "love ghalib shayari",
+      "volume": 210,
+      "kd": 9,
+      "category": "love-shayari",
+      "lang": "hi",
+      "score": 15,
+      "used": false
+    },
+    {
+      "keyword": "short shayari english",
+      "volume": 210,
+      "kd": 9,
+      "category": "english-shayari",
+      "lang": "en",
+      "score": 15,
+      "used": false
+    },
+    {
+      "keyword": "deep shayari ghalib",
+      "volume": 320,
+      "kd": 17,
+      "category": "gulzar-shayari",
+      "lang": "hi",
+      "score": 14.545454545454545,
+      "used": false
+    },
+    {
+      "keyword": "gulzar shayari on sadgi",
+      "volume": 480,
+      "kd": 28,
+      "category": "sad-shayari",
+      "lang": "hi",
+      "score": 14.545454545454545,
+      "used": false
+    },
+    {
+      "keyword": "bachpan shayari gulzar",
+      "volume": 480,
+      "kd": 28,
+      "category": "gulzar-shayari",
+      "lang": "hi",
+      "score": 14.545454545454545,
+      "used": false
+    },
+    {
+      "keyword": "gulzar sahab shayari status",
+      "volume": 320,
+      "kd": 17,
+      "category": "gulzar-shayari",
+      "lang": "hi",
+      "score": 14.545454545454545,
+      "used": false
+    },
+    {
+      "keyword": "sorry ki shayari",
+      "volume": 320,
+      "kd": 17,
+      "category": "sorry-shayari",
+      "lang": "hi",
+      "score": 14.545454545454545,
+      "used": true
+    },
+    {
+      "keyword": "hindi shayari attitude boy style",
+      "volume": 390,
+      "kd": 22,
+      "category": "attitude-shayari",
+      "lang": "hi",
+      "score": 14.444444444444445,
+      "used": false
+    },
+    {
+      "keyword": "gulzar two lines in hindi",
+      "volume": 260,
+      "kd": 13,
+      "category": "gulzar-shayari",
+      "lang": "hi",
+      "score": 14.444444444444445,
+      "used": false
+    },
+    {
+      "keyword": "nazar shayari love",
+      "volume": 260,
+      "kd": 13,
+      "category": "love-shayari",
+      "lang": "hi",
+      "score": 14.444444444444445,
+      "used": false
+    },
+    {
+      "keyword": "mirza ghalib ke sher",
+      "volume": 390,
+      "kd": 22,
+      "category": "gulzar-shayari",
+      "lang": "hi",
+      "score": 14.444444444444445,
+      "used": false
+    },
+    {
+      "keyword": "nazar shayari in english",
+      "volume": 260,
+      "kd": 13,
+      "category": "english-shayari",
+      "lang": "en",
+      "score": 14.444444444444445,
+      "used": false
+    },
+    {
+      "keyword": "gulzar in hindi",
+      "volume": 590,
+      "kd": 36,
+      "category": "gulzar-shayari",
+      "lang": "hi",
+      "score": 14.390243902439025,
+      "used": false
+    },
+    {
+      "keyword": "attitude shayari english 2 line",
+      "volume": 210,
+      "kd": 10,
+      "category": "attitude-shayari",
+      "lang": "en",
+      "score": 14,
+      "used": false
+    },
+    {
+      "keyword": "best attitude status in hindi",
+      "volume": 390,
+      "kd": 23,
+      "category": "attitude-shayari",
+      "lang": "hi",
+      "score": 13.928571428571429,
+      "used": false
+    },
+    {
+      "keyword": "love gulzar shayari",
+      "volume": 390,
+      "kd": 23,
+      "category": "love-shayari",
+      "lang": "hi",
+      "score": 13.928571428571429,
+      "used": false
+    },
+    {
+      "keyword": "move on shayari in english",
+      "volume": 390,
+      "kd": 23,
+      "category": "english-shayari",
+      "lang": "en",
+      "score": 13.928571428571429,
+      "used": false
+    },
+    {
+      "keyword": "attitude status text hindi",
+      "volume": 480,
+      "kd": 30,
+      "category": "attitude-shayari",
+      "lang": "hi",
+      "score": 13.714285714285714,
+      "used": false
+    },
+    {
+      "keyword": "urdu shayari in hindi 2 lines",
+      "volume": 480,
+      "kd": 30,
+      "category": "two-line-shayari",
+      "lang": "hi",
+      "score": 13.714285714285714,
+      "used": false
+    },
+    {
+      "keyword": "munawar faruqui ki shayari",
+      "volume": 260,
+      "kd": 14,
+      "category": "gulzar-shayari",
+      "lang": "hi",
+      "score": 13.68421052631579,
+      "used": false
+    },
+    {
+      "keyword": "gulzar ki shayari in hindi",
+      "volume": 390,
+      "kd": 24,
+      "category": "gulzar-shayari",
+      "lang": "hi",
+      "score": 13.448275862068966,
+      "used": false
+    },
+    {
+      "keyword": "2 line shayari by famous shayars",
+      "volume": 480,
+      "kd": 31,
+      "category": "two-line-shayari",
+      "lang": "hi",
+      "score": 13.333333333333334,
+      "used": false
+    },
+    {
+      "keyword": "gulzar shayari on zindagi",
+      "volume": 320,
+      "kd": 19,
+      "category": "gulzar-shayari",
+      "lang": "hi",
+      "score": 13.333333333333334,
+      "used": true
+    },
+    {
+      "keyword": "attitude shayari hashtags",
+      "volume": 210,
+      "kd": 11,
+      "category": "attitude-shayari",
+      "lang": "hi",
+      "score": 13.125,
+      "used": false
+    },
+    {
+      "keyword": "sher shayari english mein",
+      "volume": 260,
+      "kd": 15,
+      "category": "english-shayari",
+      "lang": "en",
+      "score": 13,
+      "used": false
+    },
+    {
+      "keyword": "rhyming shayari in english",
+      "volume": 320,
+      "kd": 20,
+      "category": "english-shayari",
+      "lang": "en",
+      "score": 12.8,
+      "used": false
+    },
+    {
+      "keyword": "sad shayari sad shayari",
+      "volume": 390,
+      "kd": 26,
+      "category": "sad-shayari",
+      "lang": "hi",
+      "score": 12.580645161290322,
+      "used": false
+    },
+    {
+      "keyword": "new sad shayri in hindi",
+      "volume": 390,
+      "kd": 26,
+      "category": "sad-shayari",
+      "lang": "hi",
+      "score": 12.580645161290322,
+      "used": false
+    },
+    {
+      "keyword": "english shayari status",
+      "volume": 260,
+      "kd": 16,
+      "category": "status-captions",
+      "lang": "en",
+      "score": 12.380952380952381,
+      "used": false
+    },
+    {
+      "keyword": "hindi sher shayari in english",
+      "volume": 260,
+      "kd": 16,
+      "category": "english-shayari",
+      "lang": "hi",
+      "score": 12.380952380952381,
+      "used": false
+    },
+    {
+      "keyword": "galib ki sad shayari",
+      "volume": 210,
+      "kd": 12,
+      "category": "sad-shayari",
+      "lang": "hi",
+      "score": 12.352941176470589,
+      "used": false
+    },
+    {
+      "keyword": "english shayari png",
+      "volume": 390,
+      "kd": 27,
+      "category": "english-shayari",
+      "lang": "en",
+      "score": 12.1875,
+      "used": false
+    },
+    {
+      "keyword": "dogle log quotes in english",
+      "volume": 390,
+      "kd": 27,
+      "category": "english-shayari",
+      "lang": "en",
+      "score": 12.1875,
+      "used": false
+    },
+    {
+      "keyword": "ishq shayari gulzar",
+      "volume": 320,
+      "kd": 22,
+      "category": "love-shayari",
+      "lang": "hi",
+      "score": 11.851851851851851,
+      "used": false
+    },
+    {
+      "keyword": "hindi poem of gulzar",
+      "volume": 320,
+      "kd": 22,
+      "category": "gulzar-shayari",
+      "lang": "hi",
+      "score": 11.851851851851851,
+      "used": false
+    },
+    {
+      "keyword": "shaam shayari gulzar",
+      "volume": 320,
+      "kd": 22,
+      "category": "gulzar-shayari",
+      "lang": "hi",
+      "score": 11.851851851851851,
+      "used": false
+    },
+    {
+      "keyword": "hindi gulzar shayari",
+      "volume": 260,
+      "kd": 17,
+      "category": "gulzar-shayari",
+      "lang": "hi",
+      "score": 11.818181818181818,
+      "used": false
+    },
+    {
+      "keyword": "ghalib famous shayari",
+      "volume": 390,
+      "kd": 28,
+      "category": "gulzar-shayari",
+      "lang": "hi",
+      "score": 11.818181818181818,
+      "used": false
+    },
+    {
+      "keyword": "zakir khan quotes in hindi",
+      "volume": 210,
+      "kd": 13,
+      "category": "gulzar-shayari",
+      "lang": "hi",
+      "score": 11.666666666666666,
+      "used": false
+    },
+    {
+      "keyword": "romantic nazar shayari",
+      "volume": 210,
+      "kd": 13,
+      "category": "love-shayari",
+      "lang": "hi",
+      "score": 11.666666666666666,
+      "used": false
+    },
+    {
+      "keyword": "self attitude shayari",
+      "volume": 390,
+      "kd": 29,
+      "category": "attitude-shayari",
+      "lang": "hi",
+      "score": 11.470588235294118,
+      "used": false
+    },
+    {
+      "keyword": "attitude sher",
+      "volume": 320,
+      "kd": 23,
+      "category": "attitude-shayari",
+      "lang": "hi",
+      "score": 11.428571428571429,
+      "used": false
+    },
+    {
+      "keyword": "attitude hindi lines",
+      "volume": 320,
+      "kd": 23,
+      "category": "attitude-shayari",
+      "lang": "hi",
+      "score": 11.428571428571429,
+      "used": false
+    },
+    {
+      "keyword": "love shayari by gulzar",
+      "volume": 320,
+      "kd": 23,
+      "category": "love-shayari",
+      "lang": "hi",
+      "score": 11.428571428571429,
+      "used": false
+    },
+    {
+      "keyword": "love shayari ghalib",
+      "volume": 320,
+      "kd": 23,
+      "category": "love-shayari",
+      "lang": "hi",
+      "score": 11.428571428571429,
+      "used": false
+    },
+    {
+      "keyword": "hindi sad shayri",
+      "volume": 320,
+      "kd": 23,
+      "category": "sad-shayari",
+      "lang": "hi",
+      "score": 11.428571428571429,
+      "used": false
+    },
+    {
+      "keyword": "best gulzar shayari",
+      "volume": 320,
+      "kd": 23,
+      "category": "gulzar-shayari",
+      "lang": "hi",
+      "score": 11.428571428571429,
+      "used": false
+    },
+    {
+      "keyword": "munawar shayari lyrics",
+      "volume": 320,
+      "kd": 23,
+      "category": "gulzar-shayari",
+      "lang": "hi",
+      "score": 11.428571428571429,
+      "used": false
+    },
+    {
+      "keyword": "attitude shayari in hindi with emoji",
+      "volume": 260,
+      "kd": 18,
+      "category": "attitude-shayari",
+      "lang": "hi",
+      "score": 11.304347826086957,
+      "used": false
+    },
+    {
+      "keyword": "gulzar shayari on one sided love",
+      "volume": 260,
+      "kd": 18,
+      "category": "love-shayari",
+      "lang": "hi",
+      "score": 11.304347826086957,
+      "used": false
+    },
+    {
+      "keyword": "attitude ki shayari",
+      "volume": 390,
+      "kd": 30,
+      "category": "attitude-shayari",
+      "lang": "hi",
+      "score": 11.142857142857142,
+      "used": false
+    },
+    {
+      "keyword": "gulzar ki shayari instagram",
+      "volume": 390,
+      "kd": 30,
+      "category": "gulzar-shayari",
+      "lang": "hi",
+      "score": 11.142857142857142,
+      "used": false
+    },
+    {
+      "keyword": "sad shayari long",
+      "volume": 390,
+      "kd": 30,
+      "category": "sad-shayari",
+      "lang": "hi",
+      "score": 11.142857142857142,
+      "used": false
+    },
+    {
+      "keyword": "zakir khan best shayari",
+      "volume": 210,
+      "kd": 14,
+      "category": "gulzar-shayari",
+      "lang": "hi",
+      "score": 11.052631578947368,
+      "used": false
+    },
+    {
+      "keyword": "very nice shayari in english",
+      "volume": 320,
+      "kd": 24,
+      "category": "english-shayari",
+      "lang": "en",
+      "score": 11.03448275862069,
+      "used": false
+    },
+    {
+      "keyword": "love shayari gulzar",
+      "volume": 260,
+      "kd": 19,
+      "category": "love-shayari",
+      "lang": "hi",
+      "score": 10.833333333333334,
+      "used": false
+    },
+    {
+      "keyword": "shaeri in english",
+      "volume": 260,
+      "kd": 19,
+      "category": "english-shayari",
+      "lang": "en",
+      "score": 10.833333333333334,
+      "used": false
+    },
+    {
+      "keyword": "ghalib ki ghazal in hindi",
+      "volume": 320,
+      "kd": 25,
+      "category": "gulzar-shayari",
+      "lang": "hi",
+      "score": 10.666666666666666,
+      "used": false
+    },
+    {
+      "keyword": "hasi quotes in english",
+      "volume": 210,
+      "kd": 15,
+      "category": "english-shayari",
+      "lang": "en",
+      "score": 10.5,
+      "used": false
+    },
+    {
+      "keyword": "new attitude status",
+      "volume": 480,
+      "kd": 41,
+      "category": "attitude-shayari",
+      "lang": "hi",
+      "score": 10.434782608695652,
+      "used": false
+    },
+    {
+      "keyword": "attitude quotes in hindi one line",
+      "volume": 260,
+      "kd": 20,
+      "category": "attitude-shayari",
+      "lang": "hi",
+      "score": 10.4,
+      "used": false
+    },
+    {
+      "keyword": "motivational urdu shayari in hindi",
+      "volume": 260,
+      "kd": 20,
+      "category": "life-shayari",
+      "lang": "hi",
+      "score": 10.4,
+      "used": false
+    },
+    {
+      "keyword": "gulzar shayari on ghar",
+      "volume": 320,
+      "kd": 26,
+      "category": "gulzar-shayari",
+      "lang": "hi",
+      "score": 10.32258064516129,
+      "used": false
+    },
+    {
+      "keyword": "galib shayari on friendship",
+      "volume": 320,
+      "kd": 27,
+      "category": "dosti-shayari",
+      "lang": "hi",
+      "score": 10,
+      "used": false
+    },
+    {
+      "keyword": "ghalib ki ghazlain",
+      "volume": 320,
+      "kd": 27,
+      "category": "gulzar-shayari",
+      "lang": "hi",
+      "score": 10,
+      "used": false
+    },
+    {
+      "keyword": "ghalib shayari on beauty",
+      "volume": 320,
+      "kd": 27,
+      "category": "gulzar-shayari",
+      "lang": "hi",
+      "score": 10,
+      "used": false
+    },
+    {
+      "keyword": "adhura ishq shayari",
+      "volume": 320,
+      "kd": 28,
+      "category": "love-shayari",
+      "lang": "hi",
+      "score": 9.696969696969697,
+      "used": false
+    },
+    {
+      "keyword": "ghalib mirza shayari",
+      "volume": 320,
+      "kd": 28,
+      "category": "gulzar-shayari",
+      "lang": "hi",
+      "score": 9.696969696969697,
+      "used": false
+    },
+    {
+      "keyword": "urdu shayari love in hindi",
+      "volume": 320,
+      "kd": 28,
+      "category": "love-shayari",
+      "lang": "hi",
+      "score": 9.696969696969697,
+      "used": false
+    },
+    {
+      "keyword": "hindi full attitude status",
+      "volume": 260,
+      "kd": 22,
+      "category": "attitude-shayari",
+      "lang": "hi",
+      "score": 9.62962962962963,
+      "used": false
+    },
+    {
+      "keyword": "shayari attitude wala",
+      "volume": 260,
+      "kd": 22,
+      "category": "attitude-shayari",
+      "lang": "hi",
+      "score": 9.62962962962963,
+      "used": false
+    },
+    {
+      "keyword": "heart shayari in english",
+      "volume": 260,
+      "kd": 22,
+      "category": "english-shayari",
+      "lang": "en",
+      "score": 9.62962962962963,
+      "used": false
+    },
+    {
+      "keyword": "sadgi quotes in english",
+      "volume": 260,
+      "kd": 22,
+      "category": "sad-shayari",
+      "lang": "en",
+      "score": 9.62962962962963,
+      "used": false
+    },
+    {
+      "keyword": "branded status in hindi",
+      "volume": 210,
+      "kd": 17,
+      "category": "status-captions",
+      "lang": "hi",
+      "score": 9.545454545454545,
+      "used": false
+    },
+    {
+      "keyword": "ghalib sarcastic shayari",
+      "volume": 210,
+      "kd": 17,
+      "category": "gulzar-shayari",
+      "lang": "hi",
+      "score": 9.545454545454545,
+      "used": false
+    },
+    {
+      "keyword": "mirza ghalib sher",
+      "volume": 210,
+      "kd": 17,
+      "category": "gulzar-shayari",
+      "lang": "hi",
+      "score": 9.545454545454545,
+      "used": false
+    },
+    {
+      "keyword": "attitude nazar shayari",
+      "volume": 210,
+      "kd": 17,
+      "category": "attitude-shayari",
+      "lang": "hi",
+      "score": 9.545454545454545,
+      "used": false
+    },
+    {
+      "keyword": "rangdari status",
+      "volume": 210,
+      "kd": 17,
+      "category": "attitude-shayari",
+      "lang": "hi",
+      "score": 9.545454545454545,
+      "used": false
+    },
+    {
+      "keyword": "long sad shayari",
+      "volume": 320,
+      "kd": 29,
+      "category": "sad-shayari",
+      "lang": "hi",
+      "score": 9.411764705882353,
+      "used": false
+    },
+    {
+      "keyword": "ishq shayari english",
+      "volume": 260,
+      "kd": 23,
+      "category": "love-shayari",
+      "lang": "en",
+      "score": 9.285714285714286,
+      "used": false
+    },
+    {
+      "keyword": "ghalib ghazal in hindi",
+      "volume": 260,
+      "kd": 23,
+      "category": "gulzar-shayari",
+      "lang": "hi",
+      "score": 9.285714285714286,
+      "used": false
+    },
+    {
+      "keyword": "matlab ki dosti in english",
+      "volume": 260,
+      "kd": 23,
+      "category": "dosti-shayari",
+      "lang": "en",
+      "score": 9.285714285714286,
+      "used": false
+    },
+    {
+      "keyword": "hindi sad shayari in english font",
+      "volume": 260,
+      "kd": 23,
+      "category": "sad-shayari",
+      "lang": "hi",
+      "score": 9.285714285714286,
+      "used": false
+    },
+    {
+      "keyword": "sad wali shayari",
+      "volume": 320,
+      "kd": 30,
+      "category": "sad-shayari",
+      "lang": "hi",
+      "score": 9.142857142857142,
+      "used": false
+    },
+    {
+      "keyword": "best shayari mirza ghalib",
+      "volume": 320,
+      "kd": 30,
+      "category": "gulzar-shayari",
+      "lang": "hi",
+      "score": 9.142857142857142,
+      "used": false
+    },
+    {
+      "keyword": "two lines shayari on hawa",
+      "volume": 320,
+      "kd": 30,
+      "category": "two-line-shayari",
+      "lang": "hi",
+      "score": 9.142857142857142,
+      "used": false
+    },
+    {
+      "keyword": "one line attitude quotes in hindi",
+      "volume": 210,
+      "kd": 18,
+      "category": "attitude-shayari",
+      "lang": "hi",
+      "score": 9.130434782608695,
+      "used": false
+    },
+    {
+      "keyword": "love quotes in hindi by ghalib",
+      "volume": 210,
+      "kd": 18,
+      "category": "love-shayari",
+      "lang": "hi",
+      "score": 9.130434782608695,
+      "used": false
+    },
+    {
+      "keyword": "hindi text status",
+      "volume": 260,
+      "kd": 24,
+      "category": "status-captions",
+      "lang": "hi",
+      "score": 8.96551724137931,
+      "used": false
+    },
+    {
+      "keyword": "shayari by zakir khan",
+      "volume": 260,
+      "kd": 24,
+      "category": "gulzar-shayari",
+      "lang": "hi",
+      "score": 8.96551724137931,
+      "used": false
+    },
+    {
+      "keyword": "gulzar shayari on flowers",
+      "volume": 260,
+      "kd": 24,
+      "category": "gulzar-shayari",
+      "lang": "hi",
+      "score": 8.96551724137931,
+      "used": false
+    },
+    {
+      "keyword": "shayari gulzar ki",
+      "volume": 260,
+      "kd": 24,
+      "category": "gulzar-shayari",
+      "lang": "hi",
+      "score": 8.96551724137931,
+      "used": false
+    },
+    {
+      "keyword": "sadgi captions for instagram",
+      "volume": 260,
+      "kd": 24,
+      "category": "sad-shayari",
+      "lang": "hi",
+      "score": 8.96551724137931,
+      "used": false
+    },
+    {
+      "keyword": "roshni shayari in english",
+      "volume": 210,
+      "kd": 19,
+      "category": "english-shayari",
+      "lang": "en",
+      "score": 8.75,
+      "used": false
+    },
+    {
+      "keyword": "ghalib poetry in hindi",
+      "volume": 260,
+      "kd": 25,
+      "category": "gulzar-shayari",
+      "lang": "hi",
+      "score": 8.666666666666666,
+      "used": false
+    },
+    {
+      "keyword": "zindagi gulzar hai shayari",
+      "volume": 260,
+      "kd": 25,
+      "category": "gulzar-shayari",
+      "lang": "hi",
+      "score": 8.666666666666666,
+      "used": false
+    },
+    {
+      "keyword": "gulzar sahab hindi shayari",
+      "volume": 260,
+      "kd": 25,
+      "category": "gulzar-shayari",
+      "lang": "hi",
+      "score": 8.666666666666666,
+      "used": false
+    },
+    {
+      "keyword": "english shayari wallpaper",
+      "volume": 320,
+      "kd": 32,
+      "category": "english-shayari",
+      "lang": "en",
+      "score": 8.64864864864865,
+      "used": false
+    },
+    {
+      "keyword": "bullet attitude status in hindi",
+      "volume": 210,
+      "kd": 20,
+      "category": "attitude-shayari",
+      "lang": "hi",
+      "score": 8.4,
+      "used": false
+    },
+    {
+      "keyword": "gulzar shayari lyrics",
+      "volume": 210,
+      "kd": 20,
+      "category": "gulzar-shayari",
+      "lang": "hi",
+      "score": 8.4,
+      "used": false
+    },
+    {
+      "keyword": "mirza ghalib quotes in hindi",
+      "volume": 260,
+      "kd": 27,
+      "category": "gulzar-shayari",
+      "lang": "hi",
+      "score": 8.125,
+      "used": false
+    },
+    {
+      "keyword": "shayari shayari in english",
+      "volume": 260,
+      "kd": 27,
+      "category": "english-shayari",
+      "lang": "en",
+      "score": 8.125,
+      "used": false
+    },
+    {
+      "keyword": "shayari lyrics in english",
+      "volume": 260,
+      "kd": 27,
+      "category": "english-shayari",
+      "lang": "en",
+      "score": 8.125,
+      "used": false
+    },
+    {
+      "keyword": "shayari gulzar hindi",
+      "volume": 210,
+      "kd": 21,
+      "category": "gulzar-shayari",
+      "lang": "hi",
+      "score": 8.076923076923077,
+      "used": false
+    },
+    {
+      "keyword": "gulzar shayari on relationship",
+      "volume": 210,
+      "kd": 21,
+      "category": "gulzar-shayari",
+      "lang": "hi",
+      "score": 8.076923076923077,
+      "used": false
+    },
+    {
+      "keyword": "shayari gulzar sahab",
+      "volume": 260,
+      "kd": 28,
+      "category": "gulzar-shayari",
+      "lang": "hi",
+      "score": 7.878787878787879,
+      "used": false
+    },
+    {
+      "keyword": "ghalib ka sher",
+      "volume": 260,
+      "kd": 28,
+      "category": "gulzar-shayari",
+      "lang": "hi",
+      "score": 7.878787878787879,
+      "used": false
+    },
+    {
+      "keyword": "sadri shayari",
+      "volume": 260,
+      "kd": 28,
+      "category": "sad-shayari",
+      "lang": "hi",
+      "score": 7.878787878787879,
+      "used": false
+    },
+    {
+      "keyword": "shayari word in english",
+      "volume": 260,
+      "kd": 28,
+      "category": "english-shayari",
+      "lang": "en",
+      "score": 7.878787878787879,
+      "used": false
+    },
+    {
+      "keyword": "love at first sight shayari",
+      "volume": 210,
+      "kd": 22,
+      "category": "love-shayari",
+      "lang": "hi",
+      "score": 7.777777777777778,
+      "used": false
+    },
+    {
+      "keyword": "naina shayari 2 line",
+      "volume": 210,
+      "kd": 22,
+      "category": "two-line-shayari",
+      "lang": "hi",
+      "score": 7.777777777777778,
+      "used": false
+    },
+    {
+      "keyword": "depression shayari in english",
+      "volume": 210,
+      "kd": 22,
+      "category": "english-shayari",
+      "lang": "en",
+      "score": 7.777777777777778,
+      "used": false
+    },
+    {
+      "keyword": "attitude shayari copy hindi",
+      "volume": 210,
+      "kd": 23,
+      "category": "attitude-shayari",
+      "lang": "hi",
+      "score": 7.5,
+      "used": false
+    },
+    {
+      "keyword": "formal attitude status",
+      "volume": 210,
+      "kd": 23,
+      "category": "attitude-shayari",
+      "lang": "hi",
+      "score": 7.5,
+      "used": false
+    },
+    {
+      "keyword": "my attitude shayari",
+      "volume": 210,
+      "kd": 23,
+      "category": "attitude-shayari",
+      "lang": "hi",
+      "score": 7.5,
+      "used": false
+    },
+    {
+      "keyword": "attitude 2 lines in hindi",
+      "volume": 210,
+      "kd": 23,
+      "category": "attitude-shayari",
+      "lang": "hi",
+      "score": 7.5,
+      "used": false
+    },
+    {
+      "keyword": "mirza ghalib shayari on life",
+      "volume": 210,
+      "kd": 23,
+      "category": "gulzar-shayari",
+      "lang": "hi",
+      "score": 7.5,
+      "used": false
+    },
+    {
+      "keyword": "ghalib sahab ki shayari",
+      "volume": 210,
+      "kd": 23,
+      "category": "gulzar-shayari",
+      "lang": "hi",
+      "score": 7.5,
+      "used": false
+    },
+    {
+      "keyword": "mirza ghalib shayari love",
+      "volume": 210,
+      "kd": 23,
+      "category": "love-shayari",
+      "lang": "hi",
+      "score": 7.5,
+      "used": false
+    },
+    {
+      "keyword": "tension shayari in english",
+      "volume": 210,
+      "kd": 23,
+      "category": "english-shayari",
+      "lang": "en",
+      "score": 7.5,
+      "used": false
+    },
+    {
+      "keyword": "mirza ghalib poetry in hindi",
+      "volume": 260,
+      "kd": 30,
+      "category": "gulzar-shayari",
+      "lang": "hi",
+      "score": 7.428571428571429,
+      "used": false
+    },
+    {
+      "keyword": "yaad shayari gulzar",
+      "volume": 210,
+      "kd": 24,
+      "category": "gulzar-shayari",
+      "lang": "hi",
+      "score": 7.241379310344827,
+      "used": false
+    },
+    {
+      "keyword": "ghalib in hindi",
+      "volume": 210,
+      "kd": 24,
+      "category": "gulzar-shayari",
+      "lang": "hi",
+      "score": 7.241379310344827,
+      "used": false
+    },
+    {
+      "keyword": "gulzar motivational quotes in hindi",
+      "volume": 210,
+      "kd": 25,
+      "category": "gulzar-shayari",
+      "lang": "hi",
+      "score": 7,
+      "used": false
+    },
+    {
+      "keyword": "gulzar status",
+      "volume": 210,
+      "kd": 25,
+      "category": "gulzar-shayari",
+      "lang": "hi",
+      "score": 7,
+      "used": false
+    },
+    {
+      "keyword": "shayari picture english",
+      "volume": 210,
+      "kd": 25,
+      "category": "english-shayari",
+      "lang": "en",
+      "score": 7,
+      "used": false
+    },
+    {
+      "keyword": "motivational gulzar shayari",
+      "volume": 210,
+      "kd": 26,
+      "category": "gulzar-shayari",
+      "lang": "hi",
+      "score": 6.774193548387097,
+      "used": false
+    },
+    {
+      "keyword": "rekhta love shayari",
+      "volume": 210,
+      "kd": 26,
+      "category": "love-shayari",
+      "lang": "hi",
+      "score": 6.774193548387097,
+      "used": false
+    },
+    {
+      "keyword": "zimidar status",
+      "volume": 210,
+      "kd": 26,
+      "category": "status-captions",
+      "lang": "hi",
+      "score": 6.774193548387097,
+      "used": false
+    },
+    {
+      "keyword": "bf hindi status attitude",
+      "volume": 210,
+      "kd": 27,
+      "category": "attitude-shayari",
+      "lang": "hi",
+      "score": 6.5625,
+      "used": false
+    },
+    {
+      "keyword": "attitude shayari text",
+      "volume": 210,
+      "kd": 27,
+      "category": "attitude-shayari",
+      "lang": "hi",
+      "score": 6.5625,
+      "used": false
+    },
+    {
+      "keyword": "current status in hindi",
+      "volume": 210,
+      "kd": 27,
+      "category": "status-captions",
+      "lang": "hi",
+      "score": 6.5625,
+      "used": false
+    },
+    {
+      "keyword": "gulzar sahab best shayari",
+      "volume": 210,
+      "kd": 27,
+      "category": "gulzar-shayari",
+      "lang": "hi",
+      "score": 6.5625,
+      "used": false
+    },
+    {
+      "keyword": "poetry shayari in english",
+      "volume": 210,
+      "kd": 27,
+      "category": "english-shayari",
+      "lang": "en",
+      "score": 6.5625,
+      "used": false
+    },
+    {
+      "keyword": "shayari in attitude boy",
+      "volume": 210,
+      "kd": 28,
+      "category": "attitude-shayari",
+      "lang": "hi",
+      "score": 6.363636363636363,
+      "used": false
+    },
+    {
+      "keyword": "sad shayari written",
+      "volume": 210,
+      "kd": 30,
+      "category": "sad-shayari",
+      "lang": "hi",
+      "score": 6,
+      "used": false
+    },
+    {
+      "keyword": "pagal shayari in english",
+      "volume": 210,
+      "kd": 30,
+      "category": "english-shayari",
+      "lang": "en",
+      "score": 6,
+      "used": false
+    },
+    {
+      "keyword": "cool attitude shayari",
+      "volume": 210,
+      "kd": 32,
+      "category": "attitude-shayari",
+      "lang": "hi",
+      "score": 5.675675675675675,
+      "used": false
+    },
+    {
+      "keyword": "romantic urdu shayari in hindi",
+      "volume": 210,
+      "kd": 32,
+      "category": "love-shayari",
+      "lang": "hi",
+      "score": 5.675675675675675,
+      "used": false
+    },
+    {
+      "keyword": "nice shayari for status",
+      "volume": 210,
+      "kd": 33,
+      "category": "status-captions",
+      "lang": "hi",
+      "score": 5.526315789473684,
+      "used": false
+    },
+    {
+      "keyword": "dosti shayari 2 line",
+      "volume": 0,
+      "kd": 15,
+      "category": "dosti-shayari",
+      "lang": "hi",
+      "score": 5,
+      "used": true,
+      "estimated": true
+    },
+    {
+      "keyword": "best friend shayari in hindi",
+      "volume": 0,
+      "kd": 15,
+      "category": "dosti-shayari",
+      "lang": "hi",
+      "score": 5,
+      "used": true,
+      "estimated": true
+    },
+    {
+      "keyword": "purani dosti shayari",
+      "volume": 0,
+      "kd": 15,
+      "category": "dosti-shayari",
+      "lang": "hi",
+      "score": 5,
+      "used": true,
+      "estimated": true
+    },
+    {
+      "keyword": "dosti shayari for whatsapp",
+      "volume": 0,
+      "kd": 15,
+      "category": "dosti-shayari",
+      "lang": "hi",
+      "score": 5,
+      "used": true,
+      "estimated": true
+    },
+    {
+      "keyword": "yaari dosti shayari",
+      "volume": 0,
+      "kd": 15,
+      "category": "dosti-shayari",
+      "lang": "hi",
+      "score": 5,
+      "used": false,
+      "estimated": true
+    },
+    {
+      "keyword": "dosti shayari status",
+      "volume": 0,
+      "kd": 15,
+      "category": "dosti-shayari",
+      "lang": "hi",
+      "score": 5,
+      "used": false,
+      "estimated": true
+    },
+    {
+      "keyword": "true friend shayari hindi",
+      "volume": 0,
+      "kd": 15,
+      "category": "dosti-shayari",
+      "lang": "hi",
+      "score": 5,
+      "used": false,
+      "estimated": true
+    },
+    {
+      "keyword": "dosti shayari on birthday",
+      "volume": 0,
+      "kd": 15,
+      "category": "dosti-shayari",
+      "lang": "hi",
+      "score": 5,
+      "used": false,
+      "estimated": true
+    },
+    {
+      "keyword": "school friend shayari",
+      "volume": 0,
+      "kd": 15,
+      "category": "dosti-shayari",
+      "lang": "hi",
+      "score": 5,
+      "used": false,
+      "estimated": true
+    },
+    {
+      "keyword": "dosti shayari attitude wali",
+      "volume": 0,
+      "kd": 15,
+      "category": "dosti-shayari",
+      "lang": "hi",
+      "score": 5,
+      "used": false,
+      "estimated": true
+    },
+    {
+      "keyword": "friendship shayari in english",
+      "volume": 0,
+      "kd": 15,
+      "category": "dosti-shayari",
+      "lang": "en",
+      "score": 5,
+      "used": false,
+      "estimated": true
+    },
+    {
+      "keyword": "best friend shayari in english",
+      "volume": 0,
+      "kd": 15,
+      "category": "dosti-shayari",
+      "lang": "en",
+      "score": 5,
+      "used": false,
+      "estimated": true
+    },
+    {
+      "keyword": "dosti shayari english translation",
+      "volume": 0,
+      "kd": 15,
+      "category": "dosti-shayari",
+      "lang": "en",
+      "score": 5,
+      "used": false,
+      "estimated": true
+    },
+    {
+      "keyword": "friendship status in english",
+      "volume": 0,
+      "kd": 15,
+      "category": "dosti-shayari",
+      "lang": "en",
+      "score": 5,
+      "used": false,
+      "estimated": true
+    },
+    {
+      "keyword": "sorry shayari for girlfriend",
+      "volume": 0,
+      "kd": 15,
+      "category": "sorry-shayari",
+      "lang": "hi",
+      "score": 5,
+      "used": true,
+      "estimated": true
+    },
+    {
+      "keyword": "sorry shayari for boyfriend",
+      "volume": 0,
+      "kd": 15,
+      "category": "sorry-shayari",
+      "lang": "hi",
+      "score": 5,
+      "used": true,
+      "estimated": true
+    },
+    {
+      "keyword": "maafi shayari hindi",
+      "volume": 0,
+      "kd": 15,
+      "category": "sorry-shayari",
+      "lang": "hi",
+      "score": 5,
+      "used": false,
+      "estimated": true
+    },
+    {
+      "keyword": "sorry shayari for friend",
+      "volume": 0,
+      "kd": 15,
+      "category": "sorry-shayari",
+      "lang": "hi",
+      "score": 5,
+      "used": false,
+      "estimated": true
+    },
+    {
+      "keyword": "miss you shayari hindi",
+      "volume": 0,
+      "kd": 15,
+      "category": "sorry-shayari",
+      "lang": "hi",
+      "score": 5,
+      "used": false,
+      "estimated": true
+    },
+    {
+      "keyword": "miss you dost shayari",
+      "volume": 0,
+      "kd": 15,
+      "category": "sorry-shayari",
+      "lang": "hi",
+      "score": 5,
+      "used": false,
+      "estimated": true
+    },
+    {
+      "keyword": "sorry status hindi",
+      "volume": 0,
+      "kd": 15,
+      "category": "sorry-shayari",
+      "lang": "hi",
+      "score": 5,
+      "used": false,
+      "estimated": true
+    },
+    {
+      "keyword": "galti maaf shayari",
+      "volume": 0,
+      "kd": 15,
+      "category": "sorry-shayari",
+      "lang": "hi",
+      "score": 5,
+      "used": false,
+      "estimated": true
+    },
+    {
+      "keyword": "sorry shayari in english for love",
+      "volume": 0,
+      "kd": 15,
+      "category": "sorry-shayari",
+      "lang": "en",
+      "score": 5,
+      "used": false,
+      "estimated": true
+    },
+    {
+      "keyword": "miss you shayari in english",
+      "volume": 0,
+      "kd": 15,
+      "category": "sorry-shayari",
+      "lang": "en",
+      "score": 5,
+      "used": false,
+      "estimated": true
+    },
+    {
+      "keyword": "i am sorry shayari english",
+      "volume": 0,
+      "kd": 15,
+      "category": "sorry-shayari",
+      "lang": "en",
+      "score": 5,
+      "used": false,
+      "estimated": true
+    },
+    {
+      "keyword": "ram bhakti shayari",
+      "volume": 0,
+      "kd": 15,
+      "category": "religious-shayari",
+      "lang": "hi",
+      "score": 5,
+      "used": true,
+      "estimated": true
+    },
+    {
+      "keyword": "krishna shayari hindi",
+      "volume": 0,
+      "kd": 15,
+      "category": "religious-shayari",
+      "lang": "hi",
+      "score": 5,
+      "used": true,
+      "estimated": true
+    },
+    {
+      "keyword": "mahadev shayari",
+      "volume": 0,
+      "kd": 15,
+      "category": "religious-shayari",
+      "lang": "hi",
+      "score": 5,
+      "used": true,
+      "estimated": true
+    },
+    {
+      "keyword": "shiv bhakti shayari",
+      "volume": 0,
+      "kd": 15,
+      "category": "religious-shayari",
+      "lang": "hi",
+      "score": 5,
+      "used": true,
+      "estimated": true
+    },
+    {
+      "keyword": "allah shayari hindi",
+      "volume": 0,
+      "kd": 15,
+      "category": "religious-shayari",
+      "lang": "hi",
+      "score": 5,
+      "used": false,
+      "estimated": true
+    },
+    {
+      "keyword": "islamic shayari in hindi",
+      "volume": 0,
+      "kd": 15,
+      "category": "religious-shayari",
+      "lang": "hi",
+      "score": 5,
+      "used": false,
+      "estimated": true
+    },
+    {
+      "keyword": "geeta gyan shayari",
+      "volume": 0,
+      "kd": 15,
+      "category": "religious-shayari",
+      "lang": "hi",
+      "score": 5,
+      "used": true,
+      "estimated": true
+    },
+    {
+      "keyword": "bhakti shayari status",
+      "volume": 0,
+      "kd": 15,
+      "category": "religious-shayari",
+      "lang": "hi",
+      "score": 5,
+      "used": false,
+      "estimated": true
+    },
+    {
+      "keyword": "hanuman ji shayari",
+      "volume": 0,
+      "kd": 15,
+      "category": "religious-shayari",
+      "lang": "hi",
+      "score": 5,
+      "used": false,
+      "estimated": true
+    },
+    {
+      "keyword": "god quotes shayari in english",
+      "volume": 0,
+      "kd": 15,
+      "category": "religious-shayari",
+      "lang": "en",
+      "score": 5,
+      "used": false,
+      "estimated": true
+    },
+    {
+      "keyword": "spiritual shayari in english",
+      "volume": 0,
+      "kd": 15,
+      "category": "religious-shayari",
+      "lang": "en",
+      "score": 5,
+      "used": false,
+      "estimated": true
+    },
+    {
+      "keyword": "zindagi par shayari",
+      "volume": 0,
+      "kd": 15,
+      "category": "life-shayari",
+      "lang": "hi",
+      "score": 5,
+      "used": false,
+      "estimated": true
+    },
+    {
+      "keyword": "motivational shayari hindi",
+      "volume": 0,
+      "kd": 15,
+      "category": "life-shayari",
+      "lang": "hi",
+      "score": 5,
+      "used": false,
+      "estimated": true
+    },
+    {
+      "keyword": "success shayari hindi",
+      "volume": 0,
+      "kd": 15,
+      "category": "life-shayari",
+      "lang": "hi",
+      "score": 5,
+      "used": false,
+      "estimated": true
+    },
+    {
+      "keyword": "struggle shayari hindi",
+      "volume": 0,
+      "kd": 15,
+      "category": "life-shayari",
+      "lang": "hi",
+      "score": 5,
+      "used": false,
+      "estimated": true
+    },
+    {
+      "keyword": "life status hindi",
+      "volume": 0,
+      "kd": 15,
+      "category": "life-shayari",
+      "lang": "hi",
+      "score": 5,
+      "used": false,
+      "estimated": true
+    },
+    {
+      "keyword": "zindagi shayari status",
+      "volume": 0,
+      "kd": 15,
+      "category": "life-shayari",
+      "lang": "hi",
+      "score": 5,
+      "used": false,
+      "estimated": true
+    },
+    {
+      "keyword": "positive shayari hindi",
+      "volume": 0,
+      "kd": 15,
+      "category": "life-shayari",
+      "lang": "hi",
+      "score": 5,
+      "used": false,
+      "estimated": true
+    },
+    {
+      "keyword": "hard work shayari",
+      "volume": 0,
+      "kd": 15,
+      "category": "life-shayari",
+      "lang": "hi",
+      "score": 5,
+      "used": false,
+      "estimated": true
+    },
+    {
+      "keyword": "kamyabi shayari",
+      "volume": 0,
+      "kd": 15,
+      "category": "life-shayari",
+      "lang": "hi",
+      "score": 5,
+      "used": false,
+      "estimated": true
+    },
+    {
+      "keyword": "motivational shayari in english",
+      "volume": 0,
+      "kd": 15,
+      "category": "life-shayari",
+      "lang": "en",
+      "score": 5,
+      "used": false,
+      "estimated": true
+    },
+    {
+      "keyword": "life shayari in english status",
+      "volume": 0,
+      "kd": 15,
+      "category": "life-shayari",
+      "lang": "en",
+      "score": 5,
+      "used": false,
+      "estimated": true
+    },
+    {
+      "keyword": "success quotes shayari english",
+      "volume": 0,
+      "kd": 15,
+      "category": "life-shayari",
+      "lang": "en",
+      "score": 5,
+      "used": false,
+      "estimated": true
+    },
+    {
+      "keyword": "2 line shayari attitude hindi",
+      "volume": 0,
+      "kd": 15,
+      "category": "two-line-shayari",
+      "lang": "hi",
+      "score": 5,
+      "used": false,
+      "estimated": true
+    },
+    {
+      "keyword": "2 line shayari love",
+      "volume": 0,
+      "kd": 15,
+      "category": "two-line-shayari",
+      "lang": "hi",
+      "score": 5,
+      "used": false,
+      "estimated": true
+    },
+    {
+      "keyword": "2 line shayari dosti",
+      "volume": 0,
+      "kd": 15,
+      "category": "two-line-shayari",
+      "lang": "hi",
+      "score": 5,
+      "used": false,
+      "estimated": true
+    },
+    {
+      "keyword": "2 line shayari zindagi",
+      "volume": 0,
+      "kd": 15,
+      "category": "two-line-shayari",
+      "lang": "hi",
+      "score": 5,
+      "used": false,
+      "estimated": true
+    },
+    {
+      "keyword": "do line shayari status",
+      "volume": 0,
+      "kd": 15,
+      "category": "two-line-shayari",
+      "lang": "hi",
+      "score": 5,
+      "used": false,
+      "estimated": true
+    },
+    {
+      "keyword": "2 line shayari sad hindi",
+      "volume": 0,
+      "kd": 15,
+      "category": "two-line-shayari",
+      "lang": "hi",
+      "score": 5,
+      "used": false,
+      "estimated": true
+    },
+    {
+      "keyword": "2 line shayari in english love",
+      "volume": 0,
+      "kd": 15,
+      "category": "two-line-shayari",
+      "lang": "en",
+      "score": 5,
+      "used": false,
+      "estimated": true
+    },
+    {
+      "keyword": "2 line shayari in english attitude",
+      "volume": 0,
+      "kd": 15,
+      "category": "two-line-shayari",
+      "lang": "en",
+      "score": 5,
+      "used": false,
+      "estimated": true
+    },
+    {
+      "keyword": "instagram caption hindi shayari",
+      "volume": 0,
+      "kd": 15,
+      "category": "status-captions",
+      "lang": "hi",
+      "score": 5,
+      "used": false,
+      "estimated": true
+    },
+    {
+      "keyword": "whatsapp status shayari hindi",
+      "volume": 0,
+      "kd": 15,
+      "category": "status-captions",
+      "lang": "hi",
+      "score": 5,
+      "used": false,
+      "estimated": true
+    },
+    {
+      "keyword": "fb status shayari hindi",
+      "volume": 0,
+      "kd": 15,
+      "category": "status-captions",
+      "lang": "hi",
+      "score": 5,
+      "used": false,
+      "estimated": true
+    },
+    {
+      "keyword": "single status shayari",
+      "volume": 0,
+      "kd": 15,
+      "category": "status-captions",
+      "lang": "hi",
+      "score": 5,
+      "used": false,
+      "estimated": true
+    },
+    {
+      "keyword": "love caption hindi shayari",
+      "volume": 0,
+      "kd": 15,
+      "category": "status-captions",
+      "lang": "hi",
+      "score": 5,
+      "used": false,
+      "estimated": true
+    },
+    {
+      "keyword": "instagram caption shayari english",
+      "volume": 0,
+      "kd": 15,
+      "category": "status-captions",
+      "lang": "en",
+      "score": 5,
+      "used": false,
+      "estimated": true
+    },
+    {
+      "keyword": "whatsapp status shayari english",
+      "volume": 0,
+      "kd": 15,
+      "category": "status-captions",
+      "lang": "en",
+      "score": 5,
+      "used": false,
+      "estimated": true
+    },
+    {
+      "keyword": "bio shayari for instagram english",
+      "volume": 0,
+      "kd": 15,
+      "category": "status-captions",
+      "lang": "en",
+      "score": 5,
+      "used": false,
+      "estimated": true
+    },
+    {
+      "keyword": "gulzar shayari on dosti",
+      "volume": 0,
+      "kd": 15,
+      "category": "gulzar-shayari",
+      "lang": "hi",
+      "score": 5,
+      "used": false,
+      "estimated": true
+    },
+    {
+      "keyword": "gulzar shayari 2 line",
+      "volume": 0,
+      "kd": 15,
+      "category": "gulzar-shayari",
+      "lang": "hi",
+      "score": 5,
+      "used": false,
+      "estimated": true
+    },
+    {
+      "keyword": "gulzar shayari status",
+      "volume": 0,
+      "kd": 15,
+      "category": "gulzar-shayari",
+      "lang": "hi",
+      "score": 5,
+      "used": true,
+      "estimated": true
+    },
+    {
+      "keyword": "best shayari status",
+      "volume": 210,
+      "kd": 38,
+      "category": "status-captions",
+      "lang": "hi",
+      "score": 4.883720930232558,
+      "used": false
+    }
+  ]
+}

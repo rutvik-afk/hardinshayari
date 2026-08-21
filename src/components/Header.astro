@@ -1,0 +1,24 @@
+---
+import { CATEGORIES } from '../../site.config.mjs';
+const { lang = 'hi' } = Astro.props;
+const path = Astro.url.pathname;
+---
+<header class="site-header">
+  <div class="container row">
+    <a href="/" class="logo">
+      <span class="mark">✒</span>
+      Har Din Shayari
+    </a>
+    <nav class="nav">
+      <a href="/attitude-shayari/" class:list={{ active: path.startsWith('/attitude-shayari') }}>Attitude</a>
+      <a href="/sad-shayari/" class:list={{ active: path.startsWith('/sad-shayari') }}>Sad</a>
+      <a href="/love-shayari/" class:list={{ active: path.startsWith('/love-shayari') }}>Love</a>
+      <a href="/english-shayari/" class:list={{ active: path.startsWith('/english-shayari') }}>English</a>
+      <a href="/categories/" class:list={{ active: path.startsWith('/categories') }}>All Categories</a>
+    </nav>
+    <div class="lang-toggle">
+      <a href="/hindi/" class:list={{ active: lang === 'hi' }}>हिंदी</a>
+      <a href="/english/" class:list={{ active: lang === 'en' }}>English</a>
+    </div>
+  </div>
+</header>

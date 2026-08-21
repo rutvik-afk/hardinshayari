@@ -1,0 +1,56 @@
+---
+import { getCollection } from 'astro:content';
+import Base from '../layouts/Base.astro';
+import PostCard from '../components/PostCard.astro';
+import { CATEGORIES, SITE } from '../../site.config.mjs';
+
+const allPosts = (await getCollection('posts')).sort((a, b) => b.data.date - a.data.date);
+const latest = allPosts.slice(0, 12);
+
+const jsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'WebSite',
+  name: SITE.name,
+  url: SITE.url,
+  description: SITE.description,
+  potentialAction: {
+    '@type': 'SearchAction',
+    target: `${SITE.url}/search/?q={search_term_string}`,
+    'query-input': 'required name=search_term_string',
+  },
+};
+---
+<Base title={null} description={SITE.description} jsonLd={jsonLd}>
+  <section class="hero">
+    <div class="container">
+      <div class="tag-hi">हर दिन, हर एहसास</div>
+      <h1>Best Hindi &amp; English Shayari</h1>
+      <p>{SITE.description}</p>
+      <div class="chip-row">
+        {CATEGORIES.map((c) => <a class="chip" href={`/${c.id}/`}>{c.emoji} {c.nameEn}</a>)}
+      </div>
+    </div>
+  </section>
+
+  <div class="container">
+    <div class="section-title">
+      <h2>Latest Shayari</h2>
+      <a href="/categories/">Browse all categories →</a>
+    </div>
+    <div class="grid">
+      {latest.map((post) => <PostCard post={post} />)}
+    </div>
+
+    <div class="section-title">
+      <h2>Explore by Category</h2>
+    </div>
+    <div class="category-grid">
+      {CATEGORIES.map((c) => (
+        <a class="category-tile" href={`/${c.id}/`} style={`background:linear-gradient(135deg, ${c.color}, #1a1523)`}>
+          <span class="emoji">{c.emoji}</span>
+          <span>{c.nameEn}</span>
+        </a>
+      ))}
+    </div>
+  </div>
+</Base>

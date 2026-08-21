@@ -1,0 +1,15 @@
+---
+import { CATEGORY_MAP } from '../../site.config.mjs';
+const { post } = Astro.props;
+const cat = CATEGORY_MAP[post.data.category];
+const href = `/${post.data.category}/${post.slug.split('/').pop()}/`;
+---
+<a class="post-card" href={href}>
+  <div class="thumb">
+    <img src={post.data.image} alt={post.data.title} loading="lazy" width="432" height="540" />
+  </div>
+  <div class="body">
+    <div class="cat">{post.data.lang === 'hi' ? cat.nameHi : cat.nameEn}</div>
+    <div class={`snippet ${post.data.lang}`}>{post.data.lines[0]}</div>
+  </div>
+</a>

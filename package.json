@@ -1,0 +1,21 @@
+{
+  "name": "hardinshayari",
+  "type": "module",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "astro dev --host",
+    "build": "astro build",
+    "preview": "astro preview --host",
+    "queue:build": "node scripts/01-build-queue.mjs",
+    "queue:next": "node scripts/02-next-keywords.mjs",
+    "post:add": "node scripts/03-add-post.mjs",
+    "sitemap:check": "node scripts/04-check.mjs"
+  },
+  "dependencies": {
+    "astro": "^5.13.2",
+    "@astrojs/sitemap": "^3.4.1",
+    "@astrojs/rss": "^4.0.12",
+    "sharp": "^0.34.3"
+  }
+}

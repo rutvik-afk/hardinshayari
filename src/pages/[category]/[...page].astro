@@ -1,0 +1,41 @@
+---
+import { getCollection } from 'astro:content';
+import Base from '../../layouts/Base.astro';
+import PostCard from '../../components/PostCard.astro';
+import { CATEGORIES, CATEGORY_MAP, SITE } from '../../../site.config.mjs';
+
+export async function getStaticPaths({ paginate }) {
+  const allPosts = await getCollection('posts');
+  return CATEGORIES.flatMap((cat) => {
+    const posts = allPosts
+      .filter((p) => p.data.category === cat.id)
+      .sort((a, b) => b.data.date - a.data.date);
+    return paginate(posts, { params: { category: cat.id }, pageSize: 24 });
+  });
+}
+
+const { page } = Astro.props;
+const category = Astro.params.category;
+const cat = CATEGORY_MAP[category];
+const title = `${cat.nameEn} — ${cat.nameHi}`;
+const description = `${cat.nameEn} (${cat.nameHi}) — original Hindi &amp; English ${cat.nameEn.toLowerCase()} with free HD photo cards to download and share. New shayari added daily.`;
+---
+<Base title={title} description={description} canonical={`/${category}/${page.currentPage > 1 ? `${page.currentPage}/` : ''}`}>
+  <div class="container post-page">
+    <div class="breadcrumb"><a href="/">Home</a> / <a href="/categories/">Categories</a> / {cat.nameEn}</div>
+    <h1>{cat.emoji} {cat.nameEn} <span style="color:var(--ink-soft); font-weight:500;">· {cat.nameHi}</span></h1>
+    <p style="color:var(--ink-soft); max-width:640px; margin-bottom:30px;">{description}</p>
+
+    <div class="grid">
+      {page.data.map((post) => <PostCard post={post} />)}
+    </div>
+
+    {page.lastPage > 1 && (
+      <div class="pagination">
+        {page.url.prev && <a href={page.url.prev}>← Prev</a>}
+        <span class="current">{page.currentPage} / {page.lastPage}</span>
+        {page.url.next && <a href={page.url.next}>Next →</a>}
+      </div>
+    )}
+  </div>
+</Base>

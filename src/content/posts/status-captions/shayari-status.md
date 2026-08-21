@@ -1,0 +1,15 @@
+---
+title: "शायरी स्टेटस"
+lang: hi
+category: status-captions
+keyword: "shayari status"
+lines:
+  - "हर स्टेटस के पीछे एक कहानी होती है,"
+  - "बस पढ़ने वाला समझदार होना चाहिए।"
+metaDescription: "शायरी स्टेटस — स्टेटस और कैप्शन पढ़ें और मुफ़्त HD फोटो शायरी कार्ड डाउनलोड करें। रोज़ नई शायरी सिर्फ़ Har Din Shayari पर।"
+image: "/cards/status-captions/shayari-status.jpg"
+date: 2026-08-21
+tags: ["shayari", "status", "status-captions"]
+---
+
+स्टेटस और कैप्शन में इस बार एक नई रचना — "shayari status" खोज रहे पाठकों के लिए खासतौर पर लिखी गई। ऊपर दिया गया HD फोटो कार्ड मुफ़्त डाउनलोड करें और WhatsApp, Instagram या Facebook पर बेझिझक शेयर करें।

@@ -1,0 +1,28 @@
+---
+import { CATEGORIES, SITE } from '../../site.config.mjs';
+const year = new Date().getFullYear();
+---
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <div>
+      <h4>Har Din Shayari</h4>
+      <p style="color:var(--ink-soft); font-size:0.92rem; max-width:340px;">{SITE.description}</p>
+    </div>
+    <div>
+      <h4>Categories</h4>
+      <ul>
+        {CATEGORIES.slice(0, 6).map((c) => <li><a href={`/${c.id}/`}>{c.nameEn}</a></li>)}
+      </ul>
+    </div>
+    <div>
+      <h4>More</h4>
+      <ul>
+        {CATEGORIES.slice(6).map((c) => <li><a href={`/${c.id}/`}>{c.nameEn}</a></li>)}
+        <li><a href="/categories/">All Categories</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="container footer-bottom">
+    © {year} Har Din Shayari · hardinshayari.com — All shayari and photo cards are original content.
+  </div>
+</footer>

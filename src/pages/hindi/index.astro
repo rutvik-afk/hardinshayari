@@ -1,0 +1,22 @@
+---
+import { getCollection } from 'astro:content';
+import Base from '../../layouts/Base.astro';
+import PostCard from '../../components/PostCard.astro';
+import { CATEGORIES, SITE } from '../../../site.config.mjs';
+
+const posts = (await getCollection('posts', (p) => p.data.lang === 'hi'))
+  .sort((a, b) => b.data.date - a.data.date)
+  .slice(0, 40);
+---
+<Base title="हिंदी शायरी" description={SITE.descriptionHi} lang="hi">
+  <div class="container post-page">
+    <h1 class="hi">हिंदी शायरी</h1>
+    <p style="color:var(--ink-soft); max-width:640px;">{SITE.descriptionHi}</p>
+    <div class="chip-row" style="justify-content:flex-start; margin:20px 0 30px;">
+      {CATEGORIES.map((c) => <a class="chip" href={`/${c.id}/`}>{c.emoji} {c.nameHi}</a>)}
+    </div>
+    <div class="grid">
+      {posts.map((post) => <PostCard post={post} />)}
+    </div>
+  </div>
+</Base>

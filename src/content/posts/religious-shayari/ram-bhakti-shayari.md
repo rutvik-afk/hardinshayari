@@ -1,0 +1,15 @@
+---
+title: "राम भक्ति शायरी"
+lang: hi
+category: religious-shayari
+keyword: "ram bhakti shayari"
+lines:
+  - "जहाँ श्रद्धा हो वहाँ राम का वास है,"
+  - "बस मन में सच्ची भक्ति का एहसास है।"
+metaDescription: "राम भक्ति शायरी — भक्ति / धार्मिक शायरी पढ़ें और मुफ़्त HD फोटो शायरी कार्ड डाउनलोड करें। रोज़ नई शायरी सिर्फ़ Har Din Shayari पर।"
+image: "/cards/religious-shayari/ram-bhakti-shayari.jpg"
+date: 2026-08-21
+tags: ["ram", "bhakti", "shayari", "religious"]
+---
+
+भक्ति / धार्मिक शायरी में इस बार एक नई रचना — "ram bhakti shayari" खोज रहे पाठकों के लिए खासतौर पर लिखी गई। ऊपर दिया गया HD फोटो कार्ड मुफ़्त डाउनलोड करें और WhatsApp, Instagram या Facebook पर बेझिझक शेयर करें।

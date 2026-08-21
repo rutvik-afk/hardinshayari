@@ -1,0 +1,82 @@
+---
+import { getCollection, getEntry, render } from 'astro:content';
+import Base from '../../../layouts/Base.astro';
+import PostCard from '../../../components/PostCard.astro';
+import { CATEGORY_MAP, SITE } from '../../../../site.config.mjs';
+
+export async function getStaticPaths() {
+  const posts = await getCollection('posts');
+  return posts.map((post) => {
+    const [category, slug] = post.slug.split('/');
+    return { params: { category, slug }, props: { post } };
+  });
+}
+
+const { post } = Astro.props;
+const { Content } = await render(post);
+const cat = CATEGORY_MAP[post.data.category];
+const allPosts = await getCollection('posts');
+const related = allPosts
+  .filter((p) => p.data.category === post.data.category && p.slug !== post.slug && p.data.lang === post.data.lang)
+  .sort((a, b) => b.data.date - a.data.date)
+  .slice(0, 4);
+
+const jsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'CreativeWork',
+  headline: post.data.title,
+  description: post.data.metaDescription,
+  image: new URL(post.data.image, SITE.url).toString(),
+  datePublished: post.data.date.toISOString(),
+  author: { '@type': 'Organization', name: SITE.name },
+  inLanguage: post.data.lang === 'hi' ? 'hi' : 'en',
+  keywords: post.data.tags.join(', '),
+};
+---
+<Base
+  title={post.data.title}
+  description={post.data.metaDescription}
+  image={post.data.image}
+  lang={post.data.lang}
+  jsonLd={jsonLd}
+>
+  <div class="container post-page">
+    <div class="breadcrumb">
+      <a href="/">Home</a> / <a href={`/${post.data.category}/`}>{cat.nameEn}</a>
+    </div>
+    <h1 class={post.data.lang}>{post.data.title}</h1>
+    <div class="meta-row">
+      <span>{cat.emoji} {post.data.lang === 'hi' ? cat.nameHi : cat.nameEn}</span>
+      <span>{post.data.date.toLocaleDateString('en-IN', { year: 'numeric', month: 'long', day: 'numeric' })}</span>
+    </div>
+
+    <figure class="post-figure">
+      <img src={post.data.image} alt={post.data.title} width="1080" height="1350" />
+    </figure>
+    <div class="actions">
+      <a class="btn btn-primary" href={post.data.image} download>⬇ Download HD Photo</a>
+      <a class="btn btn-outline" href={`https://wa.me/?text=${encodeURIComponent(post.data.lines.join(' / ') + ' — ' + SITE.url + '/' + post.data.category + '/' + post.slug.split('/').pop() + '/')}`} target="_blank" rel="noopener">Share on WhatsApp</a>
+    </div>
+
+    <div class={`shayari-text ${post.data.lang}`}>
+      {post.data.lines.map((l) => <p>{l}</p>)}
+    </div>
+
+    <div class="prose">
+      <Content />
+    </div>
+
+    <div class="tags">
+      {post.data.tags.map((t) => <a href={`/${post.data.category}/`}>#{t}</a>)}
+    </div>
+
+    {related.length > 0 && (
+      <>
+        <div class="section-title"><h2>More {cat.nameEn}</h2></div>
+        <div class="grid">
+          {related.map((p) => <PostCard post={p} />)}
+        </div>
+      </>
+    )}
+  </div>
+</Base>
