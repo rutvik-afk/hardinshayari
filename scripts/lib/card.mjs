@@ -75,34 +75,72 @@ function cardSVG({ lines, lang, category, keyword }) {
   const startY = (H - blockH) / 2 + fontSize * 0.55;
 
   const textEls = wrapped.map((l, i) =>
-    `<text x="${W / 2}" y="${(startY + i * lineHeight) | 0}" font-family="${font}" font-size="${fontSize}" font-weight="500" fill="#ffffff" text-anchor="middle">${esc(l)}</text>`
+    `<text x="${W / 2}" y="${(startY + i * lineHeight) | 0}" font-family="${font}" font-size="${fontSize}" font-weight="600" fill="#ffffff" text-anchor="middle" filter="url(#soft)">${esc(l)}</text>`
   ).join('\n');
 
   const label = (lang === 'hi' ? cat.nameHi : cat.nameEn).toUpperCase();
 
+  /* rotated, oversized emoji silhouette as a subtle full-bleed motif —
+     librsvg renders emoji as flat monochrome glyphs (verified), which
+     reads as tasteful line-art rather than a garish sticker. */
+  const motifRot = 8 + (seed % 10);
+  const motifSize = 560 + (seed % 3) * 60;
+  const motifX = W * 0.62 + (seed % 5) * 14;
+  const motifY = H * 0.72;
+  /* strip variation-selector chars (FE0E/FE0F) — some emoji + VS16 crash
+     Pango's fallback-font resolution at large sizes on this system. */
+  const motifGlyph = cat.emoji.replace(/[︎️]/g, '');
+
+  /* stray light grains for a photographic (not flat-vector) feel */
+  const grains = Array.from({ length: 34 }, (_, i) => {
+    const gx = ((seed * 7 + i * 131) % 1000) / 1000 * W;
+    const gy = ((seed * 13 + i * 257) % 1000) / 1000 * H;
+    const gr = 1 + ((seed >> (i % 11)) % 3);
+    return `<circle cx="${gx | 0}" cy="${gy | 0}" r="${gr}" fill="#fff" opacity="${0.05 + (i % 4) * 0.02}"/>`;
+  }).join('');
+
   return `<svg xmlns="http://www.w3.org/2000/svg" width="${W}" height="${H}" viewBox="0 0 ${W} ${H}">
 <defs>
   <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
-    <stop offset="0%" stop-color="${c1}"/><stop offset="100%" stop-color="${c2}"/>
+    <stop offset="0%" stop-color="${c1}"/><stop offset="55%" stop-color="${c2}"/><stop offset="100%" stop-color="${c1}"/>
+  </linearGradient>
+  <linearGradient id="sheen" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0%" stop-color="#ffffff" stop-opacity="0.10"/>
+    <stop offset="18%" stop-color="#ffffff" stop-opacity="0"/>
+    <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
   </linearGradient>
   <linearGradient id="vign" x1="0" y1="0" x2="0" y2="1">
-    <stop offset="0%" stop-color="#000" stop-opacity="0.28"/>
-    <stop offset="35%" stop-color="#000" stop-opacity="0"/>
-    <stop offset="70%" stop-color="#000" stop-opacity="0"/>
-    <stop offset="100%" stop-color="#000" stop-opacity="0.32"/>
+    <stop offset="0%" stop-color="#000" stop-opacity="0.4"/>
+    <stop offset="28%" stop-color="#000" stop-opacity="0"/>
+    <stop offset="68%" stop-color="#000" stop-opacity="0"/>
+    <stop offset="100%" stop-color="#000" stop-opacity="0.5"/>
   </linearGradient>
+  <radialGradient id="spot" cx="50%" cy="38%" r="65%">
+    <stop offset="0%" stop-color="#000" stop-opacity="0"/>
+    <stop offset="100%" stop-color="#000" stop-opacity="0.35"/>
+  </radialGradient>
+  <filter id="soft" x="-20%" y="-20%" width="140%" height="140%">
+    <feDropShadow dx="0" dy="3" stdDeviation="7" flood-color="#000" flood-opacity="0.45"/>
+  </filter>
 </defs>
 <rect width="${W}" height="${H}" fill="url(#g)"/>
 ${decorSVG(seed, c1, c2)}
+<g transform="translate(${motifX} ${motifY}) rotate(${motifRot})" opacity="0.16">
+  <text x="0" y="0" font-family="Helvetica,Arial,sans-serif" font-size="${motifSize}" text-anchor="middle" dominant-baseline="central">${motifGlyph}</text>
+</g>
+<rect width="${W}" height="${H}" fill="url(#spot)"/>
+<rect width="${W}" height="${H}" fill="url(#sheen)"/>
+${grains}
 <rect width="${W}" height="${H}" fill="url(#vign)"/>
-<rect x="70" y="90" width="64" height="4" fill="#ffffff" opacity="0.85"/>
-<text x="70" y="70" font-family="Helvetica,Arial,sans-serif" font-size="24" font-weight="700" fill="#ffffff" opacity="0.85" letter-spacing="3">${esc(label)}</text>
+<rect x="42" y="42" width="${W - 84}" height="${H - 84}" fill="none" stroke="#ffffff" stroke-opacity="0.22" stroke-width="1.5" rx="18"/>
+<rect x="70" y="90" width="64" height="4" fill="#ffffff" opacity="0.9"/>
+<text x="70" y="70" font-family="Helvetica,Arial,sans-serif" font-size="24" font-weight="700" fill="#ffffff" opacity="0.9" letter-spacing="3">${esc(label)}</text>
+<text x="${W / 2}" y="${startY - fontSize * 1.5}" font-family="Georgia,serif" font-size="150" font-weight="700" fill="#ffffff" opacity="0.22" text-anchor="middle">${lang === 'hi' ? '“' : '“'}</text>
 ${textEls}
-<text x="70" y="${H - 140}" font-family="Helvetica,Arial,sans-serif" font-size="20" fill="#ffffff" opacity="0.55" letter-spacing="1">${lang === 'hi' ? '“' : '"'}</text>
-<rect x="70" y="${H - 96}" width="46" height="46" fill="#ffffff" opacity="0.16" rx="10"/>
+<rect x="70" y="${H - 96}" width="46" height="46" fill="#ffffff" opacity="0.18" rx="10"/>
 <text x="93" y="${H - 71}" font-family="Helvetica,Arial,sans-serif" font-size="22" fill="#ffffff" text-anchor="middle" dominant-baseline="central">✒</text>
 <text x="132" y="${H - 78}" font-family="Helvetica,Arial,sans-serif" font-size="26" font-weight="800" fill="#ffffff" letter-spacing="1">HAR DIN SHAYARI</text>
-<text x="132" y="${H - 50}" font-family="Helvetica,Arial,sans-serif" font-size="18" fill="#ffffff" opacity="0.7">hardinshayari.com</text>
+<text x="132" y="${H - 50}" font-family="Helvetica,Arial,sans-serif" font-size="18" fill="#ffffff" opacity="0.75">hardinshayari.com</text>
 </svg>`;
 }
 
