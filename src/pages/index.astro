@@ -37,10 +37,6 @@ const showcaseHref = showcase ? `/${showcase.data.category}/${showcase.slug.spli
       <div class="hero-text">
         <h1 class="tag-hi">हर दिन, हर एहसास</h1>
         <p>{SITE.description}</p>
-        <div class="hero-cta">
-          <a class="btn btn-primary" href="/hindi/">हिंदी शायरी पढ़ें</a>
-          <a class="btn btn-outline" href="/english/">Read English Shayari</a>
-        </div>
       </div>
       {showcase && (
         <a class="hero-showcase" href={showcaseHref}>
@@ -79,7 +75,6 @@ const showcaseHref = showcase ? `/${showcase.data.category}/${showcase.slug.spli
   .hero-grid { display: grid; grid-template-columns: 1.1fr 0.9fr; gap: 40px; align-items: center; text-align: left; }
   .hero-text .tag-hi { font-family: var(--font-hi); font-size: clamp(1.6rem, 3vw, 2.1rem); font-weight: 700; color: var(--brand); margin: 0 0 18px; }
   .hero-text p { color: var(--ink-soft); font-size: 1.08rem; max-width: 480px; margin: 0 0 26px; }
-  .hero-cta { display: flex; gap: 12px; flex-wrap: wrap; }
 
   .hero-showcase { position: relative; display: block; width: 300px; justify-self: center; }
   .hero-showcase-glow {
@@ -100,7 +95,6 @@ const showcaseHref = showcase ? `/${showcase.data.category}/${showcase.slug.spli
   @media (max-width: 860px) {
     .hero-grid { grid-template-columns: 1fr; text-align: center; }
     .hero-text p { margin-inline: auto; }
-    .hero-cta { justify-content: center; }
     .hero-showcase { width: 240px; margin-top: 10px; }
   }
 </style>
