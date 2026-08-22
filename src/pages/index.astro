@@ -28,26 +28,14 @@ const jsonLd = {
   },
 };
 
-const showcase = allPosts[0];
-const showcaseHref = showcase ? `/${showcase.data.category}/${showcase.slug.split('/').pop()}/` : '/';
 ---
 <Base title={null} description={SITE.description} jsonLd={jsonLd}>
-  <section class="hero">
-    <div class="container hero-grid">
-      <div class="hero-text">
-        <h1 class="tag-hi">हर दिन, हर एहसास</h1>
-        <p>{SITE.description}</p>
-      </div>
-      {showcase && (
-        <a class="hero-showcase" href={showcaseHref}>
-          <div class="hero-showcase-glow"></div>
-          <img src={showcase.data.image} alt={showcase.data.title} width="340" height="425" loading="eager" />
-        </a>
-      )}
-    </div>
-  </section>
-
   <div class="container">
+    <div class="page-intro">
+      <h1 class="tag-hi">हर दिन, हर एहसास</h1>
+      <p>{SITE.description}</p>
+    </div>
+
     <div class="section-title">
       <h2>Latest Shayari</h2>
       <a href="/categories/">Browse all categories →</a>
@@ -72,29 +60,10 @@ const showcaseHref = showcase ? `/${showcase.data.category}/${showcase.slug.spli
 </Base>
 
 <style>
-  .hero-grid { display: grid; grid-template-columns: 1.1fr 0.9fr; gap: 40px; align-items: center; text-align: left; }
-  .hero-text .tag-hi { font-family: var(--font-hi); font-size: clamp(1.6rem, 3vw, 2.1rem); font-weight: 700; color: var(--brand); margin: 0 0 18px; }
-  .hero-text p { color: var(--ink-soft); font-size: 1.08rem; max-width: 480px; margin: 0 0 26px; }
-
-  .hero-showcase { position: relative; display: block; width: 300px; justify-self: center; }
-  .hero-showcase-glow {
-    position: absolute; inset: -30px; border-radius: 50%;
-    background: radial-gradient(circle, color-mix(in srgb, var(--brand) 35%, transparent), transparent 70%);
-    filter: blur(20px); z-index: 0;
-  }
-  .hero-showcase img {
-    position: relative; z-index: 1; width: 100%; aspect-ratio: 4/5; object-fit: cover;
-    border-radius: 18px; box-shadow: 0 24px 50px -16px rgba(0,0,0,0.55); border: 1px solid var(--line);
-    transition: transform .2s ease;
-  }
-  .hero-showcase:hover img { transform: translateY(-4px) scale(1.02); }
+  .page-intro { padding: 32px 0 8px; }
+  .page-intro .tag-hi { font-family: var(--font-hi); font-size: clamp(1.5rem, 3vw, 1.9rem); font-weight: 700; color: var(--brand); margin: 0 0 10px; }
+  .page-intro p { color: var(--ink-soft); font-size: 1.02rem; max-width: 640px; margin: 0; }
 
   .category-tile { background-size: cover; background-position: center; position: relative; }
   .category-tile .count { font-weight: 500; font-size: 0.78rem; opacity: 0.85; }
-
-  @media (max-width: 860px) {
-    .hero-grid { grid-template-columns: 1fr; text-align: center; }
-    .hero-text p { margin-inline: auto; }
-    .hero-showcase { width: 240px; margin-top: 10px; }
-  }
 </style>
