@@ -2,7 +2,6 @@
 import { getCollection, getEntry, render } from 'astro:content';
 import Base from '../../../layouts/Base.astro';
 import PostCard from '../../../components/PostCard.astro';
-import Sidebar from '../../../components/Sidebar.astro';
 import { CATEGORY_MAP, SITE } from '../../../../site.config.mjs';
 
 export async function getStaticPaths() {
@@ -45,61 +44,39 @@ const jsonLd = {
     <div class="breadcrumb">
       <a href="/">Home</a> / <a href={`/${post.data.category}/`}>{cat.nameEn}</a>
     </div>
-    <div class="post-layout">
-      <div class="post-main">
-        <h1 class={post.data.lang}>{post.data.title}</h1>
-        <div class="meta-row">
-          <span>{cat.emoji} {post.data.lang === 'hi' ? cat.nameHi : cat.nameEn}</span>
-          <span>{post.data.date.toLocaleDateString('en-IN', { year: 'numeric', month: 'long', day: 'numeric' })}</span>
-        </div>
-
-        <figure class="post-figure">
-          <img src={post.data.image} alt={post.data.title} width="1080" height="1350" />
-        </figure>
-        <div class="actions">
-          <a class="btn btn-primary" href={post.data.image} download>⬇ Download HD Photo</a>
-          <a class="btn btn-outline" href={`https://wa.me/?text=${encodeURIComponent(post.data.lines.join(' / ') + ' — ' + SITE.url + '/' + post.data.category + '/' + post.slug.split('/').pop() + '/')}`} target="_blank" rel="noopener">Share on WhatsApp</a>
-        </div>
-
-        <div class={`shayari-text ${post.data.lang}`}>
-          {post.data.lines.map((l) => <p>{l}</p>)}
-        </div>
-
-        <div class="prose">
-          <Content />
-        </div>
-
-        <div class="tags">
-          {post.data.tags.map((t) => <a href={`/${post.data.category}/`}>#{t}</a>)}
-        </div>
-
-        {related.length > 0 && (
-          <>
-            <div class="section-title"><h2>More {cat.nameEn}</h2></div>
-            <div class="grid">
-              {related.map((p) => <PostCard post={p} />)}
-            </div>
-          </>
-        )}
-      </div>
-
-      <Sidebar
-        currentSlug={post.slug}
-        shareTitle={post.data.title}
-        shareUrl={new URL(`/${post.data.category}/${post.slug.split('/').pop()}/`, SITE.url).toString()}
-      />
+    <h1 class={post.data.lang}>{post.data.title}</h1>
+    <div class="meta-row">
+      <span>{cat.emoji} {post.data.lang === 'hi' ? cat.nameHi : cat.nameEn}</span>
+      <span>{post.data.date.toLocaleDateString('en-IN', { year: 'numeric', month: 'long', day: 'numeric' })}</span>
     </div>
+
+    <figure class="post-figure">
+      <img src={post.data.image} alt={post.data.title} width="1080" height="1350" />
+    </figure>
+    <div class="actions">
+      <a class="btn btn-primary" href={post.data.image} download>⬇ Download HD Photo</a>
+      <a class="btn btn-outline" href={`https://wa.me/?text=${encodeURIComponent(post.data.lines.join(' / ') + ' — ' + SITE.url + '/' + post.data.category + '/' + post.slug.split('/').pop() + '/')}`} target="_blank" rel="noopener">Share on WhatsApp</a>
+    </div>
+
+    <div class={`shayari-text ${post.data.lang}`}>
+      {post.data.lines.map((l) => <p>{l}</p>)}
+    </div>
+
+    <div class="prose">
+      <Content />
+    </div>
+
+    <div class="tags">
+      {post.data.tags.map((t) => <a href={`/${post.data.category}/`}>#{t}</a>)}
+    </div>
+
+    {related.length > 0 && (
+      <>
+        <div class="section-title"><h2>More {cat.nameEn}</h2></div>
+        <div class="grid">
+          {related.map((p) => <PostCard post={p} />)}
+        </div>
+      </>
+    )}
   </div>
 </Base>
-
-<style>
-  .post-page { max-width: 1120px; }
-  .post-layout { display: grid; grid-template-columns: 1fr 320px; gap: 44px; align-items: start; }
-  .post-main { min-width: 0; }
-  .sidebar { position: sticky; top: 86px; }
-
-  @media (max-width: 900px) {
-    .post-layout { grid-template-columns: 1fr; }
-    .sidebar { position: static; }
-  }
-</style>
