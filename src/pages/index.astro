@@ -28,8 +28,8 @@ const jsonLd = {
   },
 };
 
-const stackIds = ['attitude-shayari/attitude-shayari', 'sad-shayari/sad-shayari-in-english', 'love-shayari/ishq-shayari'];
-const stack = stackIds.map((id) => allPosts.find((p) => p.slug === id)).filter(Boolean);
+const showcase = allPosts[0];
+const showcaseHref = showcase ? `/${showcase.data.category}/${showcase.slug.split('/').pop()}/` : '/';
 ---
 <Base title={null} description={SITE.description} jsonLd={jsonLd}>
   <section class="hero">
@@ -43,13 +43,12 @@ const stack = stackIds.map((id) => allPosts.find((p) => p.slug === id)).filter(B
           <a class="btn btn-outline" href="/english/">Read English Shayari</a>
         </div>
       </div>
-      <div class="hero-stack">
-        {stack.map((post, i) => (
-          <a class={`stack-card stack-${i}`} href={`/${post.data.category}/${post.slug.split('/').pop()}/`}>
-            <img src={post.data.image} alt={post.data.title} width="300" height="375" loading="eager" />
-          </a>
-        ))}
-      </div>
+      {showcase && (
+        <a class="hero-showcase" href={showcaseHref}>
+          <div class="hero-showcase-glow"></div>
+          <img src={showcase.data.image} alt={showcase.data.title} width="340" height="425" loading="eager" />
+        </a>
+      )}
     </div>
   </section>
 
@@ -84,17 +83,18 @@ const stack = stackIds.map((id) => allPosts.find((p) => p.slug === id)).filter(B
   .hero-text p { color: var(--ink-soft); font-size: 1.08rem; max-width: 480px; margin: 0 0 26px; }
   .hero-cta { display: flex; gap: 12px; flex-wrap: wrap; }
 
-  .hero-stack { position: relative; height: 380px; }
-  .stack-card {
-    position: absolute; width: 220px; border-radius: 14px; overflow: hidden;
-    box-shadow: 0 20px 40px -14px rgba(0,0,0,0.5); border: 3px solid var(--paper);
+  .hero-showcase { position: relative; display: block; width: 300px; justify-self: center; }
+  .hero-showcase-glow {
+    position: absolute; inset: -30px; border-radius: 50%;
+    background: radial-gradient(circle, color-mix(in srgb, var(--brand) 35%, transparent), transparent 70%);
+    filter: blur(20px); z-index: 0;
+  }
+  .hero-showcase img {
+    position: relative; z-index: 1; width: 100%; aspect-ratio: 4/5; object-fit: cover;
+    border-radius: 18px; box-shadow: 0 24px 50px -16px rgba(0,0,0,0.55); border: 1px solid var(--line);
     transition: transform .2s ease;
   }
-  .stack-card img { width: 100%; display: block; aspect-ratio: 4/5; object-fit: cover; }
-  .stack-0 { top: 0; left: 90px; transform: rotate(-6deg); z-index: 3; }
-  .stack-1 { top: 40px; left: 0; transform: rotate(8deg); z-index: 2; }
-  .stack-2 { top: 60px; left: 190px; transform: rotate(4deg); z-index: 1; }
-  .stack-card:hover { transform: rotate(0deg) scale(1.04); z-index: 4; }
+  .hero-showcase:hover img { transform: translateY(-4px) scale(1.02); }
 
   .category-tile { background-size: cover; background-position: center; position: relative; }
   .category-tile .count { font-weight: 500; font-size: 0.78rem; opacity: 0.85; }
@@ -103,9 +103,6 @@ const stack = stackIds.map((id) => allPosts.find((p) => p.slug === id)).filter(B
     .hero-grid { grid-template-columns: 1fr; text-align: center; }
     .hero-text p { margin-inline: auto; }
     .hero-cta { justify-content: center; }
-    .hero-stack { height: 300px; margin: 0 auto; max-width: 360px; }
-    .stack-card { width: 170px; }
-    .stack-0 { left: 70px; }
-    .stack-2 { left: 140px; }
+    .hero-showcase { width: 240px; margin-top: 10px; }
   }
 </style>
