@@ -35,8 +35,7 @@ const showcaseHref = showcase ? `/${showcase.data.category}/${showcase.slug.spli
   <section class="hero">
     <div class="container hero-grid">
       <div class="hero-text">
-        <div class="tag-hi">हर दिन, हर एहसास</div>
-        <h1>Best Hindi &amp; English Shayari</h1>
+        <h1 class="tag-hi">हर दिन, हर एहसास</h1>
         <p>{SITE.description}</p>
         <div class="hero-cta">
           <a class="btn btn-primary" href="/hindi/">हिंदी शायरी पढ़ें</a>
@@ -78,8 +77,7 @@ const showcaseHref = showcase ? `/${showcase.data.category}/${showcase.slug.spli
 
 <style>
   .hero-grid { display: grid; grid-template-columns: 1.1fr 0.9fr; gap: 40px; align-items: center; text-align: left; }
-  .hero-text .tag-hi { font-family: var(--font-hi); font-size: 1.3rem; color: var(--brand); margin-bottom: 6px; }
-  .hero-text h1 { font-family: var(--font-en); font-size: clamp(2rem, 4vw, 3rem); margin: 0 0 14px; letter-spacing: -0.01em; line-height: 1.15; }
+  .hero-text .tag-hi { font-family: var(--font-hi); font-size: clamp(1.6rem, 3vw, 2.1rem); font-weight: 700; color: var(--brand); margin: 0 0 18px; }
   .hero-text p { color: var(--ink-soft); font-size: 1.08rem; max-width: 480px; margin: 0 0 26px; }
   .hero-cta { display: flex; gap: 12px; flex-wrap: wrap; }
 
