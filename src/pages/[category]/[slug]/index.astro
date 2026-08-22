@@ -21,21 +21,47 @@ const related = allPosts
   .sort((a, b) => b.data.date - a.data.date)
   .slice(0, 4);
 
-const jsonLd = {
-  '@context': 'https://schema.org',
-  '@type': 'CreativeWork',
-  headline: post.data.title,
-  description: post.data.metaDescription,
-  image: new URL(post.data.image, SITE.url).toString(),
-  datePublished: post.data.date.toISOString(),
-  author: { '@type': 'Organization', name: SITE.name },
-  inLanguage: post.data.lang === 'hi' ? 'hi' : 'en',
-  keywords: post.data.tags.join(', '),
-};
+/* Hindi posts are titled in Devanagari, but the keywords people actually type
+   into Google (per our search-volume data) are in Latin script — "attitude
+   shayari", not "अटैटीयूड शायरी". Category pages already lead with the Latin
+   phrase; individual posts didn't, so they were losing exact-match relevance
+   for the very terms they were written for. Compose a bilingual title/H1/meta
+   at render time so every post (past and future) gets this without having to
+   rewrite 85 markdown files by hand. */
+const titleCase = (s) => s.replace(/\b\w/g, (c) => c.toUpperCase());
+const keywordTitle = titleCase(post.data.keyword);
+const seoTitle = post.data.lang === 'hi' ? `${keywordTitle} – ${post.data.title}` : post.data.title;
+const seoDescription = post.data.lang === 'hi' && !post.data.metaDescription.toLowerCase().includes(post.data.keyword.toLowerCase())
+  ? `${keywordTitle}: ${post.data.metaDescription}`
+  : post.data.metaDescription;
+
+const postHref = new URL(`/${post.data.category}/${post.slug.split('/').pop()}/`, SITE.url).toString();
+const jsonLd = [
+  {
+    '@context': 'https://schema.org',
+    '@type': 'CreativeWork',
+    headline: seoTitle,
+    description: seoDescription,
+    image: new URL(post.data.image, SITE.url).toString(),
+    datePublished: post.data.date.toISOString(),
+    author: { '@type': 'Organization', name: SITE.name },
+    inLanguage: post.data.lang === 'hi' ? 'hi' : 'en',
+    keywords: post.data.tags.join(', '),
+  },
+  {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      { '@type': 'ListItem', position: 1, name: 'Home', item: SITE.url },
+      { '@type': 'ListItem', position: 2, name: cat.nameEn, item: new URL(`/${post.data.category}/`, SITE.url).toString() },
+      { '@type': 'ListItem', position: 3, name: post.data.title, item: postHref },
+    ],
+  },
+];
 ---
 <Base
-  title={post.data.title}
-  description={post.data.metaDescription}
+  title={seoTitle}
+  description={seoDescription}
   image={post.data.image}
   lang={post.data.lang}
   jsonLd={jsonLd}
@@ -44,14 +70,17 @@ const jsonLd = {
     <div class="breadcrumb">
       <a href="/">Home</a> / <a href={`/${post.data.category}/`}>{cat.nameEn}</a>
     </div>
-    <h1 class={post.data.lang}>{post.data.title}</h1>
+    <h1 class={post.data.lang}>
+      {post.data.lang === 'hi' && <span class="h1-en">{keywordTitle}</span>}
+      {post.data.title}
+    </h1>
     <div class="meta-row">
       <span>{cat.emoji} {post.data.lang === 'hi' ? cat.nameHi : cat.nameEn}</span>
       <span>{post.data.date.toLocaleDateString('en-IN', { year: 'numeric', month: 'long', day: 'numeric' })}</span>
     </div>
 
     <figure class="post-figure">
-      <img src={post.data.image} alt={post.data.title} width="1080" height="1350" />
+      <img src={post.data.image} alt={seoTitle} width="1080" height="1350" />
     </figure>
     <div class="actions">
       <a class="btn btn-primary" href={post.data.image} download>⬇ Download HD Photo</a>
