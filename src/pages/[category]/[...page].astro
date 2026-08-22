@@ -2,7 +2,7 @@
 import { getCollection } from 'astro:content';
 import Base from '../../layouts/Base.astro';
 import PostCard from '../../components/PostCard.astro';
-import { CATEGORIES, CATEGORY_MAP, SITE } from '../../../site.config.mjs';
+import { CATEGORIES, CATEGORY_MAP, PILLAR_CONTENT, SITE } from '../../../site.config.mjs';
 
 export async function getStaticPaths({ paginate }) {
   const allPosts = await getCollection('posts');
@@ -19,12 +19,32 @@ const category = Astro.params.category;
 const cat = CATEGORY_MAP[category];
 const title = `${cat.nameEn} — ${cat.nameHi}`;
 const description = `${cat.nameEn} (${cat.nameHi}) — original Hindi &amp; English ${cat.nameEn.toLowerCase()} with free HD photo cards to download and share. New shayari added daily.`;
+const pillar = page.currentPage === 1 ? PILLAR_CONTENT[category] : null;
+
+const jsonLd = pillar
+  ? {
+      '@context': 'https://schema.org',
+      '@type': 'FAQPage',
+      mainEntity: pillar.faq.map((f) => ({
+        '@type': 'Question',
+        name: f.q,
+        acceptedAnswer: { '@type': 'Answer', text: f.a },
+      })),
+    }
+  : null;
 ---
-<Base title={title} description={description} canonical={`/${category}/${page.currentPage > 1 ? `${page.currentPage}/` : ''}`}>
+<Base title={title} description={description} canonical={`/${category}/${page.currentPage > 1 ? `${page.currentPage}/` : ''}`} jsonLd={jsonLd}>
   <div class="container post-page">
     <div class="breadcrumb"><a href="/">Home</a> / <a href="/categories/">Categories</a> / {cat.nameEn}</div>
     <h1>{cat.emoji} {cat.nameEn} <span style="color:var(--ink-soft); font-weight:500;">· {cat.nameHi}</span></h1>
-    <p style="color:var(--ink-soft); max-width:640px; margin-bottom:30px;">{description}</p>
+
+    {pillar ? (
+      <div class="pillar-intro">
+        {pillar.intro.map((p) => <p>{p}</p>)}
+      </div>
+    ) : (
+      <p style="color:var(--ink-soft); max-width:640px; margin-bottom:30px;">{description}</p>
+    )}
 
     <div class="grid">
       {page.data.map((post) => <PostCard post={post} />)}
@@ -37,5 +57,34 @@ const description = `${cat.nameEn} (${cat.nameHi}) — original Hindi &amp; Engl
         {page.url.next && <a href={page.url.next}>Next →</a>}
       </div>
     )}
+
+    {pillar && (
+      <div class="pillar-faq">
+        <h2>{cat.nameEn} — अक्सर पूछे जाने वाले सवाल</h2>
+        {pillar.faq.map((f) => (
+          <details>
+            <summary>{f.q}</summary>
+            <p>{f.a}</p>
+          </details>
+        ))}
+      </div>
+    )}
   </div>
 </Base>
+
+<style>
+  .pillar-intro { max-width: 720px; margin: 0 0 32px; }
+  .pillar-intro p { color: var(--ink-soft); font-family: var(--font-hi); font-size: 1.02rem; line-height: 1.9; margin: 0 0 16px; }
+
+  .pillar-faq { max-width: 760px; margin: 56px 0 20px; }
+  .pillar-faq h2 { font-size: 1.3rem; margin: 0 0 18px; font-family: var(--font-hi); }
+  .pillar-faq details {
+    border: 1px solid var(--line); border-radius: 12px; padding: 14px 18px; margin-bottom: 10px;
+    background: var(--card-bg);
+  }
+  .pillar-faq summary { cursor: pointer; font-weight: 700; font-family: var(--font-hi); color: var(--ink); list-style: none; }
+  .pillar-faq summary::-webkit-details-marker { display: none; }
+  .pillar-faq summary::before { content: '+ '; color: var(--brand); }
+  .pillar-faq details[open] summary::before { content: '– '; }
+  .pillar-faq p { color: var(--ink-soft); font-family: var(--font-hi); margin: 10px 0 0; line-height: 1.8; }
+</style>
