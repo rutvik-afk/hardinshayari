@@ -1,0 +1,46 @@
+name: Daily publish
+
+# 4 runs/day, spread across IST, each publishing 1 post (postsPerDay: 4
+# in site.config.mjs). Times below are UTC = IST minus 5:30.
+on:
+  schedule:
+    - cron: '30 0 * * *'       # 00:30 UTC = 06:00 IST
+    - cron: '30 6 * * *'       # 06:30 UTC = 12:00 IST
+    - cron: '30 12 * * *'      # 12:30 UTC = 18:00 IST
+    - cron: '30 17 * * *'      # 17:30 UTC = 23:00 IST
+  workflow_dispatch:            # manual "Run workflow" button
+
+permissions:
+  contents: write
+
+concurrency:
+  group: daily-publish
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with: { fetch-depth: 0 }
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: 'npm'
+
+      - run: npm ci
+
+      - name: Publish today's post from the content bank
+        run: node scripts/05-publish-daily.mjs --count 1
+
+      - name: Build
+        run: npm run build
+
+      - name: Commit published content
+        run: |
+          git config user.name  "hardinshayari-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add src/content/posts public/cards scripts/data/content-bank.mjs data/keyword-queue.json
+          git diff --staged --quiet || git commit -m "content: daily publish $(date -u +%F' '%H:%M) UTC"
+          git push
