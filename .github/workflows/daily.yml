@@ -1,13 +1,15 @@
 name: Daily publish
 
-# 4 runs/day, spread across IST, each publishing 1 post (postsPerDay: 4
-# in site.config.mjs). Times below are UTC = IST minus 5:30.
+# Target is 4 posts/day (postsPerDay in site.config.mjs), but GitHub's
+# `schedule` trigger is best-effort and can silently drop a run under
+# platform load — a fixed 4-cron-slots setup left gaps with nothing to
+# retry. So this fires every 2 hours instead; 05-publish-daily.mjs is
+# quota-aware (--daily-quota) and only tops up to today's target, so
+# extra fires are harmless no-ops and a dropped slot gets caught by
+# the next one within ~2h instead of missing the whole day.
 on:
   schedule:
-    - cron: '30 0 * * *'       # 00:30 UTC = 06:00 IST
-    - cron: '30 6 * * *'       # 06:30 UTC = 12:00 IST
-    - cron: '30 12 * * *'      # 12:30 UTC = 18:00 IST
-    - cron: '30 17 * * *'      # 17:30 UTC = 23:00 IST
+    - cron: '15 */2 * * *'
   workflow_dispatch:            # manual "Run workflow" button
 
 permissions:
@@ -31,8 +33,8 @@ jobs:
 
       - run: npm ci
 
-      - name: Publish today's post from the content bank
-        run: node scripts/05-publish-daily.mjs --count 1
+      - name: Top up today's posts from the content bank (quota-aware)
+        run: node scripts/05-publish-daily.mjs --daily-quota 4
 
       - name: Build
         run: npm run build

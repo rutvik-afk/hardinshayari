@@ -4,7 +4,17 @@
    via publishBatch(). No AI/API call at run time, so this can run
    unattended in GitHub Actions with zero secrets.
 
-   Usage: node scripts/05-publish-daily.mjs [--count 1]
+   GitHub's `schedule` trigger is best-effort — runs can be delayed
+   or silently dropped under platform load, especially on low-activity
+   repos. So instead of a fixed "1 per run" and a handful of cron
+   slots, the workflow fires often (every 2h) and this script is
+   quota-aware: it looks at how many posts already carry today's IST
+   date and only tops up to --daily-quota, so extra/duplicate fires
+   are harmless no-ops and a missed slot gets caught by the next one.
+
+   Usage:
+     node scripts/05-publish-daily.mjs --daily-quota 4   (normal/CI use)
+     node scripts/05-publish-daily.mjs --count 1         (manual override)
 
    When the bank is empty, a normal Claude Code session should
    extend scripts/data/content-bank.mjs with more entries (get the
@@ -17,9 +27,50 @@ import { CONTENT_BANK } from './data/content-bank.mjs';
 
 const ROOT = path.resolve(import.meta.dirname, '..');
 const BANK_FILE = path.join(ROOT, 'scripts/data/content-bank.mjs');
+const POSTS_DIR = path.join(ROOT, 'src/content/posts');
+
+function todayIST() {
+  // IST = UTC+5:30 — compute the date string as seen in India, since
+  // that's the audience this "daily" cadence is built around.
+  const now = new Date(Date.now() + 5.5 * 60 * 60 * 1000);
+  return now.toISOString().slice(0, 10);
+}
+
+function countPublishedToday() {
+  const today = todayIST();
+  let n = 0;
+  for (const category of fs.readdirSync(POSTS_DIR)) {
+    const catDir = path.join(POSTS_DIR, category);
+    if (!fs.statSync(catDir).isDirectory()) continue;
+    for (const file of fs.readdirSync(catDir)) {
+      if (!file.endsWith('.md')) continue;
+      const raw = fs.readFileSync(path.join(catDir, file), 'utf-8');
+      const m = raw.match(/^date:\s*(\S+)/m);
+      if (m && m[1] === today) n++;
+    }
+  }
+  return n;
+}
 
 const countArgIdx = process.argv.indexOf('--count');
-const count = countArgIdx > -1 ? parseInt(process.argv[countArgIdx + 1], 10) : 1;
+const quotaArgIdx = process.argv.indexOf('--daily-quota');
+
+let count;
+if (countArgIdx > -1) {
+  count = parseInt(process.argv[countArgIdx + 1], 10);
+} else if (quotaArgIdx > -1) {
+  const quota = parseInt(process.argv[quotaArgIdx + 1], 10);
+  const already = countPublishedToday();
+  count = Math.max(0, quota - already);
+  console.log(`Today (IST): ${already}/${quota} already published.`);
+} else {
+  count = 1;
+}
+
+if (count === 0) {
+  console.log("Today's quota is already met — nothing to do.");
+  process.exit(0);
+}
 
 if (CONTENT_BANK.length === 0) {
   console.log('Content bank is empty — nothing to publish today. Extend scripts/data/content-bank.mjs.');

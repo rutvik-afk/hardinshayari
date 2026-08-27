@@ -5016,7 +5016,7 @@
       "category": "dosti-shayari",
       "lang": "hi",
       "score": 5,
-      "used": false,
+      "used": true,
       "estimated": true
     },
     {
@@ -5146,7 +5146,7 @@
       "category": "sorry-shayari",
       "lang": "hi",
       "score": 5,
-      "used": false,
+      "used": true,
       "estimated": true
     },
     {
@@ -5296,7 +5296,7 @@
       "category": "religious-shayari",
       "lang": "hi",
       "score": 5,
-      "used": false,
+      "used": true,
       "estimated": true
     },
     {
