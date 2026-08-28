@@ -7,18 +7,6 @@
    pull the next keywords with `node scripts/02-next-keywords.mjs N` and
    write more entries in this shape) and push. */
 export const CONTENT_BANK = [
-  { category: "attitude-shayari", lang: "en", keyword: "english shayari attitude",
-    title: "English Shayari Attitude",
-    lines: ["I don't compete with anyone,", "my only competition is who I was yesterday."] },
-  { category: "gulzar-shayari", lang: "hi", keyword: "ghalib shayari", styleNote: "Ghalib",
-    title: "ग़ालिब अंदाज़ की शायरी",
-    lines: ["दर्द को अगर सलीके से बयां किया जाए,", "तो वो शिकायत नहीं, शायरी बन जाता है।"] },
-  { category: "english-shayari", lang: "en", keyword: "shayari english",
-    title: "Shayari English",
-    lines: ["Some feelings don't need a language,", "they just need someone who understands silence."] },
-  { category: "sad-shayari", lang: "hi", keyword: "sad shayari english in hindi",
-    title: "सैड शायरी इंग्लिश इन हिंदी",
-    lines: ["दर्द की कोई भाषा नहीं होती,", "बस एहसास एक जैसा ही होता है, हर ज़बान में।"] },
   { category: "love-shayari", lang: "hi", keyword: "long distance love shayari",
     title: "लॉन्ग डिस्टेंस लव शायरी",
     lines: ["दूरियां बढ़ीं तो क्या, दिल तो पास ही रहा,", "हर रोज़ की बात ने फासले को झूठा साबित कर दिया।"] },
