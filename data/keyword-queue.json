@@ -431,7 +431,7 @@
       "category": "gulzar-shayari",
       "lang": "hi",
       "score": 257.14285714285717,
-      "used": false
+      "used": true
     },
     {
       "keyword": "heart touching gulzar shayari",
@@ -476,7 +476,7 @@
       "category": "english-shayari",
       "lang": "en",
       "score": 225,
-      "used": false
+      "used": true
     },
     {
       "keyword": "english me shayari",
@@ -773,7 +773,7 @@
       "category": "sad-shayari",
       "lang": "hi",
       "score": 116.12903225806451,
-      "used": false
+      "used": true
     },
     {
       "keyword": "sad shayari english mein",
@@ -1106,7 +1106,7 @@
       "category": "love-shayari",
       "lang": "hi",
       "score": 81.25,
-      "used": false
+      "used": true
     },
     {
       "keyword": "ishq quotes in hindi",
