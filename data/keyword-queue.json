@@ -2528,7 +2528,7 @@
       "category": "two-line-shayari",
       "lang": "hi",
       "score": 29.09090909090909,
-      "used": false
+      "used": true
     },
     {
       "keyword": "dadagiri status english",
@@ -2537,7 +2537,7 @@
       "category": "status-captions",
       "lang": "en",
       "score": 29.09090909090909,
-      "used": false
+      "used": true
     },
     {
       "keyword": "bad boy shayari in english",
@@ -2564,7 +2564,7 @@
       "category": "life-shayari",
       "lang": "hi",
       "score": 28.8,
-      "used": false
+      "used": true
     },
     {
       "keyword": "hindi status text",
@@ -5036,7 +5036,7 @@
       "category": "dosti-shayari",
       "lang": "hi",
       "score": 5,
-      "used": false,
+      "used": true,
       "estimated": true
     },
     {
