@@ -7,7 +7,5 @@
    pull the next keywords with `node scripts/02-next-keywords.mjs N` and
    write more entries in this shape) and push. */
 export const CONTENT_BANK = [
-  { category: "status-captions", lang: "hi", keyword: "hindi status text",
-    title: "हिंदी स्टेटस टेक्स्ट",
-    lines: ["स्टेटस बदलने से मूड नहीं बदलता,", "मूड बदलने से स्टेटस अपने आप बदल जाता है।"] },
+
 ];
