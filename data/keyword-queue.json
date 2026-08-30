@@ -368,7 +368,7 @@
       "category": "attitude-shayari",
       "lang": "hi",
       "score": 300,
-      "used": false
+      "used": true
     },
     {
       "keyword": "english shayari on life 2 lines",
@@ -440,7 +440,7 @@
       "category": "gulzar-shayari",
       "lang": "hi",
       "score": 244.44444444444446,
-      "used": false
+      "used": true
     },
     {
       "keyword": "emotional shayari in english",
@@ -5166,7 +5166,7 @@
       "category": "sorry-shayari",
       "lang": "hi",
       "score": 5,
-      "used": false,
+      "used": true,
       "estimated": true
     },
     {
@@ -5316,7 +5316,7 @@
       "category": "religious-shayari",
       "lang": "en",
       "score": 5,
-      "used": false,
+      "used": true,
       "estimated": true
     },
     {
