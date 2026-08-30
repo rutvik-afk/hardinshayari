@@ -485,7 +485,7 @@
       "category": "english-shayari",
       "lang": "en",
       "score": 213.1578947368421,
-      "used": false
+      "used": true
     },
     {
       "keyword": "2 line attitude shayari",
@@ -782,7 +782,7 @@
       "category": "sad-shayari",
       "lang": "en",
       "score": 114.28571428571429,
-      "used": false
+      "used": true
     },
     {
       "keyword": "munawar faruqui shayari on love",
@@ -1115,7 +1115,7 @@
       "category": "love-shayari",
       "lang": "hi",
       "score": 80,
-      "used": false
+      "used": true
     },
     {
       "keyword": "love sonnets of ghalib in hindi",
@@ -2690,7 +2690,7 @@
       "category": "two-line-shayari",
       "lang": "en",
       "score": 26.25,
-      "used": false
+      "used": true
     },
     {
       "keyword": "rone wali shayari english",
