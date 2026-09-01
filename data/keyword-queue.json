@@ -422,7 +422,7 @@
       "category": "attitude-shayari",
       "lang": "hi",
       "score": 260,
-      "used": false
+      "used": true
     },
     {
       "keyword": "zakir khan shayari",
@@ -5046,7 +5046,7 @@
       "category": "dosti-shayari",
       "lang": "hi",
       "score": 5,
-      "used": false,
+      "used": true,
       "estimated": true
     },
     {
@@ -5176,7 +5176,7 @@
       "category": "sorry-shayari",
       "lang": "hi",
       "score": 5,
-      "used": false,
+      "used": true,
       "estimated": true
     },
     {
@@ -5326,7 +5326,7 @@
       "category": "religious-shayari",
       "lang": "en",
       "score": 5,
-      "used": false,
+      "used": true,
       "estimated": true
     },
     {
