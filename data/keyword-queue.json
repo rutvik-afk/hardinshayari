@@ -404,7 +404,7 @@
       "category": "attitude-shayari",
       "lang": "hi",
       "score": 267.56756756756755,
-      "used": false
+      "used": true
     },
     {
       "keyword": "ghalib shayari",
@@ -512,7 +512,7 @@
       "category": "gulzar-shayari",
       "lang": "hi",
       "score": 206.25,
-      "used": false
+      "used": true
     },
     {
       "keyword": "happy shayari in english",
@@ -521,7 +521,7 @@
       "category": "english-shayari",
       "lang": "en",
       "score": 200,
-      "used": false
+      "used": true
     },
     {
       "keyword": "zakir khan twitter shayari",
@@ -818,7 +818,7 @@
       "category": "sad-shayari",
       "lang": "hi",
       "score": 111.53846153846153,
-      "used": false
+      "used": true
     },
     {
       "keyword": "zakir khan shayari on love",
