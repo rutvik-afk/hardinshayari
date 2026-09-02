@@ -548,7 +548,7 @@
       "category": "attitude-shayari",
       "lang": "hi",
       "score": 180,
-      "used": false
+      "used": true
     },
     {
       "keyword": "attitude shayari in english 2 line",
@@ -629,7 +629,7 @@
       "category": "gulzar-shayari",
       "lang": "hi",
       "score": 152.6315789473684,
-      "used": false
+      "used": true
     },
     {
       "keyword": "shayari english mein",
@@ -5066,7 +5066,7 @@
       "category": "dosti-shayari",
       "lang": "hi",
       "score": 5,
-      "used": false,
+      "used": true,
       "estimated": true
     },
     {
@@ -5196,7 +5196,7 @@
       "category": "sorry-shayari",
       "lang": "en",
       "score": 5,
-      "used": false,
+      "used": true,
       "estimated": true
     },
     {
