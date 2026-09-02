@@ -494,7 +494,7 @@
       "category": "attitude-shayari",
       "lang": "hi",
       "score": 207.69230769230768,
-      "used": false
+      "used": true
     },
     {
       "keyword": "sad shayri",
@@ -566,7 +566,7 @@
       "category": "english-shayari",
       "lang": "hi",
       "score": 177.77777777777777,
-      "used": false
+      "used": true
     },
     {
       "keyword": "urdu shayari on life",
@@ -620,7 +620,7 @@
       "category": "gulzar-shayari",
       "lang": "hi",
       "score": 158.8235294117647,
-      "used": false
+      "used": true
     },
     {
       "keyword": "heart touching mirza ghalib shayari in hindi",
@@ -980,7 +980,7 @@
       "category": "sad-shayari",
       "lang": "en",
       "score": 94.11764705882354,
-      "used": false
+      "used": true
     },
     {
       "keyword": "gulzar shayari for husband",
