@@ -3059,7 +3059,7 @@
       "category": "status-captions",
       "lang": "hi",
       "score": 21.333333333333332,
-      "used": false
+      "used": true
     },
     {
       "keyword": "shayari in english font",
@@ -3437,7 +3437,7 @@
       "category": "life-shayari",
       "lang": "hi",
       "score": 17.5,
-      "used": false
+      "used": true
     },
     {
       "keyword": "1 line shayari in english",
@@ -3599,7 +3599,7 @@
       "category": "two-line-shayari",
       "lang": "hi",
       "score": 15.6,
-      "used": false
+      "used": true
     },
     {
       "keyword": "sad shayris",
@@ -5056,7 +5056,7 @@
       "category": "dosti-shayari",
       "lang": "hi",
       "score": 5,
-      "used": false,
+      "used": true,
       "estimated": true
     },
     {
