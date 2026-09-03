@@ -3905,7 +3905,7 @@
       "category": "two-line-shayari",
       "lang": "hi",
       "score": 13.333333333333334,
-      "used": false
+      "used": true
     },
     {
       "keyword": "gulzar shayari on zindagi",
@@ -4265,7 +4265,7 @@
       "category": "life-shayari",
       "lang": "hi",
       "score": 10.4,
-      "used": false
+      "used": true
     },
     {
       "keyword": "gulzar shayari on ghar",
@@ -5076,7 +5076,7 @@
       "category": "dosti-shayari",
       "lang": "en",
       "score": 5,
-      "used": false,
+      "used": true,
       "estimated": true
     },
     {
