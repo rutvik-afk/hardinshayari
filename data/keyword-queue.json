@@ -557,7 +557,7 @@
       "category": "attitude-shayari",
       "lang": "en",
       "score": 177.77777777777777,
-      "used": false
+      "used": true
     },
     {
       "keyword": "shayari english hindi",
@@ -611,7 +611,7 @@
       "category": "english-shayari",
       "lang": "hi",
       "score": 160,
-      "used": false
+      "used": true
     },
     {
       "keyword": "one line gulzar shayari",
@@ -674,7 +674,7 @@
       "category": "gulzar-shayari",
       "lang": "hi",
       "score": 138.46153846153845,
-      "used": false
+      "used": true
     },
     {
       "keyword": "sad shayari english in hindi",
@@ -1214,7 +1214,7 @@
       "category": "sad-shayari",
       "lang": "hi",
       "score": 73.75,
-      "used": false
+      "used": true
     },
     {
       "keyword": "ghalib shayari on love",
