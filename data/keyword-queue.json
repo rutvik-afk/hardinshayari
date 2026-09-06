@@ -602,7 +602,7 @@
       "category": "attitude-shayari",
       "lang": "en",
       "score": 160,
-      "used": false
+      "used": true
     },
     {
       "keyword": "shero shayari hindi english",
@@ -638,7 +638,7 @@
       "category": "english-shayari",
       "lang": "en",
       "score": 152.6315789473684,
-      "used": false
+      "used": true
     },
     {
       "keyword": "sorry shayari in hindi",
@@ -5206,7 +5206,7 @@
       "category": "sorry-shayari",
       "lang": "en",
       "score": 5,
-      "used": false,
+      "used": true,
       "estimated": true
     },
     {
@@ -5336,7 +5336,7 @@
       "category": "life-shayari",
       "lang": "hi",
       "score": 5,
-      "used": false,
+      "used": true,
       "estimated": true
     },
     {
