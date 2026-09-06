@@ -1313,7 +1313,7 @@
       "category": "love-shayari",
       "lang": "hi",
       "score": 63.1578947368421,
-      "used": false
+      "used": true
     },
     {
       "keyword": "self shayari in english",
@@ -4373,7 +4373,7 @@
       "category": "status-captions",
       "lang": "hi",
       "score": 9.545454545454545,
-      "used": false
+      "used": true
     },
     {
       "keyword": "ghalib sarcastic shayari",
@@ -4481,7 +4481,7 @@
       "category": "two-line-shayari",
       "lang": "hi",
       "score": 9.142857142857142,
-      "used": false
+      "used": true
     },
     {
       "keyword": "one line attitude quotes in hindi",
@@ -5086,7 +5086,7 @@
       "category": "dosti-shayari",
       "lang": "en",
       "score": 5,
-      "used": false,
+      "used": true,
       "estimated": true
     },
     {
