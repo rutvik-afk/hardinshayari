@@ -4706,7 +4706,7 @@
       "category": "two-line-shayari",
       "lang": "hi",
       "score": 7.777777777777778,
-      "used": false
+      "used": true
     },
     {
       "keyword": "depression shayari in english",
@@ -5096,7 +5096,7 @@
       "category": "dosti-shayari",
       "lang": "en",
       "score": 5,
-      "used": false,
+      "used": true,
       "estimated": true
     },
     {
@@ -5216,7 +5216,7 @@
       "category": "sorry-shayari",
       "lang": "en",
       "score": 5,
-      "used": false,
+      "used": true,
       "estimated": true
     },
     {
@@ -5346,7 +5346,7 @@
       "category": "life-shayari",
       "lang": "hi",
       "score": 5,
-      "used": false,
+      "used": true,
       "estimated": true
     },
     {
