@@ -656,7 +656,7 @@
       "category": "english-shayari",
       "lang": "hi",
       "score": 146.15384615384616,
-      "used": false
+      "used": true
     },
     {
       "keyword": "boys attitude shayari in hindi",
@@ -665,7 +665,7 @@
       "category": "attitude-shayari",
       "lang": "hi",
       "score": 138.46153846153845,
-      "used": false
+      "used": true
     },
     {
       "keyword": "gulzar shayari on life in hindi",
@@ -764,7 +764,7 @@
       "category": "gulzar-shayari",
       "lang": "hi",
       "score": 118.18181818181819,
-      "used": false
+      "used": true
     },
     {
       "keyword": "sad poetry in hindi",
@@ -1565,7 +1565,7 @@
       "category": "sad-shayari",
       "lang": "hi",
       "score": 53.333333333333336,
-      "used": false
+      "used": true
     },
     {
       "keyword": "mood off shayari english",
