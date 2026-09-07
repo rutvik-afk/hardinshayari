@@ -1,0 +1,17 @@
+---
+title: "शायरी गुलज़ार अंदाज़ की"
+lang: hi
+category: gulzar-shayari
+keyword: "shayari gulzar"
+lines:
+  - "लफ़्ज़ों को इतनी नज़ाकत से बरतना,"
+  - "कि दर्द भी खूबसूरत लगने लगे।"
+metaDescription: "शायरी गुलज़ार अंदाज़ की — गुलज़ार शायरी पढ़ें और मुफ़्त HD फोटो शायरी कार्ड डाउनलोड करें। रोज़ नई शायरी सिर्फ़ Har Din Shayari पर।"
+image: "/cards/gulzar-shayari/shayari-gulzar.jpg"
+date: 2026-09-07
+tags: ["shayari", "gulzar"]
+---
+
+गुलज़ार शायरी में इस बार एक नई रचना — "shayari gulzar" खोज रहे पाठकों के लिए खासतौर पर लिखी गई। ऊपर दिया गया HD फोटो कार्ड मुफ़्त डाउनलोड करें और WhatsApp, Instagram या Facebook पर बेझिझक शेयर करें।
+
+*यह एक ओरिजिनल रचना है, Gulzar की शैली से प्रेरित — इसे उनका सीधा कोटेशन न समझें।*
