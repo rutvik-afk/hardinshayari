@@ -1376,7 +1376,7 @@
       "category": "love-shayari",
       "lang": "hi",
       "score": 59,
-      "used": false
+      "used": true
     },
     {
       "keyword": "ishq quotes",
@@ -4868,7 +4868,7 @@
       "category": "status-captions",
       "lang": "hi",
       "score": 6.774193548387097,
-      "used": false
+      "used": true
     },
     {
       "keyword": "bf hindi status attitude",
@@ -5106,7 +5106,7 @@
       "category": "dosti-shayari",
       "lang": "en",
       "score": 5,
-      "used": false,
+      "used": true,
       "estimated": true
     },
     {
@@ -5456,7 +5456,7 @@
       "category": "two-line-shayari",
       "lang": "hi",
       "score": 5,
-      "used": false,
+      "used": true,
       "estimated": true
     },
     {
