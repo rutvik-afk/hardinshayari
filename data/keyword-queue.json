@@ -692,7 +692,7 @@
       "category": "english-shayari",
       "lang": "en",
       "score": 126.66666666666667,
-      "used": false
+      "used": true
     },
     {
       "keyword": "hindi shayari written in english",
@@ -719,7 +719,7 @@
       "category": "attitude-shayari",
       "lang": "hi",
       "score": 123.07692307692308,
-      "used": false
+      "used": true
     },
     {
       "keyword": "formal status in hindi",
@@ -809,7 +809,7 @@
       "category": "gulzar-shayari",
       "lang": "hi",
       "score": 112.5,
-      "used": false
+      "used": true
     },
     {
       "keyword": "very sad shayari",
@@ -5356,7 +5356,7 @@
       "category": "life-shayari",
       "lang": "hi",
       "score": 5,
-      "used": false,
+      "used": true,
       "estimated": true
     },
     {
