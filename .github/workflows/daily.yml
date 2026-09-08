@@ -31,6 +31,15 @@ jobs:
           node-version: '22'
           cache: 'npm'
 
+      - name: Install Devanagari font
+        # scripts/lib/card.mjs renders Hindi text via sharp/librsvg, which
+        # needs a real Devanagari-capable font on the machine doing the
+        # rendering. macOS ships "Devanagari Sangam MN" so this was never
+        # caught locally, but ubuntu-latest has no Indic fonts at all —
+        # librsvg then has no glyphs for those codepoints and falls back
+        # to drawing their raw hex values ("tofu boxes") in the card.
+        run: sudo apt-get update && sudo apt-get install -y fonts-noto-core
+
       - run: npm ci
 
       - name: Top up today's posts from the content bank (quota-aware)
