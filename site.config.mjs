@@ -1,7 +1,12 @@
 export const SITE = {
   name: 'Har Din Shayari',
   nameHi: 'हर दिन शायरी',
-  url: 'https://hardinshayari.com',
+  /* Vercel's domain redirect points bare hardinshayari.com -> www (confirmed
+     via curl: 308 to https://www...). Every canonical/sitemap/OG URL must
+     match that actual live destination, or Google fetches the sitemap URL,
+     gets redirected, and files the page as "Page with redirect" instead of
+     indexing it — this is exactly what happened to 63 pages in GSC. */
+  url: 'https://www.hardinshayari.com',
   tagline: 'हर दिन, हर एहसास',
   taglineEn: 'A new shayari, every single day',
   description: 'Best Hindi & English shayari on attitude, sad, love, dosti, life and more — with free HD photo shayari cards to download and share.',
