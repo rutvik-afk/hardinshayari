@@ -1,0 +1,15 @@
+---
+title: "नाइस शायरी फॉर स्टेटस"
+lang: hi
+category: status-captions
+keyword: "nice shayari for status"
+lines:
+  - "स्टेटस वही अच्छा लगता है,"
+  - "जो दिल से लिखा गया हो।"
+metaDescription: "नाइस शायरी फॉर स्टेटस — स्टेटस और कैप्शन पढ़ें और मुफ़्त HD फोटो शायरी कार्ड डाउनलोड करें। रोज़ नई शायरी सिर्फ़ Har Din Shayari पर।"
+image: "/cards/status-captions/nice-shayari-for-status.jpg"
+date: 2026-09-09
+tags: ["nice", "shayari", "status", "status-captions"]
+---
+
+स्टेटस और कैप्शन में इस बार एक नई रचना — "nice shayari for status" खोज रहे पाठकों के लिए खासतौर पर लिखी गई। ऊपर दिया गया HD फोटो कार्ड मुफ़्त डाउनलोड करें और WhatsApp, Instagram या Facebook पर बेझिझक शेयर करें।
