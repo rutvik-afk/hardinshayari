@@ -1,0 +1,15 @@
+---
+title: "शायरी हिंदी एंड इंग्लिश"
+lang: hi
+category: english-shayari
+keyword: "shayari hindi and english"
+lines:
+  - "दो भाषाओं में एक ही दिल की बात,"
+  - "यही तो हमारी पहचान है।"
+metaDescription: "शायरी हिंदी एंड इंग्लिश — इंग्लिश शायरी पढ़ें और मुफ़्त HD फोटो शायरी कार्ड डाउनलोड करें। रोज़ नई शायरी सिर्फ़ Har Din Shayari पर।"
+image: "/cards/english-shayari/shayari-hindi-and-english.jpg"
+date: 2026-09-11
+tags: ["shayari", "hindi", "and", "english"]
+---
+
+इंग्लिश शायरी में इस बार एक नई रचना — "shayari hindi and english" खोज रहे पाठकों के लिए खासतौर पर लिखी गई। ऊपर दिया गया HD फोटो कार्ड मुफ़्त डाउनलोड करें और WhatsApp, Instagram या Facebook पर बेझिझक शेयर करें।
