@@ -1,0 +1,17 @@
+---
+title: "गुलज़ार सैड शायरी"
+lang: hi
+category: sad-shayari
+keyword: "gulzar sad shayari"
+lines:
+  - "दर्द को भी इतनी नज़ाकत से लिखना,"
+  - "यही गुलज़ार साहब की पहचान है।"
+metaDescription: "गुलज़ार सैड शायरी — सैड शायरी पढ़ें और मुफ़्त HD फोटो शायरी कार्ड डाउनलोड करें। रोज़ नई शायरी सिर्फ़ Har Din Shayari पर।"
+image: "/cards/sad-shayari/gulzar-sad-shayari.jpg"
+date: 2026-09-13
+tags: ["gulzar", "sad", "shayari"]
+---
+
+सैड शायरी में इस बार एक नई रचना — "gulzar sad shayari" खोज रहे पाठकों के लिए खासतौर पर लिखी गई। ऊपर दिया गया HD फोटो कार्ड मुफ़्त डाउनलोड करें और WhatsApp, Instagram या Facebook पर बेझिझक शेयर करें।
+
+*यह एक ओरिजिनल रचना है, Gulzar की शैली से प्रेरित — इसे उनका सीधा कोटेशन न समझें।*
