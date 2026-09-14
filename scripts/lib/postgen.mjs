@@ -33,6 +33,7 @@ export function metaFor(post, cat) {
 /** Expands a list of bare post entries and publishes them all. */
 export async function publishBatch(entries) {
   let ok = 0, fail = 0;
+  const slugs = []; // { category, slug } for each successfully published post
   for (const post of entries) {
     const cat = CATEGORY_MAP[post.category];
     try {
@@ -47,6 +48,7 @@ export async function publishBatch(entries) {
         body: bodyFor(post, cat),
       });
       console.log(`✔ ${res.file}`);
+      slugs.push({ category: post.category, slug: res.slug });
       ok++;
     } catch (e) {
       console.error(`✘ ${post.keyword}: ${e.message}`);
@@ -54,5 +56,5 @@ export async function publishBatch(entries) {
     }
   }
   console.log(`\nDone: ${ok} published, ${fail} failed.`);
-  return { ok, fail };
+  return { ok, fail, slugs };
 }

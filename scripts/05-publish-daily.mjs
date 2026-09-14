@@ -23,7 +23,9 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import { publishBatch } from './lib/postgen.mjs';
+import { submitToIndexNow } from './lib/indexnow.mjs';
 import { CONTENT_BANK } from './data/content-bank.mjs';
+import { SITE } from '../site.config.mjs';
 
 const ROOT = path.resolve(import.meta.dirname, '..');
 const BANK_FILE = path.join(ROOT, 'scripts/data/content-bank.mjs');
@@ -80,7 +82,12 @@ if (CONTENT_BANK.length === 0) {
 const toPublish = CONTENT_BANK.slice(0, count);
 const remaining = CONTENT_BANK.slice(count);
 
-const { ok, fail } = await publishBatch(toPublish);
+const { ok, fail, slugs } = await publishBatch(toPublish);
+
+if (slugs.length) {
+  const urls = slugs.map((s) => `${SITE.url}/${s.category}/${s.slug}/`);
+  await submitToIndexNow(urls);
+}
 
 // Rewrite the bank file with the published entries removed.
 function serializeEntry(e) {

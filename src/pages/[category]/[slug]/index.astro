@@ -39,12 +39,19 @@ const postHref = new URL(`/${post.data.category}/${post.slug.split('/').pop()}/`
 const jsonLd = [
   {
     '@context': 'https://schema.org',
-    '@type': 'CreativeWork',
+    '@type': 'Article',
     headline: seoTitle,
     description: seoDescription,
     image: new URL(post.data.image, SITE.url).toString(),
     datePublished: post.data.date.toISOString(),
-    author: { '@type': 'Organization', name: SITE.name },
+    dateModified: post.data.date.toISOString(),
+    mainEntityOfPage: { '@type': 'WebPage', '@id': postHref },
+    author: { '@type': 'Organization', name: SITE.name, url: SITE.url },
+    publisher: {
+      '@type': 'Organization',
+      name: SITE.name,
+      logo: { '@type': 'ImageObject', url: new URL('/favicon.svg', SITE.url).toString() },
+    },
     inLanguage: post.data.lang === 'hi' ? 'hi' : 'en',
     keywords: post.data.tags.join(', '),
   },
