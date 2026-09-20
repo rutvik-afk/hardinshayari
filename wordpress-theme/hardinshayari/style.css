@@ -1,0 +1,120 @@
+/*
+Theme Name: Har Din Shayari
+Theme URI: https://hardinshayari.com
+Author: Har Din Shayari
+Description: Dark-themed shayari blog design, ported from hardinshayari.com — brand red accents, Devanagari/Latin dual typography, photo-card post layout.
+Version: 1.0
+Requires at least: 6.0
+Requires PHP: 7.4
+Text Domain: hardinshayari
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Devanagari:wght@400;500;600;700;800&family=Playfair+Display:ital,wght@0,500;0,700;1,500&family=Poppins:wght@400;500;600;700;800&display=swap');
+
+:root {
+  --ink: #f3ecec;
+  --ink-soft: #b6a9ab;
+  --paper: #130f13;
+  --paper-alt: #1d1719;
+  --card-bg: #1a1416;
+  --line: #33282b;
+  --brand: #e8384f;
+  --brand-dark: #7f1d1d;
+  --accent: #d4a017;
+  --header-bg: rgba(19,15,19,0.85);
+  --radius: 16px;
+  --shadow: 0 10px 34px -12px rgba(0,0,0,0.55);
+  --font-en: 'Playfair Display', Georgia, serif;
+  --font-hi: 'Noto Sans Devanagari', 'Devanagari Sangam MN', sans-serif;
+  --font-ui: 'Poppins', Helvetica, Arial, sans-serif;
+}
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body {
+  margin: 0;
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--font-ui);
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+}
+img { max-width: 100%; display: block; }
+a { color: inherit; text-decoration: none; }
+.container { max-width: 1120px; margin: 0 auto; padding: 0 20px; }
+.wrap-narrow { max-width: 760px; margin: 0 auto; padding: 0 20px; }
+
+/* Header */
+.site-header {
+  position: sticky; top: 0; z-index: 40;
+  background: var(--header-bg);
+  backdrop-filter: blur(8px);
+  border-bottom: 1px solid var(--line);
+}
+.site-header .row { display: flex; align-items: center; justify-content: space-between; height: 66px; gap: 14px; }
+.logo { display: flex; align-items: center; gap: 10px; font-weight: 800; font-size: 1.15rem; letter-spacing: -0.02em; }
+.logo .mark { width: 34px; height: 34px; border-radius: 9px; background: linear-gradient(135deg,var(--brand),var(--brand-dark)); color: #fff; display: grid; place-items: center; font-size: 1rem; }
+.nav { display: flex; gap: 22px; align-items: center; }
+.nav a { font-weight: 600; font-size: 0.94rem; color: var(--ink-soft); }
+.nav a:hover, .nav a.current-menu-item a { color: var(--brand); }
+
+/* Intro */
+.page-intro { padding: 32px 0 8px; }
+.page-intro .tag-hi { font-family: var(--font-hi); font-size: clamp(1.5rem, 3vw, 1.9rem); font-weight: 700; color: var(--brand); margin: 0 0 10px; }
+.page-intro p { color: var(--ink-soft); font-size: 1.02rem; max-width: 640px; margin: 0; }
+
+.section-title { display: flex; align-items: baseline; justify-content: space-between; margin: 48px 0 20px; }
+.section-title h2 { font-size: 1.5rem; margin: 0; letter-spacing: -0.01em; }
+.section-title a { font-size: 0.9rem; font-weight: 700; color: var(--brand); }
+
+/* Post card grid */
+.grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 26px; }
+.post-card { border: 1px solid var(--line); border-radius: var(--radius); overflow: hidden; background: var(--card-bg); transition: transform .15s ease, box-shadow .15s ease; }
+.post-card:hover { transform: translateY(-3px); box-shadow: var(--shadow); }
+.post-card .thumb { aspect-ratio: 4/5; overflow: hidden; }
+.post-card .thumb img { width: 100%; height: 100%; object-fit: cover; }
+.post-card .body { padding: 18px 20px 20px; }
+.post-card .cat { font-size: 0.78rem; font-weight: 800; letter-spacing: 0.06em; color: var(--brand); text-transform: uppercase; }
+.post-card .snippet { font-size: 1.05rem; margin-top: 8px; line-height: 1.55; color: var(--ink); font-family: var(--font-hi); }
+
+/* Single post */
+.post-page { padding: 40px 0 60px; }
+.breadcrumb { font-size: 0.85rem; color: var(--ink-soft); margin-bottom: 18px; }
+.breadcrumb a:hover { color: var(--brand); }
+.post-page h1 { font-family: var(--font-hi); font-size: clamp(1.5rem, 3vw, 2rem); line-height: 1.35; margin: 0 0 24px; }
+
+.post-page .entry-content img:first-child {
+  border-radius: var(--radius); overflow: hidden; box-shadow: var(--shadow);
+  margin-bottom: 24px; width: 100%; max-width: 480px;
+}
+.post-page .entry-content p {
+  font-family: var(--font-hi); font-size: 1.3rem; line-height: 2;
+  margin: 0 0 6px; padding: 0 4px;
+}
+.meta-row { display: flex; gap: 16px; flex-wrap: wrap; font-size: 0.85rem; color: var(--ink-soft); margin-bottom: 10px; }
+
+.actions { display: flex; gap: 10px; margin: 16px 0 32px; flex-wrap: wrap; }
+.btn { display: inline-flex; align-items: center; gap: 8px; padding: 11px 20px; border-radius: 10px; font-weight: 700; font-size: 0.92rem; border: none; cursor: pointer; }
+.btn-primary { background: var(--brand); color: #fff; }
+.btn-primary:hover { background: var(--brand-dark); }
+.btn-outline { background: transparent; border: 1.5px solid var(--line); color: var(--ink); }
+.btn-outline:hover { border-color: var(--brand); color: var(--brand); }
+
+.tags { display: flex; gap: 8px; flex-wrap: wrap; margin-top: 24px; }
+.tags a { font-size: 0.8rem; padding: 5px 12px; border-radius: 999px; background: var(--paper-alt); color: var(--ink-soft); }
+
+/* Category tiles (used on custom front page, optional) */
+.category-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px,1fr)); gap: 14px; }
+.category-tile { border-radius: var(--radius); padding: 20px; color: #fff; font-weight: 700; display: flex; flex-direction: column; gap: 6px; min-height: 100px; justify-content: flex-end; background-size: cover; background-position: center; }
+
+/* Footer */
+.site-footer { border-top: 1px solid var(--line); margin-top: 60px; padding: 40px 0; background: var(--paper-alt); }
+.footer-bottom { text-align: center; font-size: 0.82rem; color: var(--ink-soft); padding-top: 20px; }
+
+/* Pagination */
+.pagination { display: flex; justify-content: center; gap: 8px; margin: 40px 0; }
+.pagination a, .pagination span { padding: 8px 14px; border-radius: 8px; border: 1px solid var(--line); font-size: 0.9rem; font-weight: 600; color: var(--ink); }
+.pagination .current { background: var(--ink); color: var(--paper); border-color: var(--ink); }
+
+@media (max-width: 640px) {
+  .nav { display: none; }
+}
