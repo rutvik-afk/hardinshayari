@@ -79,10 +79,43 @@ if (CONTENT_BANK.length === 0) {
   process.exit(0);
 }
 
-const toPublish = CONTENT_BANK.slice(0, count);
-const remaining = CONTENT_BANK.slice(count);
+const slice = CONTENT_BANK.slice(0, count);
+const rest = CONTENT_BANK.slice(count);
 
-const { ok, fail, slugs } = await publishBatch(toPublish);
+// Validate before publishing — a malformed entry (e.g. a `lines` array with
+// fewer than the 2 our content schema requires) would otherwise pass the
+// publish step, only blow up the *build* step afterwards, and since the
+// workflow never reaches its commit step on a failed build, the bad entry
+// stays at the front of the bank forever and every future run fails on the
+// exact same entry. Quarantine bad entries here instead: they're dropped
+// from the bank (never retried as-is) and the run continues with the rest.
+function validationError(e) {
+  if (!e || typeof e !== 'object') return 'not an object';
+  if (!e.category) return 'missing category';
+  if (e.lang !== 'hi' && e.lang !== 'en') return 'lang must be "hi" or "en"';
+  if (!e.keyword) return 'missing keyword';
+  if (!e.title) return 'missing title';
+  if (!Array.isArray(e.lines) || e.lines.length < 2) return 'lines needs at least 2 entries';
+  return null;
+}
+
+const toPublish = [];
+const quarantined = [];
+for (const entry of slice) {
+  const err = validationError(entry);
+  if (err) quarantined.push({ entry, err });
+  else toPublish.push(entry);
+}
+if (quarantined.length) {
+  console.log(`Skipping ${quarantined.length} malformed bank entr${quarantined.length === 1 ? 'y' : 'ies'} (removed from the bank, not published):`);
+  for (const { entry, err } of quarantined) console.log(`  ✘ ${entry?.keyword ?? '(unknown)'}: ${err}`);
+}
+
+const remaining = rest;
+
+const { ok, fail, slugs } = toPublish.length
+  ? await publishBatch(toPublish)
+  : { ok: 0, fail: 0, slugs: [] };
 
 if (slugs.length) {
   const urls = slugs.map((s) => `${SITE.url}/${s.category}/${s.slug}/`);
