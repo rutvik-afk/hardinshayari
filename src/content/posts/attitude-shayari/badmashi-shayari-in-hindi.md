@@ -1,0 +1,15 @@
+---
+title: "बदमाशी शायरी इन हिंदी"
+lang: hi
+category: attitude-shayari
+keyword: "badmashi shayari in hindi"
+lines:
+  - "हम जब बदमाशी पर आते हैं,"
+  - "तो अच्छे-अच्छों को सोचने पर मजबूर कर जाते हैं।"
+metaDescription: "बदमाशी शायरी इन हिंदी — अटैटीयूड शायरी पढ़ें और मुफ़्त HD फोटो शायरी कार्ड डाउनलोड करें। रोज़ नई शायरी सिर्फ़ Har Din Shayari पर।"
+image: "/cards/attitude-shayari/badmashi-shayari-in-hindi.jpg"
+date: 2026-10-11
+tags: ["badmashi", "shayari", "hindi", "attitude"]
+---
+
+अटैटीयूड शायरी में इस बार एक नई रचना — "badmashi shayari in hindi" खोज रहे पाठकों के लिए खासतौर पर लिखी गई। ऊपर दिया गया HD फोटो कार्ड मुफ़्त डाउनलोड करें और WhatsApp, Instagram या Facebook पर बेझिझक शेयर करें।
