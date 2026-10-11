@@ -15,10 +15,11 @@ const count = parseInt(process.argv[2] || '4', 10);
 const q = JSON.parse(fs.readFileSync(QUEUE_FILE, 'utf-8'));
 const unused = q.queue.filter((k) => !k.used);
 
-// round-robin across categories present in the unused pool, highest score first within each
+// round-robin across categories present in the unused pool, lowest KD first within each
 const byCat = {};
 for (const k of unused) (byCat[k.category] ||= []).push(k);
-for (const cat in byCat) byCat[cat].sort((a, b) => b.score - a.score);
+// quick-win ranking: lowest keyword difficulty first (ignore zero-volume terms), volume breaks ties
+for (const cat in byCat) byCat[cat].sort((a, b) => (a.volume > 0 ? 0 : 1) - (b.volume > 0 ? 0 : 1) || a.kd - b.kd || b.volume - a.volume);
 
 const cats = Object.keys(byCat);
 const picked = [];
