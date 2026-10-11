@@ -43,7 +43,7 @@ jobs:
       - run: npm ci
 
       - name: Top up today's posts from the content bank (quota-aware)
-        run: node scripts/05-publish-daily.mjs --daily-quota 4
+        run: node scripts/05-publish-daily.mjs --daily-quota 6
 
       - name: Build
         run: npm run build
