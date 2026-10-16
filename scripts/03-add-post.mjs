@@ -55,7 +55,7 @@ export async function addPost(spec, { dryRun = false } = {}) {
 
   const image = dryRun ? '/cards/preview.jpg' : await makeCard({ lines, lang, category, keyword, slug: `${category}/${finalSlug}` });
 
-  const publishDate = date || new Date().toISOString().slice(0, 10);
+  const publishDate = date || new Date(Date.now() + 5.5 * 60 * 60 * 1000).toISOString().slice(0, 10); // IST, matches the daily-quota counter
   const frontmatter = {
     title, lang, category, keyword, lines, metaDescription, image, date: publishDate, tags,
   };
