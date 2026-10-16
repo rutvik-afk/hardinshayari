@@ -1,0 +1,15 @@
+---
+title: "रेख़्ता लव शायरी"
+lang: hi
+category: love-shayari
+keyword: "rekhta love shayari"
+lines:
+  - "उर्दू की मिठास में जब इश्क़ घुल जाए,"
+  - "तो हर लफ़्ज़ दिल को छू जाता है।"
+metaDescription: "रेख़्ता लव शायरी — लव / इश्क़ शायरी पढ़ें और मुफ़्त HD फोटो शायरी कार्ड डाउनलोड करें। रोज़ नई शायरी सिर्फ़ Har Din Shayari पर।"
+image: "/cards/love-shayari/rekhta-love-shayari.jpg"
+date: 2026-10-16
+tags: ["rekhta", "love", "shayari"]
+---
+
+लव / इश्क़ शायरी में इस बार एक नई रचना — "rekhta love shayari" खोज रहे पाठकों के लिए खासतौर पर लिखी गई। ऊपर दिया गया HD फोटो कार्ड मुफ़्त डाउनलोड करें और WhatsApp, Instagram या Facebook पर बेझिझक शेयर करें।
