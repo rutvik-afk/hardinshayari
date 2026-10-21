@@ -7005,7 +7005,7 @@
       "category": "love-shayari",
       "lang": "en",
       "score": 21,
-      "used": false,
+      "used": true,
       "source": "competitor-csv-20261010"
     },
     {
@@ -7125,7 +7125,7 @@
       "category": "attitude-shayari",
       "lang": "hi",
       "score": 26.25,
-      "used": false,
+      "used": true,
       "source": "competitor-csv-20261010"
     },
     {
@@ -7305,7 +7305,7 @@
       "category": "attitude-shayari",
       "lang": "hi",
       "score": 17.333333333333332,
-      "used": false,
+      "used": true,
       "source": "competitor-csv-20261010"
     },
     {
@@ -7325,7 +7325,7 @@
       "category": "love-shayari",
       "lang": "hi",
       "score": 40,
-      "used": false,
+      "used": true,
       "source": "competitor-csv-20261010"
     },
     {
@@ -7605,7 +7605,7 @@
       "category": "attitude-shayari",
       "lang": "hi",
       "score": 60,
-      "used": false,
+      "used": true,
       "source": "competitor-csv-20261010"
     },
     {
@@ -7675,7 +7675,7 @@
       "category": "attitude-shayari",
       "lang": "hi",
       "score": 42.142857142857146,
-      "used": false,
+      "used": true,
       "source": "competitor-csv-20261010"
     },
     {
@@ -7815,7 +7815,7 @@
       "category": "attitude-shayari",
       "lang": "hi",
       "score": 48,
-      "used": false,
+      "used": true,
       "source": "competitor-csv-20261010"
     },
     {
@@ -7855,7 +7855,7 @@
       "category": "attitude-shayari",
       "lang": "hi",
       "score": 88,
-      "used": false,
+      "used": true,
       "source": "competitor-csv-20261010"
     },
     {
@@ -7865,7 +7865,7 @@
       "category": "english-shayari",
       "lang": "en",
       "score": 80,
-      "used": false,
+      "used": true,
       "source": "competitor-csv-20261010"
     },
     {
@@ -7925,7 +7925,7 @@
       "category": "attitude-shayari",
       "lang": "hi",
       "score": 66.66666666666667,
-      "used": false,
+      "used": true,
       "source": "competitor-csv-20261010"
     },
     {
@@ -7955,7 +7955,7 @@
       "category": "attitude-shayari",
       "lang": "hi",
       "score": 92.85714285714286,
-      "used": false,
+      "used": true,
       "source": "competitor-csv-20261010"
     },
     {
@@ -7965,7 +7965,7 @@
       "category": "attitude-shayari",
       "lang": "hi",
       "score": 92.85714285714286,
-      "used": false,
+      "used": true,
       "source": "competitor-csv-20261010"
     },
     {
@@ -8125,7 +8125,7 @@
       "category": "attitude-shayari",
       "lang": "hi",
       "score": 240,
-      "used": false,
+      "used": true,
       "source": "competitor-csv-20261010"
     },
     {
@@ -8255,7 +8255,7 @@
       "category": "attitude-shayari",
       "lang": "hi",
       "score": 2700,
-      "used": false,
+      "used": true,
       "source": "competitor-csv-20261010"
     },
     {
@@ -8265,7 +8265,7 @@
       "category": "attitude-shayari",
       "lang": "hi",
       "score": 2700,
-      "used": false,
+      "used": true,
       "source": "competitor-csv-20261010"
     },
     {
@@ -9865,7 +9865,7 @@
       "category": "attitude-shayari",
       "lang": "hi",
       "score": 30,
-      "used": false,
+      "used": true,
       "source": "competitor-csv-20261010"
     },
     {
@@ -10115,7 +10115,7 @@
       "category": "sad-shayari",
       "lang": "hi",
       "score": 92.85714285714286,
-      "used": false,
+      "used": true,
       "source": "competitor-csv-20261010"
     },
     {
@@ -10125,7 +10125,7 @@
       "category": "sad-shayari",
       "lang": "hi",
       "score": 86.66666666666667,
-      "used": false,
+      "used": true,
       "source": "competitor-csv-20261010"
     },
     {
@@ -10135,7 +10135,7 @@
       "category": "sad-shayari",
       "lang": "hi",
       "score": 92.85714285714286,
-      "used": false,
+      "used": true,
       "source": "competitor-csv-20261010"
     },
     {
@@ -10175,7 +10175,7 @@
       "category": "sad-shayari",
       "lang": "hi",
       "score": 135.71428571428572,
-      "used": false,
+      "used": true,
       "source": "competitor-csv-20261010"
     },
     {
@@ -10185,7 +10185,7 @@
       "category": "sad-shayari",
       "lang": "hi",
       "score": 160,
-      "used": false,
+      "used": true,
       "source": "competitor-csv-20261010"
     },
     {
@@ -11265,7 +11265,7 @@
       "category": "love-shayari",
       "lang": "hi",
       "score": 17.5,
-      "used": false,
+      "used": true,
       "source": "competitor-csv-20261010"
     },
     {
@@ -11675,7 +11675,7 @@
       "category": "love-shayari",
       "lang": "hi",
       "score": 21.333333333333332,
-      "used": false,
+      "used": true,
       "source": "competitor-csv-20261010"
     },
     {
@@ -11705,7 +11705,7 @@
       "category": "attitude-shayari",
       "lang": "hi",
       "score": 48.75,
-      "used": false,
+      "used": true,
       "source": "competitor-csv-20261010"
     },
     {
@@ -11865,7 +11865,7 @@
       "category": "love-shayari",
       "lang": "hi",
       "score": 32,
-      "used": false,
+      "used": true,
       "source": "competitor-csv-20261010"
     },
     {
@@ -11885,7 +11885,7 @@
       "category": "love-shayari",
       "lang": "hi",
       "score": 39.333333333333336,
-      "used": false,
+      "used": true,
       "source": "competitor-csv-20261010"
     },
     {
@@ -11945,7 +11945,7 @@
       "category": "love-shayari",
       "lang": "hi",
       "score": 55.38461538461539,
-      "used": false,
+      "used": true,
       "source": "competitor-csv-20261010"
     },
     {
@@ -11975,7 +11975,7 @@
       "category": "love-shayari",
       "lang": "hi",
       "score": 51.42857142857143,
-      "used": false,
+      "used": true,
       "source": "competitor-csv-20261010"
     },
     {
@@ -12105,7 +12105,7 @@
       "category": "attitude-shayari",
       "lang": "hi",
       "score": 58.666666666666664,
-      "used": false,
+      "used": true,
       "source": "competitor-csv-20261010"
     },
     {
@@ -12215,7 +12215,7 @@
       "category": "love-shayari",
       "lang": "hi",
       "score": 106.66666666666667,
-      "used": false,
+      "used": true,
       "source": "competitor-csv-20261010"
     },
     {
@@ -12255,7 +12255,7 @@
       "category": "attitude-shayari",
       "lang": "hi",
       "score": 158.33333333333334,
-      "used": false,
+      "used": true,
       "source": "competitor-csv-20261010"
     },
     {
@@ -12345,7 +12345,7 @@
       "category": "love-shayari",
       "lang": "hi",
       "score": 707.1428571428571,
-      "used": false,
+      "used": true,
       "source": "competitor-csv-20261010"
     },
     {
@@ -12365,7 +12365,7 @@
       "category": "love-shayari",
       "lang": "hi",
       "score": 2206.6666666666665,
-      "used": false,
+      "used": true,
       "source": "competitor-csv-20261010"
     },
     {
@@ -12375,7 +12375,7 @@
       "category": "sad-shayari",
       "lang": "hi",
       "score": 4033.3333333333335,
-      "used": false,
+      "used": true,
       "source": "competitor-csv-20261010"
     },
     {
@@ -12385,7 +12385,7 @@
       "category": "love-shayari",
       "lang": "hi",
       "score": 1935.7142857142858,
-      "used": false,
+      "used": true,
       "source": "competitor-csv-20261010"
     },
     {
@@ -12405,7 +12405,7 @@
       "category": "sad-shayari",
       "lang": "hi",
       "score": 707.1428571428571,
-      "used": false,
+      "used": true,
       "source": "competitor-csv-20261010"
     },
     {
@@ -12435,7 +12435,7 @@
       "category": "sad-shayari",
       "lang": "hi",
       "score": 293.3333333333333,
-      "used": false,
+      "used": true,
       "source": "competitor-csv-20261010"
     },
     {
@@ -12525,7 +12525,7 @@
       "category": "love-shayari",
       "lang": "hi",
       "score": 266.6666666666667,
-      "used": false,
+      "used": true,
       "source": "competitor-csv-20261010"
     },
     {
@@ -12555,7 +12555,7 @@
       "category": "sad-shayari",
       "lang": "hi",
       "score": 190,
-      "used": false,
+      "used": true,
       "source": "competitor-csv-20261010"
     },
     {
@@ -12665,7 +12665,7 @@
       "category": "sad-shayari",
       "lang": "hi",
       "score": 125,
-      "used": false,
+      "used": true,
       "source": "competitor-csv-20261010"
     },
     {
@@ -12755,7 +12755,7 @@
       "category": "sad-shayari",
       "lang": "hi",
       "score": 72,
-      "used": false,
+      "used": true,
       "source": "competitor-csv-20261010"
     },
     {
@@ -12765,7 +12765,7 @@
       "category": "love-shayari",
       "lang": "hi",
       "score": 48,
-      "used": false,
+      "used": true,
       "source": "competitor-csv-20261010"
     },
     {
@@ -12855,7 +12855,7 @@
       "category": "love-shayari",
       "lang": "hi",
       "score": 32,
-      "used": false,
+      "used": true,
       "source": "competitor-csv-20261010"
     },
     {
@@ -12915,7 +12915,7 @@
       "category": "sad-shayari",
       "lang": "hi",
       "score": 32,
-      "used": false,
+      "used": true,
       "source": "competitor-csv-20261010"
     },
     {
@@ -13055,7 +13055,7 @@
       "category": "sad-shayari",
       "lang": "hi",
       "score": 26,
-      "used": false,
+      "used": true,
       "source": "competitor-csv-20261010"
     },
     {
@@ -13105,7 +13105,7 @@
       "category": "sad-shayari",
       "lang": "hi",
       "score": 45.714285714285715,
-      "used": false,
+      "used": true,
       "source": "competitor-csv-20261010"
     },
     {
@@ -13115,7 +13115,7 @@
       "category": "love-shayari",
       "lang": "hi",
       "score": 32,
-      "used": false,
+      "used": true,
       "source": "competitor-csv-20261010"
     },
     {
@@ -13175,7 +13175,7 @@
       "category": "sad-shayari",
       "lang": "hi",
       "score": 43.333333333333336,
-      "used": false,
+      "used": true,
       "source": "competitor-csv-20261010"
     },
     {
@@ -13245,7 +13245,7 @@
       "category": "attitude-shayari",
       "lang": "hi",
       "score": 32.5,
-      "used": false,
+      "used": true,
       "source": "competitor-csv-20261010"
     },
     {
