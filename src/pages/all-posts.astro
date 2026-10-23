@@ -1,0 +1,21 @@
+---
+import { getCollection } from 'astro:content';
+import Base from '../layouts/Base.astro';
+import { CATEGORIES } from '../../site.config.mjs';
+
+const posts = (await getCollection('posts')).sort((a, b) => b.data.date - a.data.date);
+const groups = CATEGORIES.map((c) => ({ cat: c, items: posts.filter((p) => p.data.category === c.id) })).filter((g) => g.items.length);
+---
+<Base title="All Shayari — Full Archive" description="Every shayari page on Har Din Shayari, listed by category." noindex={true}>
+  <div class="container post-page">
+    <h1>All Shayari</h1>
+    {groups.map((g) => (
+      <section style="margin-top:28px;">
+        <h2><a href={`/${g.cat.id}/`}>{g.cat.emoji} {g.cat.nameEn}</a> <span style="color:var(--ink-soft); font-weight:400;">({g.items.length})</span></h2>
+        <ul style="columns:2 280px; padding-left:18px; line-height:1.9;">
+          {g.items.map((p) => <li><a href={`/${p.slug}/`}>{p.data.title}</a></li>)}
+        </ul>
+      </section>
+    ))}
+  </div>
+</Base>

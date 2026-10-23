@@ -19,6 +19,8 @@ const category = Astro.params.category;
 const cat = CATEGORY_MAP[category];
 const title = `${cat.nameEn} — ${cat.nameHi}`;
 const description = `${cat.nameEn} (${cat.nameHi}) — original Hindi &amp; English ${cat.nameEn.toLowerCase()} with free HD photo cards to download and share. New shayari added daily.`;
+const pageUrl = (n) => (n === 1 ? `/${category}/` : `/${category}/${n}/`);
+const pageNumbers = Array.from({ length: page.lastPage }, (_, i) => i + 1);
 const pillar = page.currentPage === 1 ? PILLAR_CONTENT[category] : null;
 
 const jsonLd = pillar
@@ -51,11 +53,13 @@ const jsonLd = pillar
     </div>
 
     {page.lastPage > 1 && (
-      <div class="pagination">
-        {page.url.prev && <a href={page.url.prev}>← Prev</a>}
-        <span class="current">{page.currentPage} / {page.lastPage}</span>
-        {page.url.next && <a href={page.url.next}>Next →</a>}
-      </div>
+      <nav class="pagination" aria-label="Pages">
+        {page.currentPage > 1 && <a href={pageUrl(page.currentPage - 1)} rel="prev">← Prev</a>}
+        {pageNumbers.map((n) => n === page.currentPage
+          ? <span class="current">{n}</span>
+          : <a href={pageUrl(n)}>{n}</a>)}
+        {page.currentPage < page.lastPage && <a href={pageUrl(page.currentPage + 1)} rel="next">Next →</a>}
+      </nav>
     )}
 
     {pillar && (
