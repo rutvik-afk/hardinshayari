@@ -1,0 +1,15 @@
+---
+title: "सैड शायरी लाइफ 2 लाइन हिंदी"
+lang: hi
+category: sad-shayari
+keyword: "sad shayari life 2 line hindi"
+lines:
+  - "ज़िंदगी हर मोड़ पर नया इम्तिहान लेती है,"
+  - "और हम हर बार मुस्कुरा कर पास हो जाते हैं।"
+metaDescription: "सैड शायरी लाइफ 2 लाइन हिंदी — सैड शायरी पढ़ें और मुफ़्त HD फोटो शायरी कार्ड डाउनलोड करें। रोज़ नई शायरी सिर्फ़ Har Din Shayari पर।"
+image: "/cards/sad-shayari/sad-shayari-life-2-line-hindi.jpg"
+date: 2026-10-27
+tags: ["sad", "shayari", "life", "2"]
+---
+
+सैड शायरी में इस बार एक नई रचना — "sad shayari life 2 line hindi" खोज रहे पाठकों के लिए खासतौर पर लिखी गई। ऊपर दिया गया HD फोटो कार्ड मुफ़्त डाउनलोड करें और WhatsApp, Instagram या Facebook पर बेझिझक शेयर करें।
