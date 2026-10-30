@@ -1,0 +1,17 @@
+---
+title: "राहत इंदौरी दोस्ती शायरी इन हिंदी स्टाइल"
+lang: hi
+category: gulzar-shayari
+keyword: "rahat indori dosti shayari in hindi"
+lines:
+  - "दोस्त वो जो बिना कहे सब समझ जाए,"
+  - "और मुश्किल में बिना बुलाए साथ आ जाए।"
+metaDescription: "राहत इंदौरी दोस्ती शायरी इन हिंदी स्टाइल — गुलज़ार शायरी पढ़ें और मुफ़्त HD फोटो शायरी कार्ड डाउनलोड करें। रोज़ नई शायरी सिर्फ़ Har Din Shayari पर।"
+image: "/cards/gulzar-shayari/rahat-indori-dosti-shayari-in-hindi.jpg"
+date: 2026-10-31
+tags: ["rahat", "indori", "dosti", "shayari", "gulzar"]
+---
+
+गुलज़ार शायरी में इस बार एक नई रचना — "rahat indori dosti shayari in hindi" खोज रहे पाठकों के लिए खासतौर पर लिखी गई। ऊपर दिया गया HD फोटो कार्ड मुफ़्त डाउनलोड करें और WhatsApp, Instagram या Facebook पर बेझिझक शेयर करें।
+
+*यह एक ओरिजिनल रचना है, Rahat Indori की शैली से प्रेरित — इसे उनका सीधा कोटेशन न समझें।*
