@@ -1,0 +1,138 @@
+---
+import Base from '../../../layouts/Base.astro';
+import { GUIDES } from '../../../data/guides.mjs';
+import { CATEGORY_MAP, SITE } from '../../../../site.config.mjs';
+
+export function getStaticPaths() {
+  return GUIDES.map((g) => ({ params: { slug: g.slug }, props: { guide: g } }));
+}
+
+const { guide } = Astro.props;
+const cat = CATEGORY_MAP[guide.category];
+const url = new URL(`/best/${guide.slug}/`, SITE.url).toString();
+const seoTitle = `${guide.keyword} – ${guide.title}`;
+const total = guide.sections.reduce((n, s) => n + s.items.length, 0);
+const others = GUIDES.filter((g) => g.slug !== guide.slug);
+const anchor = (i) => `s${i + 1}`;
+const shareUrl = (lines) => `https://wa.me/?text=${encodeURIComponent(lines.join('\n') + '\n' + url)}`;
+
+const jsonLd = [
+  {
+    '@context': 'https://schema.org',
+    '@type': 'Article',
+    headline: seoTitle,
+    description: guide.description,
+    datePublished: new Date(guide.date).toISOString(),
+    dateModified: new Date(guide.date).toISOString(),
+    mainEntityOfPage: { '@type': 'WebPage', '@id': url },
+    author: { '@type': 'Organization', name: SITE.name, url: SITE.url },
+    publisher: { '@type': 'Organization', name: SITE.name, logo: { '@type': 'ImageObject', url: new URL('/favicon.svg', SITE.url).toString() } },
+    inLanguage: 'hi',
+  },
+  {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      { '@type': 'ListItem', position: 1, name: 'Home', item: SITE.url },
+      { '@type': 'ListItem', position: 2, name: cat.nameEn, item: new URL(`/${guide.category}/`, SITE.url).toString() },
+      { '@type': 'ListItem', position: 3, name: guide.keyword, item: url },
+    ],
+  },
+  {
+    '@context': 'https://schema.org',
+    '@type': 'FAQPage',
+    mainEntity: guide.faq.map((f) => ({ '@type': 'Question', name: f.q, acceptedAnswer: { '@type': 'Answer', text: f.a } })),
+  },
+];
+---
+<Base title={seoTitle} description={guide.description} jsonLd={jsonLd} lang="hi">
+  <div class="container post-page guide">
+    <div class="breadcrumb"><a href="/">Home</a> / <a href={`/${guide.category}/`}>{cat.nameEn}</a> / {guide.keyword}</div>
+    <h1 class="hi"><span class="h1-en">{guide.keyword}</span>{guide.title} — {total}+ शायरी</h1>
+
+    <div class="guide-intro">
+      {guide.intro.map((p) => <p>{p}</p>)}
+    </div>
+
+    <nav class="guide-toc" aria-label="Contents">
+      <strong>इस पेज पर:</strong>
+      {guide.sections.map((s, i) => <a href={`#${anchor(i)}`}>{s.heading}</a>)}
+    </nav>
+
+    {guide.sections.map((s, i) => (
+      <section id={anchor(i)}>
+        <h2 class="hi">{s.heading}</h2>
+        <div class="guide-list">
+          {s.items.map((lines) => (
+            <div class="guide-item">
+              <p class="hi">{lines.map((l, k) => <>{k > 0 && <br />}{l}</>)}</p>
+              <div class="guide-actions">
+                <button type="button" class="copy-btn" data-text={lines.join('\n')}>Copy</button>
+                <a href={shareUrl(lines)} target="_blank" rel="noopener">WhatsApp</a>
+              </div>
+            </div>
+          ))}
+        </div>
+      </section>
+    ))}
+
+    <section class="guide-faq">
+      <h2 class="hi">अक्सर पूछे जाने वाले सवाल</h2>
+      {guide.faq.map((f) => (
+        <details>
+          <summary>{f.q}</summary>
+          <p>{f.a}</p>
+        </details>
+      ))}
+    </section>
+
+    <div class="guide-more">
+      <h2>और पढ़ें</h2>
+      <ul>
+        <li><a href={`/${guide.category}/`}>सारी {cat.nameHi} देखें</a></li>
+        {others.map((g) => <li><a href={`/best/${g.slug}/`}>{g.keyword}</a></li>)}
+      </ul>
+    </div>
+  </div>
+
+  <script is:inline>
+    document.addEventListener('click', function (e) {
+      var b = e.target.closest('.copy-btn');
+      if (!b) return;
+      var t = b.getAttribute('data-text');
+      var done = function () { var o = b.textContent; b.textContent = 'Copied'; setTimeout(function () { b.textContent = o; }, 1500); };
+      var fallback = function () {
+        var ta = document.createElement('textarea'); ta.value = t; ta.style.position = 'fixed'; ta.style.opacity = '0';
+        document.body.appendChild(ta); ta.select();
+        try { if (document.execCommand('copy')) done(); } catch (err) {}
+        document.body.removeChild(ta);
+      };
+      if (navigator.clipboard && navigator.clipboard.writeText) navigator.clipboard.writeText(t).then(done, fallback);
+      else fallback();
+    });
+  </script>
+</Base>
+
+<style>
+  .guide-intro { max-width: 760px; margin-bottom: 24px; }
+  .guide-intro p { color: var(--ink-soft); font-family: var(--font-hi); line-height: 1.9; margin: 0 0 14px; }
+  .guide-toc { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; margin: 0 0 8px; padding: 14px 16px; border: 1px solid var(--line); border-radius: 12px; background: var(--card-bg); font-family: var(--font-hi); font-size: 0.92rem; }
+  .guide-toc a { padding: 4px 12px; border: 1px solid var(--line); border-radius: 999px; color: var(--ink-soft); }
+  .guide-toc a:hover { color: var(--brand); border-color: var(--brand); }
+  section { scroll-margin-top: 80px; }
+  .guide h2 { font-size: 1.35rem; margin: 44px 0 16px; }
+  .guide-list { display: grid; gap: 12px; max-width: 760px; }
+  .guide-item { border: 1px solid var(--line); border-radius: 12px; padding: 16px 18px; background: var(--card-bg); }
+  .guide-item p { margin: 0 0 10px; font-size: 1.08rem; line-height: 1.9; color: var(--ink); }
+  .guide-actions { display: flex; gap: 10px; font-size: 0.82rem; font-weight: 700; }
+  .guide-actions button, .guide-actions a { background: none; border: 1px solid var(--line); border-radius: 8px; padding: 5px 12px; color: var(--brand); cursor: pointer; font: inherit; }
+  .guide-actions button:hover, .guide-actions a:hover { border-color: var(--brand); }
+  .guide-faq { max-width: 760px; }
+  .guide-faq details { border: 1px solid var(--line); border-radius: 12px; padding: 14px 18px; margin-bottom: 10px; background: var(--card-bg); }
+  .guide-faq summary { cursor: pointer; font-weight: 700; font-family: var(--font-hi); list-style: none; }
+  .guide-faq summary::-webkit-details-marker { display: none; }
+  .guide-faq summary::before { content: '+ '; color: var(--brand); }
+  .guide-faq details[open] summary::before { content: '– '; }
+  .guide-faq p { color: var(--ink-soft); font-family: var(--font-hi); margin: 10px 0 0; line-height: 1.8; }
+  .guide-more ul { padding-left: 18px; line-height: 2; }
+</style>

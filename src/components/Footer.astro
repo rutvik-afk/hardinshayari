@@ -1,4 +1,5 @@
 ---
+import { GUIDES } from '../data/guides.mjs';
 import { CATEGORIES, SITE } from '../../site.config.mjs';
 const year = new Date().getFullYear();
 ---
@@ -20,6 +21,7 @@ const year = new Date().getFullYear();
         {CATEGORIES.slice(6).map((c) => <li><a href={`/${c.id}/`}>{c.nameEn}</a></li>)}
         <li><a href="/categories/">All Categories</a></li>
         <li><a href="/all-posts/">All Shayari</a></li>
+        {GUIDES.map((g) => <li><a href={`/best/${g.slug}/`}>{g.keyword}</a></li>)}
       </ul>
     </div>
     <div>

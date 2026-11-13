@@ -3,6 +3,7 @@ import { getCollection } from 'astro:content';
 import Base from '../../layouts/Base.astro';
 import PostCard from '../../components/PostCard.astro';
 import { CATEGORIES, CATEGORY_MAP, PILLAR_CONTENT, SITE } from '../../../site.config.mjs';
+import { GUIDES } from '../../data/guides.mjs';
 
 export async function getStaticPaths({ paginate }) {
   const allPosts = await getCollection('posts');
@@ -21,6 +22,7 @@ const title = `${cat.nameEn} — ${cat.nameHi}`;
 const description = `${cat.nameEn} (${cat.nameHi}) — original Hindi &amp; English ${cat.nameEn.toLowerCase()} with free HD photo cards to download and share. New shayari added daily.`;
 const pageUrl = (n) => (n === 1 ? `/${category}/` : `/${category}/${n}/`);
 const pageNumbers = Array.from({ length: page.lastPage }, (_, i) => i + 1);
+const catGuides = page.currentPage === 1 ? GUIDES.filter((g) => g.category === category) : [];
 const pillar = page.currentPage === 1 ? PILLAR_CONTENT[category] : null;
 
 const jsonLd = pillar
@@ -46,6 +48,12 @@ const jsonLd = pillar
       </div>
     ) : (
       <p style="color:var(--ink-soft); max-width:640px; margin-bottom:30px;">{description}</p>
+    )}
+
+    {catGuides.length > 0 && (
+      <div class="pillar-intro">
+        {catGuides.map((g) => <p><a href={`/best/${g.slug}/`}><strong>{g.keyword}</strong> — 35+ शायरी एक ही पेज पर →</a></p>)}
+      </div>
     )}
 
     <div class="grid">

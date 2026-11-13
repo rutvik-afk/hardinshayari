@@ -3,6 +3,7 @@ import { getCollection } from 'astro:content';
 import Base from '../layouts/Base.astro';
 import PostCard from '../components/PostCard.astro';
 import { CATEGORIES, SITE } from '../../site.config.mjs';
+import { GUIDES } from '../data/guides.mjs';
 
 const allPosts = (await getCollection('posts')).sort((a, b) => b.data.date - a.data.date);
 const latest = allPosts.slice(0, 20);
@@ -34,6 +35,17 @@ const jsonLd = {
     <div class="page-intro">
       <h1 class="tag-hi">हर दिन, हर एहसास</h1>
       <p>{SITE.description}</p>
+    </div>
+
+    <div class="section-title">
+      <h2>Popular Shayari Guides</h2>
+    </div>
+    <div class="category-grid">
+      {GUIDES.map((g) => (
+        <a class="category-tile" href={`/best/${g.slug}/`} style="background:linear-gradient(135deg, #4338ca, #1a1523)">
+          <span>{g.keyword}</span>
+        </a>
+      ))}
     </div>
 
     <div class="section-title">
