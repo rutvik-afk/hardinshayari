@@ -1,0 +1,17 @@
+---
+title: "स्वागत शायरी इन हिंदी"
+lang: hi
+category: attitude-shayari
+keyword: "swagat shayari in hindi"
+lines:
+  - "आपके आने से घर रोशन हो गया,"
+  - "हर कोना खुशियों से महक उठा।"
+  - "दिल से स्वागत है आपका हमारे द्वार पर,"
+  - "आपके कदम बनें हमारे लिए खुशियों की बहार।"
+metaDescription: "स्वागत शायरी इन हिंदी — अटैटीयूड शायरी पढ़ें और मुफ़्त HD फोटो शायरी कार्ड डाउनलोड करें। रोज़ नई शायरी सिर्फ़ Har Din Shayari पर।"
+image: "/cards/attitude-shayari/swagat-shayari-in-hindi.jpg"
+date: 2026-11-13
+tags: ["swagat", "shayari", "hindi", "attitude"]
+---
+
+अटैटीयूड शायरी में इस बार एक नई रचना — "swagat shayari in hindi" खोज रहे पाठकों के लिए खासतौर पर लिखी गई। ऊपर दिया गया HD फोटो कार्ड मुफ़्त डाउनलोड करें और WhatsApp, Instagram या Facebook पर बेझिझक शेयर करें।
